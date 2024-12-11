@@ -71,18 +71,18 @@ PlayEffect Orange Temp
 MinimapIcon 2 Yellow Diamond
 
 Show
-StackSize >= 500
+StackSize >= 200
 BaseType == "Gold"
 SetTextColor 212 175 55 255 #D4AF37
-    # SetBorderColor 212 175 55 255 #D4AF37
-    SetBackgroundColor 16 16 16 240 #000000
+# SetBorderColor 212 175 55 255 #D4AF37
+SetBackgroundColor 16 16 16 240 #000000
 PlayEffect Orange Temp
 
 Show
 BaseType == "Gold"
-SetTextColor 212 175 55 200 #D4AF37
-    # SetBorderColor 212 175 55 200 #D4AF37
-    SetBackgroundColor 16 16 16 200 #000000
+SetTextColor 212 175 55 220 #D4AF37
+# SetBorderColor 212 175 55 220 #D4AF37
+SetBackgroundColor 16 16 16 220 #000000
 SetBackgroundColor 0 0 0 180
 
 #--------------------------
@@ -229,7 +229,7 @@ SetTextColor 255 255 255
 SetBorderColor 200 200 200
 CustomAlertSound "map.mp3" 200
 PlayEffect White
-MinimapIcon 2 Yellow Square
+MinimapIcon 2 White Square
 SetFontSize 40
 
 Show
@@ -238,8 +238,8 @@ Rarity <= Magic
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
 CustomAlertSound "highmaps.mp3" 200
-PlayEffect White
-MinimapIcon 2 Yellow Square
+PlayEffect Blue Temp
+MinimapIcon 2 Blue Square
 SetFontSize 40
 
 Show
@@ -248,7 +248,7 @@ Rarity <= Rare
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 CustomAlertSound "highmaps.mp3" 200
-PlayEffect White
+PlayEffect Yellow
 MinimapIcon 2 Yellow Square
 SetFontSize 40
 
