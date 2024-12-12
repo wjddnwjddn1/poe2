@@ -236,7 +236,7 @@ Show
 BaseType "Waystone"
 WaystoneTier >= 6
 WaystoneTier <= 10
-SetTextColor 255 255 255
+SetTextColor 255 255 0
 SetBorderColor 200 200 200
 CustomAlertSound "middlemap.mp3" 200
 PlayEffect Yellow
@@ -247,7 +247,7 @@ Show
 BaseType "Waystone"
 WaystoneTier >= 11
 WaystoneTier <= 16
-SetTextColor 255 255 255
+SetTextColor 255 0 0
 SetBorderColor 200 200 200
 CustomAlertSound "highmaps.mp3" 200
 PlayEffect Red
