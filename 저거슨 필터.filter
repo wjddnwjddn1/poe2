@@ -224,33 +224,35 @@ SetFontSize 40
 
 Show
 BaseType "Waystone"
-Rarity <= Normal
+WaystoneTier <= 5
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
 CustomAlertSound "map.mp3" 200
 PlayEffect White
-MinimapIcon 2 White Square
-SetFontSize 40
+MinimapIcon 1 White Square
+SetFontSize 60
 
 Show
 BaseType "Waystone"
-Rarity <= Magic
-SetTextColor 0 240 190
-SetBorderColor 0 240 190
-CustomAlertSound "highmaps.mp3" 200
-PlayEffect Blue Temp
-MinimapIcon 2 Blue Square
-SetFontSize 40
-
-Show
-BaseType "Waystone"
-Rarity <= Rare
+WaystoneTier >= 6
+WaystoneTier <= 10
 SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetBorderColor 200 200 200
+CustomAlertSound "middlemap.mp3" 200
+PlayEffect Blue
+MinimapIcon 1 Blue Square
+SetFontSize 60
+
+Show
+BaseType "Waystone"
+WaystoneTier >= 11
+WaystoneTier <= 16
+SetTextColor 255 255 255
+SetBorderColor 200 200 200
 CustomAlertSound "highmaps.mp3" 200
 PlayEffect Yellow
-MinimapIcon 2 Yellow Square
-SetFontSize 40
+MinimapIcon 1 Yellow Square
+SetFontSize 60
 
 #--------------------------
 # Value Rares
