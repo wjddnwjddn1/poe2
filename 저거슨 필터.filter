@@ -66,7 +66,7 @@ BaseType == "Gold"
 SetTextColor 212 175 55 255 #D4AF37
 # SetBorderColor 212 175 55 255 #D4AF37
 SetBackgroundColor 16 16 16 240 #000000
-CustomAlertSound "gold.mp3" 200
+CustomAlertSound "gold.mp3" 50
 PlayEffect Orange Temp
 MinimapIcon 2 Yellow Diamond
 
