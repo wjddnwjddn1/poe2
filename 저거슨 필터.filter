@@ -239,8 +239,8 @@ WaystoneTier <= 10
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
 CustomAlertSound "middlemap.mp3" 200
-PlayEffect Blue
-MinimapIcon 1 Blue Square
+PlayEffect Yellow
+MinimapIcon 1 Yellow Square
 SetFontSize 60
 
 Show
@@ -250,8 +250,8 @@ WaystoneTier <= 16
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
 CustomAlertSound "highmaps.mp3" 200
-PlayEffect Yellow
-MinimapIcon 1 Yellow Square
+PlayEffect Red
+MinimapIcon 1 Red Square
 SetFontSize 60
 
 #--------------------------
