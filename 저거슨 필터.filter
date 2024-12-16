@@ -90,12 +90,60 @@ SetBackgroundColor 0 0 0 180
 #--------------------------
 
 Show
+BaseType "Uncut Support "
+ItemLevel = 3
+SetTextColor 0 0 0
+SetBackgroundColor 255 255 255
+SetBorderColor 0 0 0
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 30
+MinimapIcon 1 Blue Triangle
+
+
+
+Show
 BaseType "Uncut "
+ItemLevel <= 13
+SetTextColor 20 240 240
+SetBorderColor 20 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 30
+MinimapIcon 1 Cyan Triangle
+
+Show
+BaseType "Uncut "
+ItemLevel >= 14
+ItemLevel <= 18
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
 PlayAlertSound 2 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
+
+Show
+BaseType "Uncut "
+ItemLevel = 19
+SetTextColor 255 0 0
+SetBackgroundColor 255 255 255
+SetBorderColor 210 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 50
+CustomAlertSound "currency.mp3" 250
+MinimapIcon 1 Blue Triangle
+Show
+BaseType "Uncut "
+ItemLevel = 20
+SetTextColor 255 0 0
+SetBackgroundColor 255 255 255
+SetBorderColor 210 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 50
+CustomAlertSound "currency.mp3" 300
+MinimapIcon 1 Red Triangle
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -163,7 +211,7 @@ SetFontSize 40
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Exalted Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Chaos Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -171,6 +219,17 @@ CustomAlertSound "currency.mp3" 200
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
+
+Show
+Class "Currency"
+BaseType "Greater Jeweller's Orb""Lesser Jeweller's Orb"  "Exalted Orb" 
+SetTextColor 255 0 0
+SetBorderColor 255 0 0
+SetBackgroundColor 255 255 255
+CustomAlertSound "currency.mp3" 250
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 50
 
 Show
 Class "Currency"
