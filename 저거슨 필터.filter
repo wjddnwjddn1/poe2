@@ -133,6 +133,7 @@ PlayEffect Cyan
 SetFontSize 50
 CustomAlertSound "currency.mp3" 250
 MinimapIcon 1 Blue Triangle
+
 Show
 BaseType "Uncut "
 ItemLevel = 20
@@ -211,7 +212,7 @@ SetFontSize 40
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Chaos Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Chaos Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance" "Lesser Jeweller's Orb"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -222,13 +223,13 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Greater Jeweller's Orb""Lesser Jeweller's Orb"  "Exalted Orb" 
+BaseType "Greater Jeweller's Orb"  "Exalted Orb" 
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
 CustomAlertSound "currency.mp3" 250
 PlayEffect White
-MinimapIcon 1 White Circle
+MinimapIcon 0 White Star
 SetFontSize 50
 
 Show
