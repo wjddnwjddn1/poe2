@@ -53,7 +53,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "tier1.mp3" 300
+CustomAlertSound "handsclub.mp3" 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 #--------------------------
@@ -223,7 +223,18 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Greater Jeweller's Orb"  "Exalted Orb" 
+BaseType "Greater Jeweller's Orb" 
+SetTextColor 255 0 0
+SetBorderColor 255 0 0
+SetBackgroundColor 255 255 255
+CustomAlertSound "GreaterJeweller.mp3" 250
+PlayEffect White
+MinimapIcon 0 White Star
+SetFontSize 50
+
+Show
+Class "Currency"
+BaseType  "Exalted Orb" 
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
@@ -238,7 +249,7 @@ BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "currency.mp3" 200
+CustomAlertSound "tier1.mp3" 200
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -306,10 +317,20 @@ SetFontSize 60
 Show
 BaseType "Waystone"
 WaystoneTier >= 11
-WaystoneTier <= 16
+WaystoneTier <= 14
 SetTextColor 255 0 0
 SetBorderColor 200 200 200
 CustomAlertSound "highmaps.mp3" 200
+PlayEffect Red
+MinimapIcon 1 Red Square
+SetFontSize 60
+
+Show
+BaseType "Waystone"
+WaystoneTier >= 15
+SetTextColor 255 0 0
+SetBorderColor 200 200 200
+CustomAlertSound "map_15t.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
 SetFontSize 60
@@ -324,7 +345,6 @@ Rarity Rare
 SetFontSize 40
 SetTextColor 233 206 75
 SetBorderColor 233 206 75
-PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
 
 #--------------------------
