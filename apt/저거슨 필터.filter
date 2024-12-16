@@ -357,7 +357,7 @@ WaystoneTier >= 6
 WaystoneTier <= 10
 SetTextColor 255 255 0
 SetBorderColor 200 200 200
-SetBackgroundColor 255 255 255 255
+
 CustomAlertSound "map.mp3" 200
 PlayEffect Yellow
 MinimapIcon 1 Yellow Square
