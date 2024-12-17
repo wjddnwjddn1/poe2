@@ -3,10 +3,7 @@
 #===============================================================================================================
 # VERSION:  0.1.1
 # AUTHOR:   저거슨
-#
-# This is a mini-filter designed for early PoE2 EA gameplay. I will eventually replace it with a full-fledged filter
-# With FilterBlade.xyz support. This filter focuses more on highlighting loot, rather than hiding
-#
+
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -244,7 +241,7 @@ SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
 CustomAlertSound "ExaltedOrb.mp3" 250
 PlayEffect White
-MinimapIcon 0 Red Hexagon
+MinimapIcon 0 Red Cross
 SetFontSize 50
 
 
@@ -442,6 +439,16 @@ Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
 
+Show
+BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat"
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Circle
+
+
 #--------------------------
 # OPTIONAL RULES
 #--------------------------
@@ -450,10 +457,10 @@ SetFontSize 35
 ### OPTIONAL RULE: Hide random bases
 # REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
 
-# Hide
-# Rarity <= Magic
-# Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-# AreaLevel >= 65
+Hide
+Rarity <= Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
@@ -464,14 +471,6 @@ SetFontSize 35
 # DropLevel <= 50
 # SetBackgroundColor 0 0 0 125
 
-Show
-BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre"
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 183 0 55 255
-PlayEffect White
-MinimapIcon 2 Yellow Circle
 
 Show
     Rarity == Rare
