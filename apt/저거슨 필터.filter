@@ -440,7 +440,7 @@ SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
-BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat" "Heavy Belt"
+BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat" "Heavy Belt" "Sapphire Ring" "Azure Amulet"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
