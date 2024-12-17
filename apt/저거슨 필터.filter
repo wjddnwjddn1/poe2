@@ -116,8 +116,8 @@ ItemLevel <= 18
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
 PlayAlertSound 2 300
-PlayEffect Cyan
 MinimapIcon 0 White Raindrop
+PlayEffect Cyan
 
 Show
 BaseType "Uncut "
@@ -192,6 +192,19 @@ SetBorderColor 0 0 0
 SetBackgroundColor 255 255 255 255
 MinimapIcon 2 Purple Triangle
 PlayEffect Cyan Temp
+
+
+
+
+Show
+    Class "Omen"
+    BaseType "Omen of"
+    SetTextColor 128 79 1
+    SetBorderColor 90 56 0
+    SetBackgroundColor 255 254 253
+    CustomAlertSound "currency2.mp3" 200
+    PlayEffect White
+    MinimapIcon 1 White Circle
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -476,7 +489,7 @@ Show
     Rarity == Rare
     SetFontSize 45
     PlayAlertSound 2 300
-	PlayEffect Yellow
+	PlayEffect Yellow Temp
 	MinimapIcon 2 Yellow UpsideDownHouse
 
 #--------------------------
