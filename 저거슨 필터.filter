@@ -3,10 +3,7 @@
 #===============================================================================================================
 # VERSION:  0.1.1
 # AUTHOR:   저거슨
-#
-# This is a mini-filter designed for early PoE2 EA gameplay. I will eventually replace it with a full-fledged filter
-# With FilterBlade.xyz support. This filter focuses more on highlighting loot, rather than hiding
-#
+
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -19,10 +16,10 @@ SetBorderColor 175 96 37 255
 SetBackgroundColor 53 13 13 255
 CustomAlertSound "unique.mp3" 100
 PlayEffect Brown
-MinimapIcon 2 Brown Star
+MinimapIcon 0 Red Diamond
 SetFontSize 40
 
-## Divine Orb Style
+
 Show
 Class "Currency"
 BaseType "Mirror" 
@@ -33,7 +30,7 @@ SetBackgroundColor 255 255 255 255
 CustomAlertSound "mirror.mp3" 300
 PlayEffect Red
 MinimapIcon 0 Red Star
-## Divine Orb Style
+
 
 Show
 Class "Currency"
@@ -42,9 +39,9 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "tier0_currency.mp3" 300
+CustomAlertSound "PerfectJeweller.mp3" 300
 PlayEffect Red
-MinimapIcon 0 Red Star
+MinimapIcon 0 Yellow Pentagon
 
 Show
 Class "Currency"
@@ -53,9 +50,9 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "handsclub.mp3" 300
+CustomAlertSound "Divine.mp3" 300
 PlayEffect Red
-MinimapIcon 0 Red Star
+MinimapIcon 0 White Star
 #--------------------------
 # Gold
 #--------------------------
@@ -68,7 +65,7 @@ SetTextColor 212 175 55 255 #D4AF37
 SetBackgroundColor 16 16 16 240 #000000
 CustomAlertSound "gold.mp3" 50
 PlayEffect Orange Temp
-MinimapIcon 2 Yellow Diamond
+MinimapIcon 2 Pink Hexagon
 
 Show
 StackSize >= 200
@@ -120,7 +117,7 @@ SetTextColor 20 240 240
 SetBorderColor 20 240 240
 PlayAlertSound 2 300
 PlayEffect Cyan
-MinimapIcon 1 Cyan Triangle
+MinimapIcon 0 White Raindrop
 
 Show
 BaseType "Uncut "
@@ -131,8 +128,8 @@ SetBorderColor 210 240 240
 PlayAlertSound 2 300
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "currency.mp3" 250
-MinimapIcon 1 Blue Triangle
+CustomAlertSound "uncut.mp3" 250
+MinimapIcon 0 Grey Raindrop
 
 Show
 BaseType "Uncut "
@@ -143,8 +140,8 @@ SetBorderColor 210 240 240
 PlayAlertSound 2 300
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "currency.mp3" 300
-MinimapIcon 1 Red Triangle
+CustomAlertSound "uncut.mp3" 300
+MinimapIcon 0 Red Raindrop
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -190,7 +187,10 @@ PlayEffect Cyan Temp
 # Special B Tier - Any Runes and Charms
 Show 
 BaseType " Rune" " Charm"
-SetTextColor 0 240 190
+SetTextColor 0 0 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 255 255 255
+MinimapIcon 2 Purple Triangle
 PlayEffect Cyan Temp
 
 #--------------------------
@@ -204,9 +204,9 @@ BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
-CustomAlertSound "currency.mp3" 200
+CustomAlertSound "currency2.mp3" 200
 PlayEffect White
-MinimapIcon 1 White Circle
+MinimapIcon 0 Red Triangle
 SetFontSize 40
 
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
@@ -232,24 +232,56 @@ PlayEffect White
 MinimapIcon 0 White Star
 SetFontSize 50
 
+
 Show
 Class "Currency"
 BaseType  "Exalted Orb" 
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
-CustomAlertSound "currency.mp3" 250
+CustomAlertSound "ExaltedOrb.mp3" 250
 PlayEffect White
-MinimapIcon 0 White Star
+MinimapIcon 0 Red Cross
 SetFontSize 50
+
 
 Show
 Class "Currency"
-BaseType "Distilled" "Catalyst" "Essence of" "Omen of"
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
-CustomAlertSound "tier1.mp3" 200
+BaseType "Distilled"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "Distilled.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType "Catalyst"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "Catalyst.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType  "Essence of" 
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "Essence.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType  "Omen of"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "Omen.mp3" 200
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -257,15 +289,18 @@ MinimapIcon 1 White Circle
 Show
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
+SetTextColor 0 0 0
+SetBorderColor 252 255 180
+SetBackgroundColor 216 198 45
+SetFontSize 30
 MinimapIcon 2 Grey Circle
 
 Show
 Class "Currency"
 BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 240 90 35
 MinimapIcon 2 Grey Circle
 
 Show
@@ -284,13 +319,23 @@ MinimapIcon 1 White Circle
 
 # Fragments
 Show
-BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
 SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "currency.mp3" 200
+CustomAlertSound "othercurrency.mp3" 200
 PlayEffect White
-MinimapIcon 1 White Square
+MinimapIcon 0 Orange UpsideDownHouse
+SetFontSize 40
+
+# Fragments
+Show
+BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" 
+SetBorderColor 255 207 255
+SetBackgroundColor 65 20 80
+CustomAlertSound "othercurrency2.mp3" 200
+PlayEffect White
+MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
 
 Show
@@ -309,7 +354,8 @@ WaystoneTier >= 6
 WaystoneTier <= 10
 SetTextColor 255 255 0
 SetBorderColor 200 200 200
-CustomAlertSound "middlemap.mp3" 200
+
+CustomAlertSound "map.mp3" 200
 PlayEffect Yellow
 MinimapIcon 1 Yellow Square
 SetFontSize 60
@@ -318,9 +364,10 @@ Show
 BaseType "Waystone"
 WaystoneTier >= 11
 WaystoneTier <= 14
-SetTextColor 255 0 0
-SetBorderColor 200 200 200
-CustomAlertSound "highmaps.mp3" 200
+SetTextColor 0 128 0
+SetBorderColor 107 236 98
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "map1114.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
 SetFontSize 60
@@ -330,6 +377,7 @@ BaseType "Waystone"
 WaystoneTier >= 15
 SetTextColor 255 0 0
 SetBorderColor 200 200 200
+SetBackgroundColor 255 255 255 255
 CustomAlertSound "map_15t.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
@@ -391,6 +439,16 @@ Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
 
+Show
+BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat" "Heavy Belt" "Sapphire Ring"
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Circle
+
+
 #--------------------------
 # OPTIONAL RULES
 #--------------------------
@@ -399,10 +457,10 @@ SetFontSize 35
 ### OPTIONAL RULE: Hide random bases
 # REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
 
-# Hide
-# Rarity <= Magic
-# Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-# AreaLevel >= 65
+Hide
+Rarity <= Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
@@ -412,6 +470,7 @@ SetFontSize 35
 # AreaLevel >= 65
 # DropLevel <= 50
 # SetBackgroundColor 0 0 0 125
+
 
 Show
     Rarity == Rare
