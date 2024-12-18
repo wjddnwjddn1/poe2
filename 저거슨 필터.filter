@@ -1,0 +1,620 @@
+#===============================================================================================================
+# Modified from what NeverSink did.
+#===============================================================================================================
+# VERSION:  0.1.1
+# AUTHOR:   저거슨
+
+
+#--------------------------
+# Overrides - Uniques, Valuables
+#--------------------------
+
+Show
+Rarity Unique
+SetTextColor 175 96 37 255
+SetBorderColor 175 96 37 255
+SetBackgroundColor 53 13 13 255
+CustomAlertSound "sound/unique.mp3" 100
+PlayEffect Brown
+MinimapIcon 0 Red Diamond
+SetFontSize 40
+
+
+Show
+Class "Currency"
+BaseType "Mirror" 
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/mirror.mp3" 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+Show
+Class "Pinnacle Keys"
+BaseType "Ancient " 
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/mirror.mp3" 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+
+Show
+Class "Currency"
+BaseType   "Perfect Jeweller's Orb"
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/PerfectJeweller.mp3" 300
+PlayEffect Red
+MinimapIcon 0 Yellow Pentagon
+
+Show
+Class "Currency"
+BaseType  "Divine" 
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/Divine.mp3" 300
+PlayEffect Red
+MinimapIcon 0 White Star
+#--------------------------
+# Gold
+#--------------------------
+
+Show
+StackSize >= 1500
+BaseType == "Gold"
+SetTextColor 212 175 55 255 #D4AF37
+# SetBorderColor 212 175 55 255 #D4AF37
+SetBackgroundColor 16 16 16 240 #000000
+CustomAlertSound "sound/gold.mp3" 50
+PlayEffect Orange Temp
+MinimapIcon 2 Pink Hexagon
+
+Show
+StackSize >= 200
+BaseType == "Gold"
+SetTextColor 212 175 55 255 #D4AF37
+# SetBorderColor 212 175 55 255 #D4AF37
+SetBackgroundColor 16 16 16 240 #000000
+PlayEffect Orange Temp
+
+Show
+BaseType == "Gold"
+SetTextColor 212 175 55 220 #D4AF37
+# SetBorderColor 212 175 55 220 #D4AF37
+SetBackgroundColor 16 16 16 220 #000000
+SetBackgroundColor 0 0 0 180
+
+#--------------------------
+# Uncut Gems
+#--------------------------
+
+Show
+BaseType "Uncut Support "
+ItemLevel = 3
+SetTextColor 0 0 0
+SetBackgroundColor 255 255 255
+SetBorderColor 0 0 0
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 30
+MinimapIcon 1 Blue Triangle
+
+
+
+Show
+BaseType "Uncut "
+ItemLevel <= 13
+SetTextColor 20 240 240
+SetBorderColor 20 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 30
+MinimapIcon 1 Cyan Triangle
+
+Show
+BaseType "Uncut "
+ItemLevel >= 14
+ItemLevel <= 19
+SetTextColor 20 240 240
+SetBorderColor 20 240 240
+CustomAlertSound "sound/uncut.mp3" 300
+MinimapIcon 0 White Raindrop
+PlayEffect Cyan
+
+Show
+BaseType "Uncut Skill Gem"
+ItemLevel = 20
+SetTextColor 255 0 0
+SetBackgroundColor 255 255 255
+SetBorderColor 210 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 50
+CustomAlertSound "sound/uncut.mp3" 300
+MinimapIcon 0 Red Raindrop
+
+Show
+BaseType "Uncut Spirit Gem"
+ItemLevel = 20
+SetTextColor 37 180 185
+SetBackgroundColor 255 255 255
+SetBorderColor 210 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+SetFontSize 50
+CustomAlertSound "sound/uncut.mp3" 300
+MinimapIcon 0 Red Raindrop
+
+#--------------------------
+# Socketables and Special Character Equipment
+#--------------------------
+
+# Special A Tier - League specific socketables and jewels
+Show 
+BaseType "Soul Core" "Timeless"
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 40
+MinimapIcon 2 Cyan Triangle
+PlayEffect Cyan
+
+# Special A Tier - Sanctum Relics
+Show 
+Class "Relic"
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 40
+MinimapIcon 2 Cyan Triangle
+PlayEffect Cyan
+
+# Special A Tier - Rare Jewels
+Show
+Class "Jewel"
+Rarity Rare
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 40
+MinimapIcon 2 Cyan Triangle
+PlayEffect Cyan
+
+# Special B Tier - Any Jewels
+Show
+Class "Jewel"
+Rarity Magic
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 40
+PlayEffect Cyan Temp
+
+# Special B Tier - Any Runes and Charms
+Show 
+BaseType "Iron Rune"
+SetTextColor 133 0 0
+SetBorderColor 146 3 3
+SetBackgroundColor 255 255 255 255
+MinimapIcon 1 Red Triangle
+PlayEffect Cyan Temp
+
+Show 
+BaseType " Rune" " Charm"
+SetTextColor 0 0 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 255 255 255
+MinimapIcon 2 Purple Triangle
+PlayEffect Cyan Temp
+
+
+
+
+Show
+    Class "Omen"
+    BaseType "Omen of"
+    SetTextColor 128 79 1
+    SetBorderColor 90 56 0
+    SetBackgroundColor 255 254 253
+    CustomAlertSound "sound/currency2.mp3" 200
+    PlayEffect White
+    MinimapIcon 1 White Circle
+
+#--------------------------
+# Socketables and Special Character Equipment
+#--------------------------
+
+# Currency Tier A: Gemcutter, Annullment
+Show
+Class "Currency"
+BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 90 35
+CustomAlertSound "sound/currency2.mp3" 200
+PlayEffect White
+MinimapIcon 0 Red Triangle
+SetFontSize 40
+
+# Currency Tier B: Vaal, Chaos, Exalt, Exotic
+Show
+Class "Currency"
+BaseType "Orb of Alchemy" 
+SetTextColor 68 52 1
+SetBorderColor 255 212 20
+SetBackgroundColor 255 232 29
+CustomAlertSound "sound/currency.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 40
+
+# Currency Tier B: Vaal, Chaos, Exalt, Exotic
+Show
+Class "Currency"
+BaseType "Vaal Orb" "Chaos Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb"
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+CustomAlertSound "sound/currency.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 40
+
+Show
+Class "Currency"
+BaseType "Greater Jeweller's Orb" 
+SetTextColor 255 0 0
+SetBorderColor 255 0 0
+SetBackgroundColor 255 255 255
+CustomAlertSound "sound/GreaterJeweller.mp3" 250
+PlayEffect White
+MinimapIcon 0 White Star
+SetFontSize 50
+
+
+Show
+Class "Currency"
+BaseType  "Exalted Orb" 
+SetTextColor 255 0 0
+SetBorderColor 255 0 0
+SetBackgroundColor 255 255 255
+CustomAlertSound "sound/ExaltedOrb.mp3" 250
+PlayEffect White
+MinimapIcon 0 Red Cross
+SetFontSize 50
+
+
+Show
+Class "Currency"
+BaseType "Distilled"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "sound/Distilled.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType "Catalyst"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "sound/Catalyst.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType  "Essence of" 
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "sound/Essence.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+Show
+Class "Currency"
+BaseType  "Omen of"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "sound/Omen.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Circle
+
+# Currency Tier C: Vaal, Chaos, Exalt, Exotic
+Show
+Class "Currency"
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+SetTextColor 0 0 0
+SetBorderColor 252 255 180
+SetBackgroundColor 216 198 45
+SetFontSize 30
+MinimapIcon 2 Grey Circle
+
+Show
+Class "Currency"
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 240 90 35
+MinimapIcon 2 Grey Circle
+
+Show
+Class "Currency"
+BaseType "Wisdom" "Shard"
+
+# Unknown currency
+Show
+Class "Currency"
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+CustomAlertSound "sound/currency.mp3" 200
+PlayEffect Pink
+MinimapIcon 1 White Circle
+
+# Fragments
+Show
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
+SetTextColor 255 207 255
+SetBorderColor 255 207 255
+SetBackgroundColor 65 20 80
+CustomAlertSound "sound/othercurrency.mp3" 200
+PlayEffect White
+MinimapIcon 0 Orange UpsideDownHouse
+SetFontSize 40
+
+# Fragments
+Show
+BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" 
+SetBorderColor 255 207 255
+SetBackgroundColor 65 20 80
+CustomAlertSound "sound/othercurrency2.mp3" 200
+PlayEffect White
+MinimapIcon 0 Orange UpsideDownHouse
+SetFontSize 40
+
+
+
+Show
+BaseType "Waystone"
+WaystoneTier = 16
+Rarity <= Rare
+SetTextColor 255 0 0
+SetBorderColor 200 200 200
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/map_15t.mp3" 200
+PlayEffect Red
+MinimapIcon 1 Red Square
+SetFontSize 60
+
+Show
+BaseType "Waystone"
+WaystoneTier = 15
+Rarity <= Rare
+SetTextColor 255 0 0
+SetBorderColor 200 200 200
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/map_15t.mp3" 200
+PlayEffect Red
+MinimapIcon 1 Red Square
+SetFontSize 60
+
+Show
+BaseType "Waystone"
+WaystoneTier < 15
+WaystoneTier > 10
+Rarity <= Rare
+SetTextColor 0 128 0
+SetBorderColor 107 236 98
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/map1114.mp3" 200
+PlayEffect Red
+MinimapIcon 1 Red Square
+SetFontSize 60
+
+Show
+BaseType "Waystone"
+WaystoneTier < 11   
+WaystoneTier > 5   
+Rarity <= Rare
+SetTextColor 255 255 21
+SetBorderColor 200 200 200
+SetBackgroundColor 0 0 0
+CustomAlertSound "sound/map.mp3" 200
+PlayEffect Yellow
+MinimapIcon 1 Yellow Square
+SetFontSize 60
+
+
+Show
+BaseType "Waystone"
+SetTextColor 255 255 255
+SetBorderColor 200 200 200
+SetBackgroundColor 43 6 6
+CustomAlertSound "sound/map.mp3" 200
+PlayEffect White
+MinimapIcon 1 White Square
+SetFontSize 35
+
+
+
+
+
+
+Show
+Class "Pinnacle Keys"
+SetTextColor 255 207 241
+SetBorderColor 255 207 239
+SetBackgroundColor 18 9 65
+PlayAlertSound 2 300
+PlayEffect White
+MinimapIcon 1 Yellow Square
+
+#--------------------------
+# Value Rares
+#--------------------------
+
+Show
+Class "Rings" "Amulets" "Belts"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
+# Rings, Amulets, Belts
+#--------------------------
+
+Show
+Rarity Normal
+Class "Rings" "Amulets" "Belts"
+SetFontSize 40
+
+Show
+Class "Rings" "Amulets" "Belts"
+Rarity Magic
+SetFontSize 40
+
+#--------------------------
+# Salvagable Items
+#--------------------------
+
+# Not working!
+Show
+Sockets > 0
+Rarity Normal
+SetBorderColor 200 200 200
+SetFontSize 35
+
+Show
+Quality > 10
+Rarity Normal
+SetBorderColor 200 200 200
+SetFontSize 35
+
+# Not working!
+Show
+Sockets > 0
+Rarity Magic
+SetBorderColor 0 0 200
+SetFontSize 35
+
+Show
+Quality > 10
+Rarity Magic
+SetBorderColor 0 0 200
+SetFontSize 35
+
+Show
+BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat" "Heavy Belt" "Sapphire Ring" "Azure Amulet"
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Circle
+
+
+
+
+PlayAlertSound 2 300
+PlayEffect Cyan
+# Special Highlight - Breach Rings
+Show 
+Rarity Rare
+BaseType == "Breach Ring"
+SetTextColor 28 95 82
+SetBorderColor 0 240 190
+SetFontSize 40
+MinimapIcon 1 Cyan Diamond
+PlayEffect Cyan
+PlayAlertSound 2 300
+
+Show 
+Rarity <= Magic
+BaseType == "Breach Ring"
+SetTextColor 36 107 93
+SetFontSize 35
+MinimapIcon 2 Cyan Diamond
+PlayEffect Cyan Temp
+
+
+#--------------------------
+# OPTIONAL RULES
+#--------------------------
+# TO ENABLE RULES, REMOVE THE # AT THE START OF THE LINE
+
+### OPTIONAL RULE: Hide random bases
+# REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
+
+Show
+BaseType "Gold Key" "Silver Key" "Bronze Key"
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+PlayAlertSound 2 300
+PlayEffect White
+MinimapIcon 2 Red Diamond
+SetFontSize 40
+
+Show
+Rarity Rare
+#BaseType Equipment
+SetFontSize 35
+PlayAlertSound 2 300
+SetTextColor 94 58 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 174 43
+#PlayEffect Yellow Temp
+#MinimapIcon 2 Yellow UpsideDownHouse
+
+
+
+Hide
+AreaLevel >= 78
+Rarity <= Magic
+DropLevel < 70
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 75
+Rarity <= Magic
+DropLevel < 64
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 73
+Rarity <= Magic
+DropLevel < 60
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Hide
+AreaLevel > 72
+Rarity <= Magic
+DropLevel < 55
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+AreaLevel > 74
+Rarity <= Magic
+DropLevel < 50
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
+Hide
+Rarity <= Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
+
+
+
+Show
+BaseType == "Expert Laced Boots"
