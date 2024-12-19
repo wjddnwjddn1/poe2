@@ -202,7 +202,7 @@ SetTextColor 133 0 0
 SetBorderColor 146 3 3
 SetBackgroundColor 255 255 255 255
 MinimapIcon 1 Red Triangle
-PlayEffect Cyan Temp
+PlayEffect Cyan
 
 Show 
 BaseType " Rune" " Charm"
