@@ -514,9 +514,19 @@ Quality > 10
 Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
+#기회의 오브
+Show
+Rarity Normal
+BaseType "Stellar Amulet" "Heavy Belt" "Azure Amulet" "Sapphire Ring" "Utility Belt" "Emerald Ring"
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
 
 Show
-BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat" "Heavy Belt" "Sapphire Ring" "Azure Amulet"
+BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat"  
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -568,15 +578,25 @@ MinimapIcon 2 Red Diamond
 SetFontSize 40
 
 Show
+BaseType "Expert "
 Rarity Rare
-#BaseType Equipment
+SetFontSize 45
+PlayAlertSound 2 300
+SetTextColor 94 58 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 238 210
+#PlayEffect Yellow Temp
+#MinimapIcon 2 Yellow UpsideDownHouse
+    
+
+Show
+Rarity Rare
 SetFontSize 35
 PlayAlertSound 2 300
 SetTextColor 94 58 0
 SetBorderColor 0 0 0
 SetBackgroundColor 255 174 43
-#PlayEffect Yellow Temp
-#MinimapIcon 2 Yellow UpsideDownHouse
+
 
 
 
