@@ -256,7 +256,7 @@ SetFontSize 40
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Chaos Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb"
+BaseType "Vaal Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -279,7 +279,7 @@ SetFontSize 50
 
 Show
 Class "Currency"
-BaseType  "Exalted Orb" 
+BaseType  "Exalted Orb" "Chaos Orb" 
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
@@ -447,7 +447,17 @@ SetFontSize 35
 
 
 
-
+#기회의 오브
+Show
+    Rarity Normal
+    BaseType "Stellar Amulet" "Heavy Belt" "Azure Amulet" "Sapphire Ring" "Utility Belt" "Emerald Ring"
+    SetFontSize 40
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 29 97
+    PlayEffect Red
+    MinimapIcon 0 Red Circle
+    
 
 
 Show
@@ -514,16 +524,6 @@ Quality > 10
 Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
-#기회의 오브
-Show
-Rarity Normal
-BaseType "Stellar Amulet" "Heavy Belt" "Azure Amulet" "Sapphire Ring" "Utility Belt" "Emerald Ring"
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 255 29 97
-PlayEffect Red
-MinimapIcon 0 Red Circle
 
 Show
 BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat"  
