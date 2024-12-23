@@ -8,7 +8,77 @@
 #--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
+Hide
+AreaLevel > 65
+BaseType == "Orb of Transmutation" "Orb of Augmentation"
 
+Show
+Rarity Unique
+BaseType "Ultimate Life Flask" "Ultimate Mana Flask" "Silk Robe" "Stellar Amulet" "Heavy Belt" "Ornate Belt" "Grand Regalia" "Grand Visage" "Utility Belt" "Furtive Wraps" "Stone Tower Shield" "Crucible Tower Shield" "Gold Amulet" "Sapphire Ring" "Emerald Ring" "Smuggler Coat"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 90 35
+CustomAlertSound "sound/mirror.mp3" 300
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 45
+
+Show
+Rarity Unique
+BaseType "Omen Crest Shield" "Amethyst Ring" "Altar Robe" "Explorer Armour" "Knight Armour" "Felt Cap" "Armoured Cap" "Closed Helm" "Tribal Mask" "Moulded Mitts" "Fine Bracers" "Burnished Gauntlets" "Linen Wraps" "Conqueror Plate"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 90 35
+CustomAlertSound "sound/Divine.mp3" 300
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 40
+
+Show
+BaseType == "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/Divine.mp3" 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+Show 
+Rarity == Rare
+Class "Wands" "Staves" "Foci" "Quarterstaves" "Sceptres"
+BaseType "Expert "
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 40
+MinimapIcon 1 Cyan Diamond
+PlayEffect Cyan
+
+Show 
+Rarity <= Magic
+BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt"
+SetTextColor 0 240 190
+SetFontSize 35
+MinimapIcon 2 Cyan Diamond
+PlayEffect Cyan Temp
+Show 
+Rarity <= Magic
+Class "Wands" "Foci" "Quarterstaves" "Sceptres"
+BaseType "Expert "
+SetTextColor 0 240 190
+SetFontSize 35
+MinimapIcon 2 Cyan Diamond
+PlayEffect Cyan Temp
+Show
+BaseType "Soul Core of Opiloti" "Soul Core of Zantipi" "Soul Core of Topotante" "Soul Core of Cholotl" "Soul Core of Xopec" "Soul Core of Quipolatl" "Soul Core of Tzamoto" "Soul Core of Ticaba" 
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+CustomAlertSound "sound/Catalyst.mp3" 300
+PlayEffect White Temp
+MinimapIcon 1 White Kite
+SetFontSize 35
+    
 Show
 Rarity Unique
 SetTextColor 175 96 37 255
@@ -45,7 +115,7 @@ MinimapIcon 0 Red Star
 
 Show
 Class "Currency"
-BaseType   "Perfect Jeweller's Orb"
+BaseType   "Perfect Jeweller's Orb" "Distilled Isolation" "An Audience with the King" "Omen of Whittling" "Distilled Suffering"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -56,7 +126,7 @@ MinimapIcon 0 Yellow Pentagon
 
 Show
 Class "Currency"
-BaseType  "Divine" 
+BaseType  "Divine"  "Breachstone" "Greater Essence of Haste" "Greater Essence of Torment"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -69,28 +139,32 @@ MinimapIcon 0 White Star
 #--------------------------
 
 Show
-StackSize >= 1500
+StackSize >= 2500
 BaseType == "Gold"
+AreaLevel > 70
 SetTextColor 212 175 55 255 #D4AF37
-# SetBorderColor 212 175 55 255 #D4AF37
 SetBackgroundColor 16 16 16 240 #000000
 CustomAlertSound "sound/gold.mp3" 50
 PlayEffect Orange Temp
 MinimapIcon 2 Pink Hexagon
 
 Show
-StackSize >= 200
+StackSize >= 1000
+AreaLevel < 70
 BaseType == "Gold"
 SetTextColor 212 175 55 255 #D4AF37
-# SetBorderColor 212 175 55 255 #D4AF37
 SetBackgroundColor 16 16 16 240 #000000
 PlayEffect Orange Temp
+
+Hide
+StackSize < 500
+BaseType == "Gold"
+SetTextColor 212 175 55 220 #D4AF37
+SetBackgroundColor 0 0 0 180
 
 Show
 BaseType == "Gold"
 SetTextColor 212 175 55 220 #D4AF37
-# SetBorderColor 212 175 55 220 #D4AF37
-SetBackgroundColor 16 16 16 220 #000000
 SetBackgroundColor 0 0 0 180
 
 #--------------------------
@@ -267,7 +341,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Greater Jeweller's Orb" 
+BaseType "Greater Jeweller's Orb" "Distilled Fear" "Greater Essence of Ruin" "Greater Essence of Sorcery" "Omen of Amelioration"
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
@@ -279,7 +353,7 @@ SetFontSize 50
 
 Show
 Class "Currency"
-BaseType  "Exalted Orb" "Chaos Orb" 
+BaseType  "Exalted Orb" "Chaos Orb" "Omen of Corruption" "Distilled Disgust" "Greater Essence of the Body" "Greater Essence of Battle" "Greater Essence of Electricity" "Distilled Despair" "Omen of Greater Annulment" "Greater Essence of Enhancement" "Greater Essence of the Mind" "Greater Essence of Ice" "Greater Essence of Flames" 
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
@@ -291,7 +365,7 @@ SetFontSize 50
 
 Show
 Class "Currency"
-BaseType "Distilled"
+BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin" "Distilled Paranoia" "Essence of Electricity" "Orb of Alchemy" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Exotic Coinage" "Chaos Orb" "Omen of Greater Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Exaltation" "Omen of Dextral Coronation" "Omen of Sinistral Coronation" "Simulacrum Splinter" "Breach Splinter" " Artifact" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -301,7 +375,7 @@ MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
-BaseType "Catalyst"
+BaseType "Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -526,7 +600,8 @@ SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
-BaseType "Rattling Sceptre" "Dualstring Bow" "Gothic Quarterstaff" "Omen Sceptre" "Expert Studded Vest" "Serpentscale Coat"  
+Rarity == Rare
+BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -576,6 +651,17 @@ PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
+
+Show
+BaseType "Advanced "
+Rarity Rare
+SetFontSize 25
+PlayAlertSound 2 300
+SetTextColor 255 255 255
+SetBorderColor 0 0 0 
+SetBackgroundColor 90 63 21
+
+
 
 Show
 BaseType "Expert "
