@@ -631,13 +631,9 @@ MinimapIcon 2 Yellow Diamond
 
 
 
-
-PlayAlertSound 2 300
-PlayEffect Cyan
-# Special Highlight - Breach Rings
 Show 
 Rarity Rare
-BaseType == "Breach Ring"
+BaseType == "Breach Ring" 
 SetTextColor 28 95 82
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
@@ -649,6 +645,15 @@ PlayAlertSound 2 300
 Show 
 Rarity <= Magic
 BaseType == "Breach Ring"
+SetTextColor 36 107 93
+SetBorderColor 0 240 190
+SetBackgroundColor 255 255 255
+SetFontSize 35
+MinimapIcon 2 Cyan Diamond
+PlayEffect Cyan Temp
+Show 
+Rarity Normal
+BaseType == "Breach Ring" "Amethyst Ring" "Gold Ring"
 SetTextColor 36 107 93
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
