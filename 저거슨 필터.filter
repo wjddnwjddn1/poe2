@@ -391,7 +391,7 @@ MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
-BaseType "Chance Shard" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism"  
+BaseType  "Chance Shard" "Adaptive Catalyst" "Esh's Catalyst" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -401,7 +401,7 @@ MinimapIcon 1 White Circle
 
 Hide
 Class "Currency"
-BaseType "Catalyst""
+BaseType "Catalyst" 
 
 Show
 Class "Currency"
@@ -684,10 +684,10 @@ Hide
 BaseType "Advanced "
 Rarity Rare
 SetFontSize 25
-PlayAlertSound 2 300
-SetTextColor 255 255 255
-SetBorderColor 0 0 0 
-SetBackgroundColor 90 63 21
+# PlayAlertSound 2 300
+# SetTextColor 255 255 255
+# SetBorderColor 0 0 0 
+# SetBackgroundColor 90 63 21
 
 
 
