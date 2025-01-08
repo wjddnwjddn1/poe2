@@ -113,7 +113,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType  "Perfect Jeweller's Orb"
+BaseType  "Perfect Jeweller's Orb" 
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
@@ -417,13 +417,13 @@ BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electr
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
-CustomAlertSound "sound/f1.mp3" 200
+CustomAlertSound "sound/l1.mp3" 200
 PlayEffect White
 MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
-BaseType  "Chance Shard" "Adaptive Catalyst" "Esh's Catalyst" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism"  "Tul's Catalyst" 
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Chance Shard" "Adaptive Catalyst" "Esh's Catalyst" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism"  "Tul's Catalyst" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
