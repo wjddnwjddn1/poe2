@@ -50,7 +50,7 @@ Class "Wands" "Staves" "Foci" "Quarterstaves" "Sceptres"
 BaseType "Expert "
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 35
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 
@@ -603,7 +603,7 @@ Show
     SetBackgroundColor 255 29 97
     PlayEffect Red
     MinimapIcon 0 Red Circle
-    
+    CustomAlertSound "sound/f1.mp3" 200
 
 
 Show
@@ -697,7 +697,7 @@ CustomAlertSound "sound/t1.mp3" 200
 Show
 Rarity == Rare
 BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt"
-SetFontSize 40
+SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
@@ -770,7 +770,7 @@ SetFontSize 25
 Show
 BaseType "Expert "
 Rarity Rare
-SetFontSize 45
+SetFontSize 35
 PlayAlertSound 2 200
 SetTextColor 94 58 0
 SetBorderColor 0 0 0
