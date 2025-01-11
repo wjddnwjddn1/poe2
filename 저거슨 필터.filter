@@ -8,17 +8,59 @@
 #--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
+
+
+Hide
+AreaLevel > 65
+BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
+
 Hide
 AreaLevel > 65
 BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" 
 
 Show
 Rarity Unique
-BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate""Ring" "Diamond" "Sapphire"
+BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" 
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
-CustomAlertSound "sound/u1.mp3" 200
+CustomAlertSound "sound/u1.mp3" 150
+PlayEffect White
+MinimapIcon 0 Brown Star
+SetFontSize 45
+
+Show
+Rarity Normal
+BaseType == "Breach Ring"
+ItemLevel 82
+SetTextColor 39 105 92
+SetBorderColor 0 240 190
+SetBackgroundColor 255 255 255
+SetFontSize 35
+MinimapIcon 1 Red Diamond
+PlayEffect Cyan 
+CustomAlertSound "sound/t1.mp3" 150
+
+Show
+Rarity Normal
+BaseType == "Breach Ring"
+ItemLevel 81
+SetTextColor 17 109 90
+SetBorderColor 0 240 190
+SetBackgroundColor 255 255 255
+SetFontSize 35
+MinimapIcon 1 Orange Diamond
+PlayEffect Cyan 
+CustomAlertSound "sound/t1.mp3" 150
+
+    
+Show
+Rarity Unique
+BaseType  "Ring"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 165 52 11
+CustomAlertSound "sound/u1.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 45
@@ -30,7 +72,7 @@ Show # $type->currency->soulcore $tier->t1
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
-	CustomAlertSound "sound/v1.mp3" 200
+	CustomAlertSound "sound/v1.mp3" 150
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 
@@ -40,7 +82,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/Divine.mp3" 200
+CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -95,7 +137,7 @@ BaseType "Soul Core of Opiloti" "Soul Core of Zantipi" "Soul Core of Topotante" 
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/w1.mp3" 200
+CustomAlertSound "sound/w1.mp3" 150
 PlayEffect White Temp
 MinimapIcon 1 White Kite
 SetFontSize 35
@@ -117,7 +159,7 @@ BaseType  "Perfect Jeweller's Orb"
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/PerfectJeweller.mp3" 200
+CustomAlertSound "sound/PerfectJeweller.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -127,7 +169,7 @@ BaseType   "Mirror of Kalandra"
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/mirror.mp3" 200
+CustomAlertSound "sound/mirror.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -138,7 +180,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/Divine.mp3" 200
+CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -149,7 +191,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/mirror.mp3" 200
+CustomAlertSound "sound/mirror.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -161,7 +203,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/PerfectJeweller.mp3" 200
+CustomAlertSound "sound/PerfectJeweller.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Yellow Pentagon
 
@@ -172,7 +214,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/Divine.mp3" 200
+CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 White Star
 #--------------------------
@@ -218,7 +260,7 @@ ItemLevel = 3
 SetTextColor 0 0 0
 SetBackgroundColor 255 255 255
 SetBorderColor 0 0 0
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 30
 MinimapIcon 1 Blue Triangle
@@ -230,7 +272,7 @@ BaseType "Uncut "
 ItemLevel <= 13
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 30
 MinimapIcon 1 Cyan Triangle
@@ -241,7 +283,7 @@ ItemLevel >= 14
 ItemLevel <= 19
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
-CustomAlertSound "sound/j1.wav" 200
+CustomAlertSound "sound/j1.wav" 150
 MinimapIcon 0 White Raindrop
 PlayEffect Cyan
 
@@ -251,10 +293,10 @@ ItemLevel = 20
 SetTextColor 255 0 0
 SetBackgroundColor 255 255 255
 SetBorderColor 210 240 240
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "sound/uncut20.mp3" 200
+CustomAlertSound "sound/uncut20.mp3" 150
 MinimapIcon 0 Red Raindrop
 
 Show
@@ -263,10 +305,10 @@ ItemLevel = 20
 SetTextColor 37 180 185
 SetBackgroundColor 255 255 255
 SetBorderColor 210 240 240
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "sound/uncut20.mp3" 200
+CustomAlertSound "sound/uncut20.mp3" 150
 MinimapIcon 0 Red Raindrop
 
 #--------------------------
@@ -336,7 +378,7 @@ Show
     SetTextColor 128 79 1
     SetBorderColor 90 56 0
     SetBackgroundColor 255 254 253
-    CustomAlertSound "sound/t1.wav" 200
+    CustomAlertSound "sound/t1.wav" 150
     PlayEffect White
     MinimapIcon 1 White Circle
 
@@ -347,7 +389,7 @@ BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
-CustomAlertSound "sound/r1.mp3" 200
+CustomAlertSound "sound/r1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Red Triangle
 SetFontSize 40
@@ -359,7 +401,7 @@ BaseType "Orb of Alchemy"
 SetTextColor 68 52 1
 SetBorderColor 255 212 20
 SetBackgroundColor 255 232 29
-CustomAlertSound "sound/a1.mp3" 200
+CustomAlertSound "sound/a1.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
@@ -371,7 +413,7 @@ BaseType "Vaal Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Baubl
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/b1.mp3" 200
+CustomAlertSound "sound/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
@@ -382,7 +424,7 @@ BaseType "Greater Jeweller's Orb" "Distilled Fear" "Greater Essence of Ruin" "Gr
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
-CustomAlertSound "sound/c1.mp3" 250
+CustomAlertSound "sound/c1.mp3" 150
 PlayEffect White
 MinimapIcon 0 White Star
 SetFontSize 50
@@ -394,7 +436,7 @@ BaseType   "Omen of Corruption" "Distilled Disgust" "Greater Essence of the Body
 SetTextColor 255 0 0
 SetBorderColor 255 0 0
 SetBackgroundColor 255 255 255
-CustomAlertSound "sound/d1.mp3" 250
+CustomAlertSound "sound/d1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Red Cross
 SetFontSize 50
@@ -405,7 +447,7 @@ BaseType  "Exalted Orb" "Chaos Orb" "Simulacrum Splinter"
 SetTextColor 89 0 255
 SetBorderColor 111 0 255
 SetBackgroundColor 255 255 255
-CustomAlertSound "sound/e1.mp3" 250
+CustomAlertSound "sound/e1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Purple Cross
 SetFontSize 50
@@ -417,7 +459,7 @@ BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electr
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
-CustomAlertSound "sound/l1.mp3" 200
+CustomAlertSound "sound/l1.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -427,7 +469,7 @@ BaseType "Arcanist's Etcher" "Armourer's Scrap" "Chance Shard" "Adaptive Catalys
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
-CustomAlertSound "sound/g1.mp3" 200
+CustomAlertSound "sound/g1.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -441,7 +483,7 @@ BaseType  "Essence of"
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
-CustomAlertSound "sound/h1.wav" 200
+CustomAlertSound "sound/h1.wav" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -451,7 +493,7 @@ BaseType  "Omen of"
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
-CustomAlertSound "sound/i1.wav" 200
+CustomAlertSound "sound/i1.wav" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 
@@ -483,7 +525,7 @@ Class "Currency"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/l1.mp3" 200
+CustomAlertSound "sound/l1.mp3" 150
 PlayEffect Pink
 MinimapIcon 1 White Circle
 
@@ -493,7 +535,7 @@ BaseType "Ritual Precursor Tablet"
 SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "sound/n1.mp3" 200
+CustomAlertSound "sound/n1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
@@ -503,7 +545,7 @@ BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook"
 SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "sound/m1.mp3" 200
+CustomAlertSound "sound/m1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
@@ -513,7 +555,7 @@ Show
 BaseType  " Tablet" "Breachstone" "Barya" "Ultimatum" 
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "sound/p1.mp3" 200
+CustomAlertSound "sound/p1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
@@ -522,7 +564,7 @@ Show
 BaseType "Simulacrum"  " Fragment" 
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "sound/o1.mp3" 200
+CustomAlertSound "sound/o1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
@@ -562,7 +604,7 @@ Rarity <= Rare
 SetTextColor 0 128 0
 SetBorderColor 107 236 98
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/s1.wav" 200
+CustomAlertSound "sound/s1.wav" 150
 PlayEffect Red
 MinimapIcon 1 Red Square
 SetFontSize 60
@@ -575,7 +617,7 @@ Rarity <= Rare
 SetTextColor 255 255 21
 SetBorderColor 200 200 200
 SetBackgroundColor 0 0 0
-# CustomAlertSound "sound/map.mp3" 200
+# CustomAlertSound "sound/map.mp3" 150
 # PlayEffect Yellow
 # MinimapIcon 1 Yellow Square
 # SetFontSize 60
@@ -586,7 +628,7 @@ SetBackgroundColor 0 0 0
 # SetTextColor 255 255 255
 # SetBorderColor 200 200 200
 # SetBackgroundColor 43 6 6
-# CustomAlertSound "sound/map.mp3" 200
+# CustomAlertSound "sound/map.mp3" 150
 # PlayEffect White
 # MinimapIcon 1 White Square
 # SetFontSize 35
@@ -603,7 +645,7 @@ Show
     SetBackgroundColor 255 29 97
     PlayEffect Red
     MinimapIcon 0 Red Circle
-    CustomAlertSound "sound/f1.mp3" 200
+    CustomAlertSound "sound/f1.mp3" 300
 
 
 Show
@@ -611,7 +653,7 @@ Class "Pinnacle Keys"
 SetTextColor 255 207 241
 SetBorderColor 255 207 239
 SetBackgroundColor 18 9 65
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect White
 MinimapIcon 1 Yellow Square
 
@@ -680,19 +722,8 @@ SetBackgroundColor 255 255 255
 SetFontSize 40
 MinimapIcon 0 Red Diamond
 PlayEffect Cyan 
-CustomAlertSound "sound/t1.mp3" 200
+CustomAlertSound "sound/t1.mp3" 150
 
-Show
-Rarity Normal
-BaseType == "Breach Ring"
-ItemLevel 81
-SetTextColor 17 109 90
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 35
-MinimapIcon 1 Orange Diamond
-PlayEffect Cyan 
-CustomAlertSound "sound/t1.mp3" 200
 
 Show
 Rarity == Rare
@@ -715,7 +746,7 @@ SetBackgroundColor 255 255 255
 SetFontSize 40
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 
 Show 
 Rarity <= Magic
@@ -751,7 +782,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
@@ -760,7 +791,7 @@ Hide
 BaseType "Advanced "
 Rarity Rare
 SetFontSize 25
-# PlayAlertSound 2 300
+# PlayAlertSound 2 200
 # SetTextColor 255 255 255
 # SetBorderColor 0 0 0 
 # SetBackgroundColor 90 63 21
@@ -782,7 +813,7 @@ SetBackgroundColor 255 238 210
 Show
 Rarity Rare
 SetFontSize 35
-PlayAlertSound 2 300
+PlayAlertSound 2 200
 SetTextColor 94 58 0
 SetBorderColor 0 0 0
 SetBackgroundColor 255 174 43
