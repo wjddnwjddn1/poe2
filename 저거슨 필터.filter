@@ -455,7 +455,16 @@ SetFontSize 50
 
 Show
 Class "Currency"
-BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electricity" "Orb of Alchemy" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Exotic Coinage" "Chaos Orb" "Omen of Greater Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Exaltation" "Omen of Dextral Coronation" "Omen of Sinistral Coronation" "Breach Splinter" " Artifact" 
+BaseType "Breach Splinter"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
+CustomAlertSound "sound/l1.mp3" 150
+PlayEffect White
+MinimapIcon 1 Purple Circle
+Show
+Class "Currency"
+BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electricity" "Orb of Alchemy" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Exotic Coinage" "Chaos Orb" "Omen of Greater Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Exaltation" "Omen of Dextral Coronation" "Omen of Sinistral Coronation"  " Artifact" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -612,6 +621,7 @@ SetFontSize 60
 Hide
 BaseType "Waystone"
 WaystoneTier < 14   
+AreaLevel >= 78
 # WaystoneTier > 5   
 Rarity <= Rare
 SetTextColor 255 255 21
