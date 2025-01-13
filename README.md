@@ -15,3 +15,8 @@ sound 폴더에 있는 mp3 파일을 바꾸시면 원하는 소리가 나오는 
 
 싼 아이템 많이 숨겨놨습니다. 쌩뉴비분은 안쓰시는게 좋을수도있어요
 ![4](https://github.com/user-attachments/assets/d59a8055-2e8b-4286-b4a3-c64293971a6f)
+
+
+
+감전 파열 탄환 석궁 데드아이 빌드
+https://www.snomet.kr/sample/gx/21
