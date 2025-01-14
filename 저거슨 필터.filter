@@ -173,9 +173,10 @@ CustomAlertSound "sound/mirror.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
+
 Show
 Class "Currency"
-BaseType  "Greater Jeweller's Orb" "Divine Orb" "Distilled Disgust" "Distilled Despair" "Greater Essence of Torment" "Greater Essence of Ruin" "Greater Essence of Haste" "Greater Essence of Sorcery"
+BaseType   "Divine Orb" "Distilled Disgust" "Distilled Despair" "Greater Essence of Torment" "Greater Essence of Ruin" "Greater Essence of Haste" "Greater Essence of Sorcery"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -655,7 +656,7 @@ Show
     SetBackgroundColor 255 29 97
     PlayEffect Red
     MinimapIcon 0 Red Circle
-    CustomAlertSound "sound/f1.mp3" 300
+    CustomAlertSound "sound/f1.mp3" 150
 
 
 Show
@@ -663,7 +664,7 @@ Class "Pinnacle Keys"
 SetTextColor 255 207 241
 SetBorderColor 255 207 239
 SetBackgroundColor 18 9 65
-PlayAlertSound 2 200
+CustomAlertSound "sound/f1.mp3" 300
 PlayEffect White
 MinimapIcon 1 Yellow Square
 
@@ -737,7 +738,7 @@ CustomAlertSound "sound/t1.mp3" 150
 
 Show
 Rarity == Rare
-BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt"
+BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt" "Volant Quiver"
 SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -756,7 +757,7 @@ SetBackgroundColor 255 255 255
 SetFontSize 40
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
-PlayAlertSound 2 200
+# PlayAlertSound 2 200
 
 Show 
 Rarity <= Magic
@@ -792,7 +793,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-PlayAlertSound 2 200
+CustomAlertSound "sound/f1.mp3" 300
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
@@ -812,12 +813,12 @@ Show
 BaseType "Expert "
 Rarity Rare
 SetFontSize 35
-PlayAlertSound 2 200
+# PlayAlertSound 2 200
 SetTextColor 94 58 0
 SetBorderColor 0 0 0
 SetBackgroundColor 255 238 210
-#PlayEffect Yellow Temp
-#MinimapIcon 2 Yellow UpsideDownHouse
+# PlayEffect Yellow Temp
+# MinimapIcon 2 Yellow UpsideDownHouse
     
 
 Show
