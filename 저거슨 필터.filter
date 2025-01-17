@@ -10,6 +10,13 @@
 #--------------------------
 
 
+
+
+
+Hide 
+BaseType "Scroll of Wisdom"
+AreaLevel >= 78
+
 Hide
 AreaLevel > 65
 BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
@@ -20,7 +27,7 @@ BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard"
 
 Show
 Rarity Unique
-BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" 
+BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
@@ -31,12 +38,12 @@ SetFontSize 45
 
 Show
 Rarity Normal
-BaseType == "Breach Ring"
+BaseType == "Breach Ring" "Expert Dualstring Bow"
 ItemLevel 82
 SetTextColor 39 105 92
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
-SetFontSize 35
+SetFontSize 40
 MinimapIcon 1 Red Diamond
 PlayEffect Cyan 
 CustomAlertSound "sound/t1.mp3" 150
@@ -56,6 +63,7 @@ CustomAlertSound "sound/t1.mp3" 150
     
 Show
 Rarity Unique
+Class  "Ring"
 BaseType  "Ring"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
@@ -444,7 +452,7 @@ SetFontSize 50
 
 Show
 Class "Currency"
-BaseType  "Exalted Orb" "Chaos Orb" "Simulacrum Splinter"
+BaseType  "Exalted Orb" "Chaos Orb" "Simulacrum Splinter" "Chance Shard"
 SetTextColor 89 0 255
 SetBorderColor 111 0 255
 SetBackgroundColor 255 255 255
@@ -475,7 +483,7 @@ MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Chance Shard" "Adaptive Catalyst" "Esh's Catalyst" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism"  "Tul's Catalyst" 
+BaseType "Arcanist's Etcher" "Armourer's Scrap"  "Adaptive Catalyst" "Esh's Catalyst" "Neural Catalyst" "Essence of Torment" "Omen of Resurgence" "Distilled Envy" "Greater Essence of Haste" "Greater Essence of the Infinite" "Omen of Sinistral Alchemy" "Omen of Sinistral Exaltation" "Orb of Annulment" "Orb of Chance" "Gemcutter's Prism"  "Tul's Catalyst" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -876,3 +884,4 @@ AreaLevel >= 65
 
 Show
 BaseType == "Expert Laced Boots"
+
