@@ -30,7 +30,7 @@ Rarity Unique
 BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
-SetBackgroundColor 240 90 35
+SetBackgroundColor 104 53 35
 CustomAlertSound "sound/u1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Brown Star
@@ -415,6 +415,10 @@ PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
 
+Hide 
+Class "currency"
+BaseType "Lesser Jeweller's Orb"
+AreaLevel > 75
 
 Show
 Class "Currency"
@@ -567,6 +571,11 @@ CustomAlertSound "sound/m1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
+
+# Fragments
+Hide
+BaseType  "Barya" "Ultimatum" 
+
 
 # Fragments
 Show
