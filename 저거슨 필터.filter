@@ -714,7 +714,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/ice.mp3" 150
+CustomAlertSound "sound/ice.mp3" 300
 
 
 Show
@@ -722,7 +722,7 @@ Class "Pinnacle Keys"
 SetTextColor 255 207 241
 SetBorderColor 255 207 239
 SetBackgroundColor 18 9 65
-CustomAlertSound "sound/f1.mp3" 300
+CustomAlertSound "sound/f1.mp3" 200
 PlayEffect White
 MinimapIcon 1 Yellow Square
 
