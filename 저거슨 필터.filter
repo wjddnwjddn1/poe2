@@ -109,6 +109,7 @@ Rarity = Magic
 BaseType = "Cultist Greathammer" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring"  "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe"
 SetTextColor 0 240 190
 SetFontSize 35
+AreaLevel >= 76
 # MinimapIcon 2 Cyan Diamond
 # PlayEffect Cyan Temp
 
@@ -138,6 +139,7 @@ Class  "Foci" "Quarterstaves" "Sceptres"
 BaseType "Expert "
 SetTextColor 0 240 190
 SetFontSize 35
+AreaLevel >= 76
 # MinimapIcon 2 Cyan Diamond
 # PlayEffect Cyan Temp
 
@@ -252,6 +254,7 @@ PlayEffect Orange Temp
 Hide
 StackSize < 500
 BaseType == "Gold"
+AreaLevel >= 76
 SetTextColor 212 175 55 220 #D4AF37
 SetBackgroundColor 0 0 0 180
 
@@ -373,6 +376,7 @@ PlayEffect Cyan
 
 Hide 
 BaseType " Rune" " Charm"
+AreaLevel >= 76
 SetTextColor 0 0 0
 SetBorderColor 0 0 0
 SetBackgroundColor 255 255 255 255
@@ -499,6 +503,7 @@ MinimapIcon 1 White Circle
 Hide
 Class "Currency"
 BaseType "Catalyst" 
+AreaLevel >= 76
 
 Show
 Class "Currency"
@@ -576,7 +581,7 @@ SetFontSize 40
 # Fragments
 Hide
 BaseType  "Barya" "Ultimatum" 
-
+AreaLevel >= 78
 
 # Fragments
 Show
@@ -854,6 +859,7 @@ SetFontSize 40
 Hide
 BaseType "Advanced "
 Rarity Rare
+AreaLevel >= 76
 SetFontSize 25
 # PlayAlertSound 2 200
 # SetTextColor 255 255 255
@@ -886,6 +892,7 @@ SetBackgroundColor 255 174 43
 
 Hide
 Rarity <= Magic
+AreaLevel >= 76
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres"
 
 
