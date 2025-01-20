@@ -121,6 +121,13 @@ SetFontSize 35
 MinimapIcon 2 Cyan Diamond
 PlayEffect Cyan Temp
 
+Hide
+Rarity <= Magic
+Class "Wands" 
+BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering Wand" "Acrid Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand"
+SetTextColor 0 240 190
+AreaLevel >= 76
+
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
