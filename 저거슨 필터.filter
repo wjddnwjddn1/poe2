@@ -113,13 +113,6 @@ AreaLevel >= 76
 # MinimapIcon 2 Cyan Diamond
 # PlayEffect Cyan Temp
 
-Show
-Rarity = Magic
-Class "Wands" 
-SetTextColor 0 240 190
-SetFontSize 35
-MinimapIcon 2 Cyan Diamond
-PlayEffect Cyan Temp
 
 Hide
 Rarity <= Magic
@@ -128,6 +121,13 @@ BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering W
 SetTextColor 0 240 190
 AreaLevel >= 76
 
+Show
+    Rarity = Magic
+    Class "Wands" 
+    SetTextColor 0 240 190
+    SetFontSize 35
+    MinimapIcon 2 Cyan Diamond
+    PlayEffect Cyan Temp
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
