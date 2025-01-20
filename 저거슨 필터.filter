@@ -64,7 +64,7 @@ CustomAlertSound "sound/t1.mp3" 150
 Show
 Rarity Unique
 Class  "Ring"
-BaseType  "Ring"
+BaseType  "반지"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 165 52 11
@@ -74,15 +74,15 @@ MinimapIcon 1 White Circle
 SetFontSize 45
 
 Show # $type->currency->soulcore $tier->t1
-	Class == "Socketable"
-	BaseType == "Soul Core of Azcapa"
-	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	CustomAlertSound "sound/v1.mp3" 150
-	PlayEffect Red
-	MinimapIcon 0 Red Star
+Class == "Socketable"
+BaseType == "Soul Core of Azcapa"
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/v1.mp3" 150
+PlayEffect Red
+MinimapIcon 0 Red Star
 
 Show
 BaseType == "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
@@ -678,15 +678,37 @@ SetBackgroundColor 0 0 0
 
 #기회의 오브
 Show
-    Rarity Normal
-    BaseType "Stellar Amulet"  "Sapphire Ring" "Heavy Belt"
-    SetFontSize 40
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 255 29 97
-    PlayEffect Red
-    MinimapIcon 0 Red Circle
-    CustomAlertSound "sound/f1.mp3" 150
+Rarity Normal
+BaseType "Heavy Belt"
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sound/gganbu.mp3" 150
+#기회의 오브
+Show
+Rarity Normal
+BaseType  "Sapphire Ring" 
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sound/f1.mp3" 150
+#기회의 오브
+Show
+Rarity Normal
+BaseType "Stellar Amulet" 
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sound/ice.mp3" 150
 
 
 Show
@@ -823,7 +845,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/f1.mp3" 300
+CustomAlertSound "sound/dead.mp3" 300
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
