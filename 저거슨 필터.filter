@@ -97,8 +97,15 @@ MinimapIcon 0 Red Star
 
 Hide
 Rarity <= Rare
-Class "Wands" "Quarterstaves" "Shields" "One Hand Maces" 
+Class "Wands" 
 ItemLevel < 81
+AreaLevel >= 76
+
+Hide
+Rarity <= Rare
+Class  "Quarterstaves" "Shields" "One Hand Maces" 
+
+AreaLevel >= 76
 
 Show 
 Rarity == Rare
