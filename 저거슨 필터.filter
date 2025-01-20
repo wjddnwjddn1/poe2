@@ -905,7 +905,7 @@ MinimapIcon 2 Yellow Diamond
 Hide
 Rarity <= Rare
 Class "Two Hand Maces"
-ItemLevel < 81
+AreaLevel >= 76
 
 
 
