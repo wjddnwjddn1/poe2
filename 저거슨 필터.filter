@@ -64,11 +64,11 @@ CustomAlertSound "sound/t1.mp3" 150
 Show
 Rarity Unique
 Class  "Ring"
-BaseType  "반지"
+BaseType  "Ring"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 165 52 11
-CustomAlertSound "sound/u1.mp3" 150
+CustomAlertSound "sound/무궁화.mp3" 150
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 45
@@ -210,18 +210,18 @@ MinimapIcon 0 Red Star
 
 Show
 Class "Currency"
-BaseType   "Perfect Jeweller's Orb" "Distilled Isolation" "An Audience with the King" "Omen of Whittling" "Distilled Suffering"
+BaseType   "Distilled Isolation" "An Audience with the King" "Omen of Whittling" "Distilled Suffering"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/PerfectJeweller.mp3" 150
+CustomAlertSound "sound/우린깐부잖아.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Yellow Pentagon
 
 Show
 Class "Currency"
-BaseType  "Divine"  "Breachstone" "Greater Essence of Haste" "Greater Essence of Torment"
+BaseType  "Divine"  "Breachstone"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -229,6 +229,29 @@ SetBackgroundColor 255 255 255 255
 CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 White Star
+
+Show
+Class "Currency"
+BaseType   "Greater Essence of Torment"
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/못된것들.mp3" 150
+PlayEffect Red
+MinimapIcon 0 White Star
+
+Show
+Class "Currency"
+BaseType   "Greater Essence of Haste" 
+SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sound/다죽어.mp3" 150
+PlayEffect Red
+MinimapIcon 0 White Star
+
 #--------------------------
 # Gold
 #--------------------------
@@ -321,7 +344,7 @@ SetBorderColor 210 240 240
 PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "sound/uncut20.mp3" 150
+CustomAlertSound "sound/죽습니다.mp3" 150
 MinimapIcon 0 Red Raindrop
 
 #--------------------------
@@ -703,7 +726,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/f1.mp3" 150
+CustomAlertSound "sound/그자리.mp3" 150
 #기회의 오브
 Show
 Rarity Normal
@@ -714,7 +737,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/ice.mp3" 300
+CustomAlertSound "sound/ice2.mp3" 300
 
 
 Show
@@ -851,7 +874,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/dead.mp3" 300
+CustomAlertSound "sound/주목.mp3" 200
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
