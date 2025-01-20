@@ -769,18 +769,20 @@ SetBackgroundColor 0 0 0
 # SetFontSize 35
 
 
-
+Hide
+Class "Belts"
+Rarity <= Rare
 #기회의 오브
-Show
+Hide
 Rarity Normal
 BaseType "Heavy Belt"
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 29 108 255
-PlayEffect Red
-MinimapIcon 0 Red Circle
-CustomAlertSound "sound/f1.mp3" 150
+# SetFontSize 40
+# SetTextColor 255 255 255
+# SetBorderColor 255 255 255
+# SetBackgroundColor 29 108 255
+# PlayEffect Red
+# MinimapIcon 0 Red Circle
+# CustomAlertSound "sound/f1.mp3" 150
 #기회의 오브
 Show
 Rarity Normal
