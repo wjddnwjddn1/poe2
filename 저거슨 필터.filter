@@ -97,7 +97,7 @@ MinimapIcon 0 Red Star
 
 Hide
 Rarity <= Rare
-Class "Wands" "Quarterstaves" "Shields"
+Class "Wands" "Quarterstaves" "Shields" "One Hand Maces" 
 ItemLevel < 81
 
 Show 
@@ -895,6 +895,10 @@ SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
 MinimapIcon 2 Yellow Diamond
+Hide
+Rarity <= Rare
+Class "Two Hand Maces"
+ItemLevel < 81
 
 
 
