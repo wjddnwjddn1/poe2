@@ -770,7 +770,7 @@ SetBackgroundColor 0 0 0
 
 
 Hide
-Class "Belts"
+Class "Belts" "Staves"
 Rarity <= Rare
 #기회의 오브
 Hide
