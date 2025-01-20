@@ -13,7 +13,7 @@
 
 
 
-Hide 
+Hide
 BaseType "Scroll of Wisdom"
 AreaLevel >= 78
 
@@ -68,7 +68,7 @@ BaseType  "Ring"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 165 52 11
-CustomAlertSound "sound/무궁화.mp3" 150
+CustomAlertSound "sound/무궁화.mp3" 300
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 45
@@ -215,7 +215,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/우린깐부잖아.mp3" 150
+CustomAlertSound "sound/우린깐부잖아.mp3" 300
 PlayEffect Red
 MinimapIcon 0 Yellow Pentagon
 
@@ -237,7 +237,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/못된것들.mp3" 150
+CustomAlertSound "sound/못된것들.mp3" 300
 PlayEffect Red
 MinimapIcon 0 White Star
 
@@ -248,7 +248,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sound/다죽어.mp3" 150
+CustomAlertSound "sound/다죽어.mp3" 300
 PlayEffect Red
 MinimapIcon 0 White Star
 
@@ -344,7 +344,7 @@ SetBorderColor 210 240 240
 PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "sound/죽습니다.mp3" 150
+CustomAlertSound "sound/죽습니다.mp3" 300
 MinimapIcon 0 Red Raindrop
 
 #--------------------------
@@ -726,7 +726,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/그자리.mp3" 150
+CustomAlertSound "sound/그자리.mp3" 300
 #기회의 오브
 Show
 Rarity Normal
@@ -874,7 +874,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sound/주목.mp3" 200
+CustomAlertSound "sound/주목.mp3" 300
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
