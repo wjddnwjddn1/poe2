@@ -130,6 +130,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
+CustomAlertSound "sound/ice.mp3" 300
     
 Hide
 Rarity = Magic
@@ -686,7 +687,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/gganbu.mp3" 150
+CustomAlertSound "sound/f1.mp3" 150
 #기회의 오브
 Show
 Rarity Normal
