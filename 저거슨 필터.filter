@@ -11,10 +11,11 @@
 
 
 
-
+Hide
+BaseType "Cultist Bow" "Crossbow"
 
 Hide
-BaseType "Scroll of Wisdom"
+BaseType "Scroll of Wisdom" 
 AreaLevel >= 78
 
 Hide
@@ -94,6 +95,11 @@ CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
+Hide
+Rarity <= Rare
+Class "Wands"
+ItemLevel < 81
+
 Show 
 Rarity == Rare
 Class "Wands" "Staves" "Foci" "Quarterstaves" "Sceptres"
@@ -122,12 +128,13 @@ SetTextColor 0 240 190
 AreaLevel >= 76
 
 Show
-    Rarity = Magic
-    Class "Wands" 
-    SetTextColor 0 240 190
-    SetFontSize 35
-    MinimapIcon 2 Cyan Diamond
-    PlayEffect Cyan Temp
+Rarity = Magic
+Class "Wands" 
+SetTextColor 0 240 190
+SetFontSize 35
+MinimapIcon 2 Cyan Diamond
+PlayEffect Cyan Temp
+
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
@@ -140,6 +147,8 @@ PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sound/ice.mp3" 300
     
+
+
 Hide
 Rarity = Magic
 Class  "Foci" "Quarterstaves" "Sceptres"
@@ -282,7 +291,7 @@ SetBackgroundColor 16 16 16 240 #000000
 PlayEffect Orange Temp
 
 Hide
-StackSize < 500
+StackSize < 1000
 BaseType == "Gold"
 AreaLevel >= 76
 SetTextColor 212 175 55 220 #D4AF37
@@ -309,6 +318,11 @@ SetFontSize 30
 MinimapIcon 1 Blue Triangle
 
 
+
+Hide
+BaseType "Uncut "
+ItemLevel <= 18
+AreaLevel >= 79
 
 Show
 BaseType "Uncut "
@@ -718,8 +732,9 @@ SetFontSize 60
 Show
 BaseType "Waystone"
 # WaystoneTier < 15
-WaystoneTier >= 14
+WaystoneTier = 14
 Rarity <= Rare
+AreaLevel <= 78
 SetTextColor 0 128 0
 SetBorderColor 107 236 98
 SetBackgroundColor 255 255 255 255
@@ -730,7 +745,7 @@ SetFontSize 60
 
 Hide
 BaseType "Waystone"
-WaystoneTier < 14   
+WaystoneTier <= 14   
 AreaLevel >= 78
 # WaystoneTier > 5   
 Rarity <= Rare
