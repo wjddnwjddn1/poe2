@@ -12,7 +12,7 @@
 
 
 Hide
-BaseType "Cultist Bow" "Crossbow"
+BaseType "Cultist Bow" "Crossbow" 
 
 Hide
 BaseType "Scroll of Wisdom" 
@@ -97,7 +97,7 @@ MinimapIcon 0 Red Star
 
 Hide
 Rarity <= Rare
-Class "Wands"
+Class "Wands" "Quarterstaves" "Shields"
 ItemLevel < 81
 
 Show 
@@ -420,13 +420,13 @@ PlayEffect Cyan Temp
 MinimapIcon 2 Cyan Triangle
 
 # Special B Tier - Any Runes and Charms
-Show 
-BaseType "Iron Rune"
-SetTextColor 133 0 0
-SetBorderColor 146 3 3
-SetBackgroundColor 255 255 255 255
-MinimapIcon 1 Red Triangle
-PlayEffect Cyan
+# Show 
+# BaseType "Iron Rune"
+# SetTextColor 133 0 0
+# SetBorderColor 146 3 3
+# SetBackgroundColor 255 255 255 255
+# MinimapIcon 1 Red Triangle
+# PlayEffect Cyan
 
 Hide 
 BaseType " Rune" " Charm"
