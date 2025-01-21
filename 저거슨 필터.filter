@@ -470,16 +470,16 @@ MinimapIcon 0 Red Triangle
 SetFontSize 40
 
 
-Show
-Class "Currency"
-BaseType "Orb of Alchemy" 
-SetTextColor 68 52 1
-SetBorderColor 255 212 20
-SetBackgroundColor 255 232 29
-CustomAlertSound "sound/a1.mp3" 150
-PlayEffect White
-MinimapIcon 1 White Circle
-SetFontSize 40
+# Show
+# Class "Currency"
+# BaseType "Orb of Alchemy" 
+# SetTextColor 68 52 1
+# SetBorderColor 255 212 20
+# SetBackgroundColor 255 232 29
+# CustomAlertSound "sound/a1.mp3" 150
+# PlayEffect White
+# MinimapIcon 1 White Circle
+# SetFontSize 40
 
 Hide 
 Class "currency"
@@ -488,7 +488,7 @@ AreaLevel > 75
 
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb"
+BaseType  "Orb of Alchemy"  "Vaal Orb" "Exotic"  "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -524,9 +524,9 @@ SetFontSize 50
 Show
 Class "Currency"
 BaseType   "Simulacrum Splinter"
-SetTextColor  234 0 255
-SetBorderColor 234 0 255
-SetBackgroundColor 255 255 255
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 27 31 255
 CustomAlertSound "sound/e1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Purple Cross
@@ -576,7 +576,7 @@ PlayEffect White
 MinimapIcon 1 Purple Circle
 Show
 Class "Currency"
-BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electricity" "Orb of Alchemy" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Exotic Coinage" "Chaos Orb" "Omen of Greater Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Exaltation" "Omen of Dextral Coronation" "Omen of Sinistral Coronation"  " Artifact" 
+BaseType "Distilled" "Omen of Refreshment" "Essence of Ruin"  "Essence of Electricity""Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Exotic Coinage" "Chaos Orb" "Omen of Greater Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Exaltation" "Omen of Dextral Coronation" "Omen of Sinistral Coronation"  " Artifact" 
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
@@ -705,7 +705,7 @@ WaystoneTier = 16
 Rarity <= Rare
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 10 34 255
+SetBackgroundColor 255 10 10
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
@@ -718,7 +718,7 @@ Rarity <= Rare
 AnyEnchantment True
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 10 34 255 205
+SetBackgroundColor 255 10 10 205
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 0 Red Square
@@ -730,7 +730,7 @@ WaystoneTier = 15
 Rarity <= Rare
 SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 10 34 255
+SetBackgroundColor 255 10 10
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
@@ -973,14 +973,14 @@ SetFontSize 25
 
 
 
-Show
-BaseType "Expert "
-Rarity Rare
-SetFontSize 35
+# Show
+# BaseType "Expert "
+# Rarity Rare
+# SetFontSize 35
 # PlayAlertSound 2 200
-SetTextColor 94 58 0
-SetBorderColor 0 0 0
-SetBackgroundColor 255 238 210
+# SetTextColor 94 58 0
+# SetBorderColor 0 0 0
+# SetBackgroundColor 255 238 210
 # PlayEffect Yellow Temp
 # MinimapIcon 2 Yellow UpsideDownHouse
     
@@ -989,9 +989,10 @@ Show
 Rarity Rare
 SetFontSize 35
 PlayAlertSound 2 200
-SetTextColor 94 58 0
+SetTextColor 251 255 0
 SetBorderColor 0 0 0
-SetBackgroundColor 255 174 43
+SetBackgroundColor 0 0 0
+# SetBackgroundColor 255 174 43
 
 
 
