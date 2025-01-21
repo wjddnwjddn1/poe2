@@ -156,11 +156,11 @@ CustomAlertSound "sound/Divine.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-Hide
-Rarity <= Rare
-Class "Wands" 
-ItemLevel < 81
-AreaLevel >= 76
+# Hide
+# Rarity <= Rare
+# Class "Wands" 
+# ItemLevel < 81
+# AreaLevel >= 76
 
 Hide
 Rarity <= Rare
@@ -189,7 +189,7 @@ AreaLevel >= 76
 
 
 Hide
-Rarity <= Magic
+Rarity <= Rare
 Class "Wands" 
 BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering Wand" "Acrid Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand"
 SetTextColor 0 240 190
