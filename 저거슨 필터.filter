@@ -910,7 +910,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
-MinimapIcon 2 Yellow Diamond
+MinimapIcon 1 Yellow Diamond
 #80이상 강조
 Show
 Rarity == Rare
@@ -921,7 +921,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
-MinimapIcon 2 Yellow Diamond
+MinimapIcon 1 Yellow Diamond
 
 #79이상 강조
 Show
@@ -933,7 +933,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
-MinimapIcon 2 Yellow Diamond
+MinimapIcon 1 Yellow Diamond
 
 #78이상 강조
 Show
@@ -945,7 +945,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
-MinimapIcon 2 Yellow Diamond
+MinimapIcon 1 Yellow Diamond
 
 
 
