@@ -9,12 +9,6 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 
-
-Show
-Rarity Normal
-BaseType  "Rattling Sceptre" "Omen Sceptre"
-ItemLevel >= 79
-
 Hide
 BaseType "Cultist Bow" "Crossbow"
 
@@ -971,6 +965,29 @@ BaseType = "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Great
 ItemLevel >= 79
 SetFontSize 35
 SetTextColor 252 255 49
+SetBorderColor 255 255 255
+SetBackgroundColor 255 153 0
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
+#79이상 강조
+Show
+Rarity == Magic
+BaseType =  "Rattling Sceptre" "Omen Sceptre" 
+ItemLevel >= 79
+SetFontSize 35
+SetTextColor 82 151 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 153 0
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
+#79이상 강조
+
+Show
+Rarity == Normal
+BaseType =  "Rattling Sceptre" "Omen Sceptre" 
+ItemLevel >= 79
+SetFontSize 35
+SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 255 153 0
 PlayEffect White
