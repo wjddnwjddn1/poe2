@@ -673,9 +673,9 @@ MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
 
 # Fragments
-Hide
-BaseType  "Barya" "Ultimatum" 
-AreaLevel >= 78
+# Hide
+#BaseType  "Barya" "Ultimatum" 
+#AreaLevel >= 78
 
 # Fragments
 Show
@@ -753,7 +753,7 @@ SetFontSize 60
 Hide
 BaseType "Waystone"
 WaystoneTier <= 14   
-AreaLevel >= 78
+AreaLevel > 78
 # WaystoneTier > 5   
 Rarity <= Rare
 SetTextColor 255 255 21
@@ -779,10 +779,12 @@ SetBackgroundColor 0 0 0
 Hide
 Class "Belts" "Staves"
 Rarity <= Rare
+AreaLevel >= 76
 #기회의 오브
 Hide
 Rarity Normal
 BaseType "Heavy Belt"
+AreaLevel >= 76
 # SetFontSize 40
 # SetTextColor 255 255 255
 # SetBorderColor 255 255 255
