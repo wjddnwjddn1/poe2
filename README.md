@@ -7,6 +7,23 @@
 저장한다.
 
 혹시라도 온라인 필터에 넣으면 안됨
+
+sound 폴더에 있는 mp3 파일을 바꾸시면 원하는 소리가 나오는 필터로 쓰실 수 있습니다.
+
+
+
+싼 아이템 많이 숨겨놨습니다. 쌩뉴비분은 안쓰시는게 좋을수도있어요
+![4](https://github.com/user-attachments/assets/d59a8055-2e8b-4286-b4a3-c64293971a6f)
+
+
+
+감전 파열 탄환 석궁 데드아이 빌드
+https://www.snomet.kr/sample/gx/21
+
+
+
+
+
 숨김 목록 : 
 "Cultist Bow" 
 "Crossbow" 
@@ -32,15 +49,3 @@
 매직이하 "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" 지역레벨 76이상
 매직이하 "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" 지역레벨 65이상
 
-
-sound 폴더에 있는 mp3 파일을 바꾸시면 원하는 소리가 나오는 필터로 쓰실 수 있습니다.
-
-
-
-싼 아이템 많이 숨겨놨습니다. 쌩뉴비분은 안쓰시는게 좋을수도있어요
-![4](https://github.com/user-attachments/assets/d59a8055-2e8b-4286-b4a3-c64293971a6f)
-
-
-
-감전 파열 탄환 석궁 데드아이 빌드
-https://www.snomet.kr/sample/gx/21
