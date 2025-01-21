@@ -10,6 +10,10 @@
 #--------------------------
 
 
+Show
+Rarity Normal
+BaseType  "Rattling Sceptre" "Omen Sceptre"
+ItemLevel >= 79
 
 Hide
 BaseType "Cultist Bow" "Crossbow"
@@ -39,8 +43,8 @@ SetFontSize 45
 
 Show
 Rarity Normal
-BaseType == "Breach Ring" "Expert Dualstring Bow"
-ItemLevel 82
+BaseType == "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow"
+ItemLevel >= 81
 SetTextColor 74 255 219
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
@@ -142,10 +146,11 @@ SetFontSize 35
 MinimapIcon 2 Cyan Diamond
 PlayEffect Cyan Temp
 
+#조율 착취
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
-ItemLevel >= 81
+ItemLevel >= 79
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -885,7 +890,7 @@ AreaLevel >= 76
 Show
 Rarity Normal
 BaseType == "Breach Ring"
-ItemLevel 82
+ItemLevel >= 81
 SetTextColor 108 253 224
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
@@ -895,15 +900,55 @@ PlayEffect Cyan
 CustomAlertSound "sound/t1.mp3" 150
 
 
+#81이상 강조
 Show
 Rarity == Rare
-BaseType = "Cultist Greathammer" "Breach Ring" "Expert Dualstring Bow" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Hexer's Robe" "Heavy Belt" "Volant Quiver"
+BaseType = "Expert Dualstring Bow" "Advanced Dualstring Bow" "Primed Quiver" "Volant Quiver"
+ItemLevel >= 81
 SetFontSize 35
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
 MinimapIcon 2 Yellow Diamond
+#80이상 강조
+Show
+Rarity == Rare
+BaseType = "Breach Ring" 
+ItemLevel >= 80
+SetFontSize 35
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Diamond
+
+#79이상 강조
+Show
+Rarity == Rare
+BaseType = "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
+ItemLevel >= 79
+SetFontSize 35
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Diamond
+
+#78이상 강조
+Show
+Rarity == Rare
+BaseType = "Expert Feathered Sandals"
+ItemLevel >= 78
+SetFontSize 35
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 183 0 55 255
+PlayEffect White
+MinimapIcon 2 Yellow Diamond
+
+
+
 Hide
 Rarity <= Rare
 Class "Two Hand Maces"
