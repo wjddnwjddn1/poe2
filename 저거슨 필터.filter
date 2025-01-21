@@ -12,7 +12,7 @@
 
 
 Hide
-BaseType "Cultist Bow" "Crossbow" 
+BaseType "Cultist Bow" "Crossbow"
 
 Hide
 BaseType "Scroll of Wisdom" 
@@ -41,7 +41,7 @@ Show
 Rarity Normal
 BaseType == "Breach Ring" "Expert Dualstring Bow"
 ItemLevel 82
-SetTextColor 39 105 92
+SetTextColor 74 255 219
 SetBorderColor 0 240 190
 SetBackgroundColor 255 255 255
 SetFontSize 40
