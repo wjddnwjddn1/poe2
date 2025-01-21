@@ -41,29 +41,82 @@ PlayEffect White
 MinimapIcon 0 Brown Star
 SetFontSize 45
 
+#조율 착취
+Show
+Rarity = Normal
+BaseType "Siphoning Wand"  "Attuned Wand"
+ItemLevel >= 79
+SetFontSize 40
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sound/ice.mp3" 250
+
+#조율 착취
+Show
+Rarity = Magic
+BaseType "Siphoning Wand"  "Attuned Wand"
+ItemLevel >= 79
+SetFontSize 40
+SetTextColor  82 151 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 29 97
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sound/ice.mp3" 250
+
+
 Show
 Rarity Normal
-BaseType == "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow"
+BaseType == "Breach Ring"
 ItemLevel >= 81
-SetTextColor 74 255 219
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor  0 240 190
 SetFontSize 40
 MinimapIcon 1 Red Diamond
 PlayEffect Cyan 
 CustomAlertSound "sound/t1.mp3" 150
 
+#80이상 레어 균열반지 강조
+Show
+Rarity == Rare
+BaseType = "Breach Ring"  
+ItemLevel >= 81
+SetFontSize 35
+SetTextColor 252 255 49
+SetBorderColor 255 255 255
+SetBackgroundColor  0 240 190
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
+
+#80이상 매직 균열반지 강조
+Show
+Rarity == Magic
+BaseType = "Breach Ring" 
+ItemLevel >= 81
+SetFontSize 35
+SetTextColor 82 151 255
+SetBorderColor 255 255 255
+SetBackgroundColor  0 240 190
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
+
 Show
 Rarity Normal
-BaseType == "Breach Ring"
-ItemLevel 81
-SetTextColor 17 109 90
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 35
-MinimapIcon 1 Orange Diamond
+BaseType ==  "Expert Dualstring Bow" "Advanced Dualstring Bow"
+ItemLevel >= 80
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 68 68
+SetFontSize 40
+MinimapIcon 1 Red Diamond
 PlayEffect Cyan 
 CustomAlertSound "sound/t1.mp3" 150
+
+
 
     
 Show
@@ -113,7 +166,7 @@ AreaLevel >= 76
 
 Show 
 Rarity == Rare
-Class "Wands" "Staves" "Foci" "Quarterstaves" "Sceptres"
+Class  "Staves" "Foci" "Quarterstaves" "Sceptres"
 BaseType "Expert "
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
@@ -138,27 +191,15 @@ BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering W
 SetTextColor 0 240 190
 AreaLevel >= 76
 
-Show
-Rarity = Magic
-Class "Wands" 
-SetTextColor 0 240 190
-SetFontSize 35
-MinimapIcon 2 Cyan Diamond
-PlayEffect Cyan Temp
+# Show
+# Rarity = Magic
+# Class "Wands" 
+# SetTextColor 0 240 190
+# SetFontSize 35
+# MinimapIcon 2 Cyan Diamond
+# PlayEffect Cyan Temp
 
-#조율 착취
-Show
-Rarity = Normal
-BaseType "Siphoning Wand"  "Attuned Wand"
-ItemLevel >= 79
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 255 29 97
-PlayEffect Red
-MinimapIcon 0 Red Circle
-CustomAlertSound "sound/ice.mp3" 250
-    
+
 
 
 Hide
@@ -887,37 +928,27 @@ AreaLevel >= 76
 # Rarity Magic
 # SetBorderColor 0 0 200
 # SetFontSize 35
-Show
-Rarity Normal
-BaseType == "Breach Ring"
-ItemLevel >= 81
-SetTextColor 108 253 224
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 40
-MinimapIcon 0 Red Diamond
-PlayEffect Cyan 
-CustomAlertSound "sound/t1.mp3" 150
 
 
-#81이상 강조
+#81이상 매직 강조
 Show
-Rarity == Rare
+Rarity = Magic
 BaseType = "Expert Dualstring Bow" "Advanced Dualstring Bow" 
-ItemLevel >= 81
+ItemLevel >= 80
 SetFontSize 35
-SetTextColor 255 255 255
+SetTextColor 82 151 255
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
+
 #80이상 강조
 Show
 Rarity == Rare
-BaseType = "Breach Ring" 
+BaseType =  "Expert Dualstring Bow" "Advanced Dualstring Bow" 
 ItemLevel >= 80
 SetFontSize 35
-SetTextColor 255 255 255
+SetTextColor 252 255 49
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
@@ -929,7 +960,7 @@ Rarity == Rare
 BaseType = "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
 ItemLevel >= 79
 SetFontSize 35
-SetTextColor 255 255 255
+SetTextColor 252 255 49
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
@@ -941,7 +972,7 @@ Rarity == Rare
 BaseType = "Expert Feathered Sandals"
 ItemLevel >= 78
 SetFontSize 35
-SetTextColor 255 255 255
+SetTextColor 252 255 49
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
@@ -953,7 +984,7 @@ Rarity == Rare
 BaseType = "Primed Quiver" "Volant Quiver"
 ItemLevel >= 81
 SetFontSize 35
-SetTextColor 255 255 255
+SetTextColor 252 255 49
 SetBorderColor 255 255 255
 SetBackgroundColor 183 0 55 255
 PlayEffect White
@@ -965,37 +996,6 @@ Class "Two Hand Maces"
 AreaLevel >= 76
 
 
-
-Show 
-Rarity Rare
-BaseType == "Breach Ring" 
-SetTextColor 28 95 82
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 40
-MinimapIcon 1 Cyan Diamond
-PlayEffect Cyan
-# PlayAlertSound 2 200
-
-Show 
-Rarity <= Magic
-BaseType == "Breach Ring"
-SetTextColor 36 107 93
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 35
-MinimapIcon 2 Cyan Diamond
-PlayEffect Cyan Temp
-Show 
-
-Rarity Normal
-BaseType == "Breach Ring" 
-SetTextColor 36 107 93
-SetBorderColor 0 240 190
-SetBackgroundColor 255 255 255
-SetFontSize 35
-MinimapIcon 2 Cyan Diamond
-PlayEffect Cyan Temp
 
 
 #--------------------------
