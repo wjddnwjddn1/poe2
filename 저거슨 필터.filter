@@ -673,9 +673,9 @@ MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
 
 # Fragments
-# Hide
-#BaseType  "Barya" "Ultimatum" 
-#AreaLevel >= 78
+Hide
+BaseType  "Barya" "Ultimatum" 
+AreaLevel >= 78
 
 # Fragments
 Show
