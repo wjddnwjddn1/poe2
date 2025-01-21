@@ -152,7 +152,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 29 97
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/ice.mp3" 300
+CustomAlertSound "sound/ice.mp3" 250
     
 
 
@@ -404,7 +404,7 @@ Rarity Normal
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
 SetFontSize 40
-MinimapIcon 2 Cyan Triangle
+MinimapIcon 0 Cyan Triangle
 PlayEffect Cyan
 # Special A Tier - Rare Jewels
 Show
@@ -413,7 +413,7 @@ Rarity Rare
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
 SetFontSize 40
-MinimapIcon 2 Cyan Triangle
+MinimapIcon 0 Cyan Triangle
 PlayEffect Cyan
 
 # Special B Tier - Any Jewels
@@ -424,7 +424,7 @@ SetTextColor 0 240 190
 SetBorderColor 0 240 190
 SetFontSize 40
 PlayEffect Cyan Temp
-MinimapIcon 2 Cyan Triangle
+MinimapIcon 0 Cyan Triangle
 
 # Special B Tier - Any Runes and Charms
 # Show 
@@ -703,9 +703,9 @@ Show
 BaseType "Waystone"
 WaystoneTier = 16
 Rarity <= Rare
-SetTextColor 255 0 0
+SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 255 255 255 255
+SetBackgroundColor 10 34 255
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
@@ -716,9 +716,9 @@ BaseType "Waystone"
 WaystoneTier = 15
 Rarity <= Rare
 AnyEnchantment True
-SetTextColor 255 138 138
+SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 255 255 255 255
+SetBackgroundColor 10 34 255 205
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 0 Red Square
@@ -728,9 +728,9 @@ Show
 BaseType "Waystone"
 WaystoneTier = 15
 Rarity <= Rare
-SetTextColor 255 0 0
+SetTextColor 255 255 255
 SetBorderColor 200 200 200
-SetBackgroundColor 255 255 255 255
+SetBackgroundColor 10 34 255
 CustomAlertSound "sound/q1.mp3" 200
 PlayEffect Red
 MinimapIcon 1 Red Square
@@ -811,7 +811,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 29 108 255
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "sound/ice2.mp3" 300
+CustomAlertSound "sound/ice2.mp3" 250
 
 
 Show
