@@ -950,7 +950,7 @@ MinimapIcon 1 Yellow Diamond
 #77이상 강조
 Show
 Rarity == Rare
-BaseType ="Primed Quiver" "Volant Quiver"
+BaseType = "Primed Quiver" "Volant Quiver"
 ItemLevel >= 81
 SetFontSize 35
 SetTextColor 255 255 255
