@@ -974,7 +974,7 @@ MinimapIcon 1 Yellow Diamond
 #79이상 강조
 Show
 Rarity == Magic
-BaseType =  "Rattling Sceptre" "Omen Sceptre" 
+BaseType =  "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
 ItemLevel >= 79
 SetFontSize 40
 SetTextColor 82 151 255
@@ -986,7 +986,7 @@ MinimapIcon 1 Yellow Diamond
 
 Show
 Rarity == Normal
-BaseType =  "Rattling Sceptre" "Omen Sceptre" 
+BaseType =  "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
 ItemLevel >= 79
 SetFontSize 40
 SetTextColor 94 58 0
@@ -1007,6 +1007,28 @@ SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
+#77이상 강조
+Show
+Rarity == Normal
+BaseType = "Primed Quiver" "Volant Quiver"
+ItemLevel >= 81
+SetFontSize 40
+SetTextColor  94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
+#77이상 강조
+Show
+Rarity == Magic
+BaseType = "Primed Quiver" "Volant Quiver"
+ItemLevel >= 81
+SetFontSize 40
+SetTextColor 82 151 255
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect White
+MinimapIcon 1 Yellow Diamond
 #77이상 강조
 Show
 Rarity == Rare
