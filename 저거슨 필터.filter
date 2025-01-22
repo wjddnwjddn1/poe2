@@ -42,7 +42,7 @@ BaseType  "Sapphire Ring"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetBackgroundColor 29 108 255
+SetBackgroundColor 255 155 0
 PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sound/그자리.mp3" 300
@@ -53,7 +53,7 @@ BaseType "Stellar Amulet"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetBackgroundColor 29 108 255
+SetBackgroundColor 255 155 0
 PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sound/ice2.mp3" 250
@@ -64,9 +64,9 @@ Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
 ItemLevel >= 81
 SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sound/ice.mp3" 250
@@ -76,9 +76,9 @@ Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
 ItemLevel >= 79
 SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect Red
 MinimapIcon 0 Red Circle
 
@@ -88,9 +88,9 @@ Rarity = Magic
 BaseType "Siphoning Wand"  "Attuned Wand"
 ItemLevel >= 79
 SetFontSize 40
-SetTextColor 0 110 255
-SetBorderColor 0 110 255
-SetBackgroundColor 230 143 14
+SetTextColor 56 11 255
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect Red
 MinimapIcon 0 Red Circle
 
@@ -99,9 +99,9 @@ Show
 Rarity Normal
 BaseType == "Breach Ring"
 ItemLevel >= 81
-SetTextColor 255 255 255
-SetBorderColor  0 240 190
-SetBackgroundColor 230 143 14
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 SetFontSize 40
 MinimapIcon 1 Red Diamond
 PlayEffect Cyan 
@@ -112,10 +112,10 @@ Show
 Rarity == Rare
 BaseType = "Breach Ring"  
 ItemLevel >= 81
-SetFontSize 35
+SetFontSize 40
 SetTextColor 253 249 0
-SetBorderColor 0 240 190
-SetBackgroundColor 230 143 14
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -124,10 +124,10 @@ Show
 Rarity == Magic
 BaseType = "Breach Ring" 
 ItemLevel >= 81
-SetFontSize 35
+SetFontSize 40
 SetTextColor 0 110 255
-SetBorderColor 0 240 190
-SetBackgroundColor 230 143 14
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -135,9 +135,9 @@ Show
 Rarity Normal
 BaseType ==  "Expert Dualstring Bow" "Advanced Dualstring Bow"
 ItemLevel >= 80
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 SetFontSize 40
 MinimapIcon 1 Red Diamond
 PlayEffect Cyan 
@@ -941,10 +941,10 @@ Show
 Rarity = Magic
 BaseType = "Expert Dualstring Bow" "Advanced Dualstring Bow" 
 ItemLevel >= 80
-SetFontSize 35
+SetFontSize 40
 SetTextColor 82 151 255
 SetBorderColor 255 255 255
-SetBackgroundColor  255 153 0
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -953,10 +953,10 @@ Show
 Rarity == Rare
 BaseType =  "Expert Dualstring Bow" "Advanced Dualstring Bow" 
 ItemLevel >= 80
-SetFontSize 35
-SetTextColor 252 255 71
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetFontSize 40
+SetTextColor 230 28 28
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -965,10 +965,10 @@ Show
 Rarity == Rare
 BaseType = "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
 ItemLevel >= 79
-SetFontSize 35
-SetTextColor 252 255 71
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetFontSize 40
+SetTextColor 230 28 28
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 #79이상 강조
@@ -976,10 +976,10 @@ Show
 Rarity == Magic
 BaseType =  "Rattling Sceptre" "Omen Sceptre" 
 ItemLevel >= 79
-SetFontSize 35
+SetFontSize 40
 SetTextColor 82 151 255
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 #79이상 강조
@@ -988,10 +988,10 @@ Show
 Rarity == Normal
 BaseType =  "Rattling Sceptre" "Omen Sceptre" 
 ItemLevel >= 79
-SetFontSize 35
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetFontSize 40
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -1000,10 +1000,10 @@ Show
 Rarity == Rare
 BaseType = "Expert Feathered Sandals"
 ItemLevel >= 78
-SetFontSize 35
-SetTextColor 252 255 71
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetFontSize 40
+SetTextColor 230 28 28
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -1012,10 +1012,10 @@ Show
 Rarity == Rare
 BaseType = "Primed Quiver" "Volant Quiver"
 ItemLevel >= 81
-SetFontSize 35
-SetTextColor 252 255 71
-SetBorderColor 255 255 255
-SetBackgroundColor 230 143 14
+SetFontSize 40
+SetTextColor 230 28 28
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -1056,7 +1056,7 @@ SetFontSize 25
 # SetFontSize 35
 # PlayAlertSound 2 200
 # SetTextColor 94 58 0
-# SetBorderColor 0 0 0
+# SetBorderColor 77 48 2 192
 # SetBackgroundColor 255 238 210
 # PlayEffect Yellow Temp
 # MinimapIcon 2 Yellow UpsideDownHouse
