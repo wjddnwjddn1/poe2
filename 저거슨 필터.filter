@@ -201,14 +201,7 @@ SetFontSize 35
 MinimapIcon 1 Cyan Diamond
 PlayEffect Cyan
 
-Hide 
-Rarity = Magic
-BaseType = "Cultist Greathammer" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring"  "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Hexer's Robe"
-SetTextColor 0 240 190
-SetFontSize 35
-AreaLevel >= 76
-# MinimapIcon 2 Cyan Diamond
-# PlayEffect Cyan Temp
+
 
 
 Hide
@@ -1007,10 +1000,10 @@ SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
-#77이상 강조
+#81이상 강조
 Show
 Rarity == Normal
-BaseType = "Primed Quiver" "Volant Quiver"
+BaseType = "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
 ItemLevel >= 81
 SetFontSize 40
 SetTextColor  94 58 0
@@ -1018,10 +1011,10 @@ SetBorderColor 77 48 2 192
 SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
-#77이상 강조
+#81이상 강조
 Show
 Rarity == Magic
-BaseType = "Primed Quiver" "Volant Quiver"
+BaseType = "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
 ItemLevel >= 81
 SetFontSize 40
 SetTextColor 82 151 255
@@ -1029,10 +1022,10 @@ SetBorderColor 77 48 2 192
 SetBackgroundColor 255 238 210
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
-#77이상 강조
+#81이상 강조
 Show
 Rarity == Rare
-BaseType = "Primed Quiver" "Volant Quiver"
+BaseType = "Primed Quiver" "Volant Quiver" "Expert Plumed Focus" "Expert Wrapped Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
 ItemLevel >= 81
 SetFontSize 40
 SetTextColor 230 28 28
@@ -1142,3 +1135,11 @@ AreaLevel >= 65
 Show
 BaseType == "Expert Laced Boots"
 
+Hide 
+Rarity = Magic
+BaseType = "Cultist Greathammer" "Expert Bombard Crossbow" "Primed Quiver" "Rattling Sceptre" "Omen Sceptre" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Pearl Ring" "Prismatic Ring" "Amethyst Ring" "Ruby Ring"  "Topaz Ring" "Amber Amulet" "Lapis Amulet" "Utility Belt" "Lazuli Ring" "Solar Amulet" "Azure Amulet" "Penetrating Quiver" "Siphoning Wand" "Expert Forlorn Crossbow" "Expert Dyad Crossbow" "Expert Zealot Bow" "Expert Warden Bow" "Expert Hexer's Robe"
+SetTextColor 0 240 190
+SetFontSize 35
+AreaLevel >= 76
+# MinimapIcon 2 Cyan Diamond
+# PlayEffect Cyan Temp
