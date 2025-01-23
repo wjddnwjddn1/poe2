@@ -74,7 +74,7 @@ CustomAlertSound "sound/ice.mp3" 250
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand"
-ItemLevel >= 79
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 94 58 0
 SetBorderColor 77 48 2 192
@@ -86,7 +86,7 @@ MinimapIcon 0 Red Circle
 Show
 Rarity = Magic
 BaseType "Siphoning Wand"  "Attuned Wand"
-ItemLevel >= 79
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 56 11 255
 SetBorderColor 77 48 2 192
@@ -134,7 +134,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity Normal
 BaseType ==  "Expert Dualstring Bow" "Advanced Dualstring Bow"
-ItemLevel >= 80
+ItemLevel >= 81
 SetTextColor 94 58 0
 SetBorderColor 77 48 2 192
 SetBackgroundColor 255 238 210
@@ -601,8 +601,8 @@ SetFontSize 50
 Show
 Class "Currency"
 BaseType   "Chaos Orb" 
-SetTextColor 0 162 255
-SetBorderColor 0 162 255
+SetTextColor 76 0 255
+SetBorderColor 76 0 255
 SetBackgroundColor 255 255 255
 CustomAlertSound "sound/e1.mp3" 150
 PlayEffect White
@@ -933,7 +933,7 @@ AreaLevel >= 76
 Show
 Rarity = Magic
 BaseType = "Expert Dualstring Bow" "Advanced Dualstring Bow" 
-ItemLevel >= 80
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 82 151 255
 SetBorderColor 255 255 255
@@ -945,7 +945,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity == Rare
 BaseType =  "Expert Dualstring Bow" "Advanced Dualstring Bow" 
-ItemLevel >= 80
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 206 28 230
 SetBorderColor 77 48 2 192
@@ -957,7 +957,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity == Rare
 BaseType = "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
-ItemLevel >= 79
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 206 28 230
 SetBorderColor 77 48 2 192
@@ -968,7 +968,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity == Magic
 BaseType =  "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
-ItemLevel >= 79
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 82 151 255
 SetBorderColor 77 48 2 192
@@ -980,7 +980,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity == Normal
 BaseType =  "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" 
-ItemLevel >= 79
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 94 58 0
 SetBorderColor 77 48 2 192
@@ -992,7 +992,7 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity == Rare
 BaseType = "Expert Feathered Sandals"
-ItemLevel >= 78
+ItemLevel >= 81
 SetFontSize 40
 SetTextColor 206 28 230
 SetBorderColor 77 48 2 192
@@ -1017,7 +1017,7 @@ Rarity == Magic
 BaseType = "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
 ItemLevel >= 81
 SetFontSize 40
-SetTextColor 82 151 255
+SetTextColor 17 53 255
 SetBorderColor 77 48 2 192
 SetBackgroundColor 255 238 210
 PlayEffect White
