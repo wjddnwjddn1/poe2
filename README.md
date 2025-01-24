@@ -10,6 +10,15 @@
 
 저장한다.
 
+
+
+
+![fafaf](https://github.com/user-attachments/assets/29f1c65f-8641-4378-85a7-a20856d87f78)
+
+
+
+
+
 혹시라도 온라인 필터에 넣으면 안됨
 
 sound 폴더에 있는 mp3 파일을 바꾸시면 원하는 소리가 나오는 필터로 쓰실 수 있습니다.
