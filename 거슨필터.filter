@@ -186,7 +186,7 @@ Rarity == Rare
 BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow"
 ItemLevel >= 81
 SetFontSize 40
-SetTextColor 253 249 0
+SetTextColor 253 101 0
 SetBorderColor 77 48 2 
 SetBackgroundColor 255 238 210
 PlayEffect White
