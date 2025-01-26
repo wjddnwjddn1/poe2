@@ -73,10 +73,10 @@ Class "Belts" "Staves"
 Rarity <= Rare
 AreaLevel >= 76
 #무거운 허리띠 기회의 오브
-Hide
-Rarity Normal
-BaseType "Heavy Belt"
-AreaLevel >= 76
+# Hide
+# Rarity Normal
+# BaseType "Heavy Belt"
+# AreaLevel >= 76
 
 
 
