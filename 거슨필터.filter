@@ -441,7 +441,7 @@ Show
 Class "Currency"
 BaseType    "Distilled Fear"
 SetFontSize 45
-SetTextColor 255 255 255
+SetTextColor 199 13 13
 SetBorderColor 252 255 180
 SetBackgroundColor 11 177 141
 CustomAlertSound "sounds/m1.mp3" 300
@@ -453,7 +453,7 @@ Show
 Class "Currency"
 BaseType   "Distilled " 
 SetFontSize 45
-SetTextColor 255 255 255
+SetTextColor 0 0 0
 SetBorderColor 255 255 255
 SetBackgroundColor 50 248 255
 CustomAlertSound "sounds/b1.mp3" 300
