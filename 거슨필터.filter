@@ -180,7 +180,7 @@ ItemLevel >= 81
 SetFontSize 40
 SetTextColor 47 0 255
 SetBorderColor 255 255 255
-SetBackgroundColor 163 163 163
+SetBackgroundColor 4 75 2
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
@@ -191,7 +191,7 @@ ItemLevel >= 81
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetBackgroundColor 163 163 163
+SetBackgroundColor 4 75 2
 PlayEffect White
 MinimapIcon 1 Yellow Diamond
 
