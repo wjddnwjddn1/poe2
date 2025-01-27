@@ -178,7 +178,7 @@ Rarity = Magic
 BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
 ItemLevel >= 81
 SetFontSize 40
-SetTextColor 47 0 255
+SetTextColor 22 208 255
 SetBorderColor 255 255 255
 SetBackgroundColor 4 75 2
 PlayEffect White
