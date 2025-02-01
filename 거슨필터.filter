@@ -462,7 +462,7 @@ SetFontSize 45
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 177 141
-CustomAlertSound "sounds/oil.mp3" 150
+CustomAlertSound "sounds/mariolvlup.mp3" 150
 PlayEffect Red
 MinimapIcon 1 Yellow Circle
 
