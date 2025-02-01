@@ -792,7 +792,7 @@ AreaLevel >= 65
 #균열파편 0.5엑
 Show
 Class "Currency"
-BaseType "Breach Splinter" "Glassblower's Bauble"
+BaseType "Breach Splinter" 
 StackSize >= 4
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
@@ -800,11 +800,11 @@ SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Circle
-SetFontSize 45
+SetFontSize 50
 
 Show
 Class "Currency"
-BaseType "Breach Splinter" "Glassblower's Bauble"
+BaseType "Breach Splinter" 
 StackSize >= 2
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
@@ -812,10 +812,10 @@ SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Circle
-SetFontSize 40
+SetFontSize 4
 Show
 Class "Currency"
-BaseType "Breach Splinter" "Glassblower's Bauble"
+BaseType "Breach Splinter"
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
