@@ -374,7 +374,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/n1.mp3" 150
+CustomAlertSound "sounds/Zalatl.mp3" 150
 PlayEffect Red
 MinimapIcon 1 Yellow Star
 
@@ -386,7 +386,7 @@ SetFontSize 45
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 177 141
-CustomAlertSound "sounds/m1.mp3" 150
+CustomAlertSound "sounds/sad.mp3" 150
 PlayEffect Red
 MinimapIcon 1 Yellow Circle
 
@@ -427,7 +427,7 @@ SetFontSize 45
 SetTextColor 199 13 13
 SetBorderColor 252 255 180
 SetBackgroundColor 11 177 141
-CustomAlertSound "sounds/m1.mp3" 300
+CustomAlertSound "sounds/sad.mp3" 300
 PlayEffect Red
 MinimapIcon 1 Yellow Circle
 
@@ -529,7 +529,7 @@ BaseType "Ritual Precursor Tablet"
 SetTextColor 253 171 253
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
-CustomAlertSound "sounds/n1.mp3" 150
+CustomAlertSound "sounds/의식서판.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 40
@@ -779,14 +779,15 @@ Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quive
 AreaLevel >= 65
 #균열파편 0.5엑
 Show
-    Class "Currency"
-    BaseType "Breach Splinter" "Glassblower's Bauble"
-    SetTextColor 255 255 255
-    SetBorderColor 252 255 180
-    SetBackgroundColor 177 11 141
-    CustomAlertSound "sounds/k1.mp3" 150
-    PlayEffect White
-    MinimapIcon 1 Purple Circle
+Class "Currency"
+BaseType "Breach Splinter" "Glassblower's Bauble"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
+CustomAlertSound "sounds/k1.mp3" 150
+PlayEffect White
+MinimapIcon 1 Purple Circle
+SetFontSize 40
 
 #연금술 /바알/특이한주화/제왕의 오브/숙련공/유리구슬/대장장이/
 Show
