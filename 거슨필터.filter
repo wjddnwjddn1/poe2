@@ -812,7 +812,7 @@ SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Circle
-SetFontSize 4
+SetFontSize 45
 Show
 Class "Currency"
 BaseType "Breach Splinter"
