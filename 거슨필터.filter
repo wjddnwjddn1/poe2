@@ -290,7 +290,7 @@ SetBackgroundColor 255 255 255
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
-SetFontSize 50
+SetFontSize 45
 
 #기회의 오브 파편 1엑
 Show
@@ -302,7 +302,7 @@ SetBackgroundColor 255 255 255
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
-SetFontSize 50
+SetFontSize 45
 
 
 
@@ -318,6 +318,7 @@ SetFontSize 50
 Show
 Class "Currency"
 BaseType   "Simulacrum Splinter"
+StackSize >= 4
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 27 31 255
@@ -325,6 +326,17 @@ CustomAlertSound "sounds/j1.wav" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
 SetFontSize 50
+
+Show
+Class "Currency"
+BaseType   "Simulacrum Splinter"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 27 31 255
+CustomAlertSound "sounds/j1.wav" 150
+PlayEffect White
+MinimapIcon 1 Purple Cross
+SetFontSize 45
 
 #세공사의 프리즘 0.9엑
 Show
@@ -336,7 +348,7 @@ SetBackgroundColor 89 240 75
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
-SetFontSize 50
+SetFontSize 45
 
 #특이한 주화 1엑?
 Show
@@ -348,7 +360,7 @@ SetBackgroundColor 89 240 75
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
-SetFontSize 50
+SetFontSize 45
 
 
 
@@ -781,6 +793,19 @@ AreaLevel >= 65
 Show
 Class "Currency"
 BaseType "Breach Splinter" "Glassblower's Bauble"
+StackSize >= 4
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
+CustomAlertSound "sounds/k1.mp3" 150
+PlayEffect White
+MinimapIcon 1 Purple Circle
+SetFontSize 45
+
+Show
+Class "Currency"
+BaseType "Breach Splinter" "Glassblower's Bauble"
+StackSize >= 2
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
@@ -788,6 +813,27 @@ CustomAlertSound "sounds/k1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Circle
 SetFontSize 40
+Show
+Class "Currency"
+BaseType "Breach Splinter" "Glassblower's Bauble"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
+CustomAlertSound "sounds/k1.mp3" 150
+PlayEffect White
+MinimapIcon 1 Purple Circle
+SetFontSize 40
+
+Show
+Class "Currency"
+BaseType "Glassblower's Bauble"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
+CustomAlertSound "sounds/k1.mp3" 150
+PlayEffect White
+MinimapIcon 1 Purple Circle
+SetFontSize 35
 
 #연금술 /바알/특이한주화/제왕의 오브/숙련공/유리구슬/대장장이/
 Show
