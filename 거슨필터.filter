@@ -216,7 +216,7 @@ Rarity Unique
 SetTextColor 175 96 37 255
 SetBorderColor 175 96 37 255
 SetBackgroundColor 53 13 13 255
-CustomAlertSound "sounds/x1.mp3" 100
+CustomAlertSound "sounds/w1.mp3" 100
 PlayEffect Brown
 MinimapIcon 0 Red Diamond
 SetFontSize 40
@@ -265,7 +265,7 @@ SetBorderColor 255 255 255
 SetBackgroundColor 255 102 0
 CustomAlertSound "sounds/범내려온다효과음.mp3" 250
 PlayEffect White
-MinimapIcon 0 Red Triangle
+MinimapIcon 0 Orange Star
 SetFontSize 40
 
 #카오스 오브 4엑
@@ -277,7 +277,7 @@ SetBorderColor 76 0 255
 SetBackgroundColor 255 255 255
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
-MinimapIcon 1 Purple Cross
+MinimapIcon 0 Orange Cross
 SetFontSize 50
 
 #엑잘티드오브 1엑
@@ -312,16 +312,7 @@ SetFontSize 50
 # BaseType "Breach Splinter"
 # StackSize < 2
 
-#균열파편 0.5엑
-Show
-Class "Currency"
-BaseType "Breach Splinter" "Glassblower's Bauble"
-SetTextColor 255 255 255
-SetBorderColor 252 255 180
-SetBackgroundColor 177 11 141
-CustomAlertSound "sounds/k1.mp3" 150
-PlayEffect White
-MinimapIcon 1 Purple Circle
+
 
 #복제된 영토 파편 0.42엑
 Show
@@ -358,18 +349,6 @@ CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 1 Purple Cross
 SetFontSize 50
-
-#연금술 /바알/특이한주화/제왕의 오브/숙련공/유리구슬/대장장이/
-Show
-Class "Currency"
-BaseType  "Orb of Alchemy"  "Vaal Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb" "Blacksmith's Whetstone" "Arcanist's Etcher" "Armourer's Scrap" "Orb of Augmentation" "Orb of Transmutation" 
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
-CustomAlertSound "sounds/a1.mp3" 150
-PlayEffect White
-MinimapIcon 1 White Circle
-SetFontSize 40
 
 
 
@@ -798,8 +777,30 @@ Hide
 Rarity <= Magic
 Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres"
 AreaLevel >= 65
+#균열파편 0.5엑
+Show
+    Class "Currency"
+    BaseType "Breach Splinter" "Glassblower's Bauble"
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 177 11 141
+    CustomAlertSound "sounds/k1.mp3" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Circle
 
+#연금술 /바알/특이한주화/제왕의 오브/숙련공/유리구슬/대장장이/
+Show
+Class "Currency"
+BaseType  "Orb of Alchemy"  "Vaal Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb" "Blacksmith's Whetstone" "Arcanist's Etcher" "Armourer's Scrap" "Orb of Augmentation" "Orb of Transmutation" 
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+CustomAlertSound "sounds/a1.mp3" 150
+PlayEffect White
+MinimapIcon 1 White Circle
+SetFontSize 40
 
+    
 #모르는 커런시
 Show
 Class "Currency"
