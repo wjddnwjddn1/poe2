@@ -767,9 +767,17 @@ Rarity <= Rare
 Class "Two Hand Maces"
 AreaLevel >= 76
 #고급
-Hide
+
+Show
 BaseType "Advanced "
 Rarity Rare
+ItemLevel >= 82
+AreaLevel >= 76
+
+Hide
+BaseType "Advanced "
+ItemLevel < 82
+Rarity <= Rare
 AreaLevel >= 76
 
 Show
