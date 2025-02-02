@@ -742,7 +742,7 @@ BaseType "Gold Key" "Silver Key" "Bronze Key"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
-CustomAlertSound "sounds/주목.mp3" 200
+CustomAlertSound "sounds/주목.mp3" 150
 PlayEffect White
 MinimapIcon 2 Red Diamond
 SetFontSize 40
