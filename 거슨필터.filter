@@ -11,10 +11,6 @@
 #01-25 기준 하위 쥬얼러 1엑잘당 50개
 
 
-#룬, 호신부제거
-Hide 
-BaseType " Rune" " Charm"
-AreaLevel >= 76
 
 #카오스 활,석궁 제거
 Hide
@@ -272,9 +268,9 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType   "Chaos Orb" 
-SetTextColor 76 0 255
-SetBorderColor 76 0 255
-SetBackgroundColor 255 255 255
+SetTextColor 0 0 0
+SetBorderColor 0 255 255
+SetBackgroundColor 0 255 255
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Orange Cross
@@ -806,7 +802,7 @@ SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
-PlayEffect White
+PlayEffect Purple
 MinimapIcon 1 Purple Circle
 SetFontSize 50
 
@@ -818,7 +814,7 @@ SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
-PlayEffect White
+PlayEffect Purple
 MinimapIcon 1 Purple Circle
 SetFontSize 45
 Show
@@ -828,7 +824,7 @@ SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
-PlayEffect White
+PlayEffect Purple
 MinimapIcon 1 Purple Circle
 SetFontSize 40
 
@@ -839,7 +835,6 @@ SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 177 11 141
 CustomAlertSound "sounds/k1.mp3" 150
-PlayEffect White
 MinimapIcon 1 Purple Circle
 SetFontSize 35
 
@@ -851,7 +846,6 @@ SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
 CustomAlertSound "sounds/a1.mp3" 150
-PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
 
@@ -865,6 +859,12 @@ SetBackgroundColor 230 210 37
 SetFontSize 40
 MinimapIcon 2 White Circle
 
+Show
+BaseType "Stone Charm" "Thawing Charm"
+#룬, 호신부제거
+Hide 
+BaseType " Rune" " Charm"
+AreaLevel >= 76
 # Show
 # BaseType "Expert "
 # Rarity Rare
