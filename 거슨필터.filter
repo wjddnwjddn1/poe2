@@ -754,15 +754,27 @@ MinimapIcon 1 Yellow Diamond
 
 Hide
 Class  "Belts"
-Rarity <= Magic
+Rarity <= Normal
 SetFontSize 40
 AreaLevel >= 76
 
 Hide
 Class "Rings" "Amulets"
-Rarity <= Magic
+Rarity <= Normal
 SetFontSize 40
 ItemLevel < 81
+AreaLevel >= 76
+
+Hide
+Class  "Belts"
+Rarity  Magic
+SetFontSize 40
+AreaLevel >= 76
+
+Hide
+Class "Rings" "Amulets"
+Rarity  Magic
+SetFontSize 40
 AreaLevel >= 76
 
 #광신자의 대망치
