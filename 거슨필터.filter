@@ -191,7 +191,16 @@ SetBackgroundColor 4 75 2
 PlayEffect White
 MinimapIcon 1 White Diamond
 
-
+# 그 외의 유니크     
+Show
+Rarity Unique
+SetTextColor 175 96 37 255
+SetBorderColor 175 96 37 255
+SetBackgroundColor 53 13 13 255
+CustomAlertSound "sounds/w1.mp3" 100
+PlayEffect Brown
+MinimapIcon 0 Red Diamond
+SetFontSize 40
 
 #칼란드라의 반지를 위한 하지만 나머지 58개의 잡고유를 포함한
 Show
@@ -206,16 +215,7 @@ PlayEffect White
 MinimapIcon 1 Brown Circle
 SetFontSize 45
 
-# 그 외의 유니크     
-Show
-Rarity Unique
-SetTextColor 175 96 37 255
-SetBorderColor 175 96 37 255
-SetBackgroundColor 53 13 13 255
-CustomAlertSound "sounds/w1.mp3" 100
-PlayEffect Brown
-MinimapIcon 0 Red Diamond
-SetFontSize 40
+
     
 #거울
 Show
@@ -753,10 +753,18 @@ SetBorderColor 233 206 75
 MinimapIcon 1 Yellow Diamond
 
 Hide
-Class "Rings" "Amulets" "Belts"
+Class  "Belts"
 Rarity <= Magic
 SetFontSize 40
 AreaLevel >= 76
+
+Hide
+Class "Rings" "Amulets"
+Rarity <= Magic
+SetFontSize 40
+ItemLevel < 81
+AreaLevel >= 76
+
 #광신자의 대망치
 Hide
 Rarity <= Rare
