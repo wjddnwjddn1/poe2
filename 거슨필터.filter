@@ -634,7 +634,7 @@ SetBorderColor 210 240 240
 PlayAlertSound 2 200
 PlayEffect Cyan
 SetFontSize 50
-CustomAlertSound "sounds/uncut20.mp3" 150
+CustomAlertSound "sounds/uncut20.mp3" 300
 MinimapIcon 0 Red Raindrop
 
 Show
