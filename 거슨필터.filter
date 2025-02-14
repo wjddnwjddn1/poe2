@@ -36,6 +36,7 @@ BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard"
 Hide
 BaseType  "Barya" "Ultimatum" 
 AreaLevel >= 78
+
 Hide
 Rarity <= Rare
 Class  "Quarterstaves" "Shields" "One Hand Maces" 
@@ -738,7 +739,18 @@ SetBackgroundColor 0 0 0
 
 #열쇠
 Show
-BaseType "Gold Key" "Silver Key" "Bronze Key"
+BaseType  "Silver Key" "Bronze Key"
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+CustomAlertSound "sounds/범내려온다.mp3" 150
+PlayEffect White
+MinimapIcon 2 Red Diamond
+SetFontSize 40
+
+#열쇠
+Show
+BaseType "Gold Key" 
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
