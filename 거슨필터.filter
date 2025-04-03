@@ -13,9 +13,10 @@
 
 
 #카오스 활
-Hide
-BaseType "Cultist Bow" 
-AreaLevel > 65
+# Hide
+# BaseType "Cultist Bow" 
+# AreaLevel > 65
+
 #석궁 제거
 # Hide
 # BaseType  "Crossbow"
@@ -25,54 +26,56 @@ Hide
 BaseType "Scroll of Wisdom" 
 AreaLevel >= 78
 #탐험 유물 제거
-Hide
-AreaLevel > 65
-BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
-#진화의 오브, 확장의 오브 ,제왕의 파편
-Hide
-AreaLevel > 65
-BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" 
-#진바리야 결전 제거
-Hide
-BaseType  "Barya" "Ultimatum" 
-AreaLevel >= 78
+# Hide
+# AreaLevel > 65
+# BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
 
-Hide
-Rarity <= Rare
-Class  "Quarterstaves" "Shields" "One Hand Maces" 
-AreaLevel > 65
+#진화의 오브, 확장의 오브 ,제왕의 파편
+# Hide
+# AreaLevel > 79
+# BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" 
+#진바리야 결전 제거
+# Hide
+# BaseType  "Barya" "Ultimatum" 
+# AreaLevel >= 78
+
+# Hide
+# Rarity <= Rare
+# Class  "Quarterstaves" "Shields" "One Hand Maces" 
+# AreaLevel > 65
+
 #조율 착취 제외 각종완드 제거
-Hide
-Rarity <= Rare
-Class "Wands" 
-BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering Wand" "Acrid Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand"
-SetTextColor 0 240 190
-AreaLevel >= 76
+# Hide
+# Rarity <= Rare
+# Class "Wands" 
+# BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering Wand" "Acrid Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand"
+# SetTextColor 0 240 190
+# AreaLevel >= 76
 #집중구 육척봉 셉터
-Hide 
-Rarity = Magic
-ItemLevel < 81
-Class  "Foci" "Quarterstaves" "Sceptres"
-AreaLevel >= 76
+# Hide 
+# Rarity = Magic
+# ItemLevel < 81
+# Class  "Foci" "Quarterstaves" "Sceptres"
+# AreaLevel >= 76
 #하위 쥬얼러
-Hide 
-Class "currency"
-BaseType "Lesser Jeweller's Orb"
-AreaLevel > 75
+# Hide 
+# Class "currency"
+# BaseType "Lesser Jeweller's Orb"
+# AreaLevel > 75
 #경로석 지우기
 Hide
 BaseType "Waystone"
 WaystoneTier <= 14   
 AreaLevel > 78
 #차임벨지팡이
-Show
-BaseType "Chiming Staff"
-ItemLevel > 80
+# Show
+# BaseType "Chiming Staff"
+# ItemLevel > 80
 #벨트 지팡이
-Hide
-Class "Belts" "Staves"
-Rarity <= Rare
-AreaLevel >= 76
+# Hide
+# Class "Belts" "Staves"
+# Rarity <= Rare
+# AreaLevel >= 76
 #무거운 허리띠 기회의 오브
 # Hide
 # Rarity Normal
@@ -612,10 +615,11 @@ SetFontSize 30
 MinimapIcon 1 Blue Triangle
 
 #미가공 잼 15티어 이상에서 18렙이하 숨김.
-Hide
-BaseType "Uncut "
-ItemLevel <= 18
-AreaLevel >= 79
+
+# Hide
+# BaseType "Uncut "
+# ItemLevel <= 18
+# AreaLevel >= 79
 
 Show
 BaseType "Uncut "
@@ -779,49 +783,51 @@ SetTextColor 233 206 75
 SetBorderColor 233 206 75
 MinimapIcon 1 Yellow Diamond
 
-Hide
-Class  "Belts"
-Rarity <= Normal
-SetFontSize 40
-AreaLevel >= 76
+# Hide
+# Class  "Belts"
+# Rarity <= Normal
+# SetFontSize 40
+# AreaLevel >= 76
 
-Hide
-Class "Rings" "Amulets"
-Rarity <= Normal
-SetFontSize 40
-ItemLevel < 81
-AreaLevel >= 76
+# Hide
+# Class "Rings" "Amulets"
+# Rarity <= Normal
+# SetFontSize 40
+# ItemLevel < 81
+# AreaLevel >= 76
 
-Hide
-Class  "Belts"
-Rarity  Magic
-SetFontSize 40
-AreaLevel >= 76
+# Hide
+# Class  "Belts"
+# Rarity  Magic
+# SetFontSize 40
+# AreaLevel >= 76
 
-Hide
-Class "Rings" "Amulets"
-Rarity  Magic
-SetFontSize 40
-AreaLevel >= 76
+# Hide
+# Class "Rings" "Amulets"
+# Rarity  Magic
+# SetFontSize 40
+# AreaLevel >= 76
 
 #광신자의 대망치
-Hide
-Rarity <= Rare
-Class "Two Hand Maces"
-AreaLevel >= 76
+
+# Hide
+# Rarity <= Rare
+# Class "Two Hand Maces"
+# AreaLevel >= 76
+
 #고급
 
-Show
-BaseType "Advanced "
-Rarity Rare
-ItemLevel >= 82
-AreaLevel >= 76
+# Show
+# BaseType "Advanced "
+# Rarity Rare
+# ItemLevel >= 82
+# AreaLevel >= 76
 
-Hide
-BaseType "Advanced "
-ItemLevel < 82
-Rarity <= Rare
-AreaLevel >= 76
+# Hide
+# BaseType "Advanced "
+# ItemLevel < 82
+# Rarity <= Rare
+# AreaLevel >= 76
 
 Show
 Rarity Rare
@@ -831,15 +837,16 @@ SetTextColor 251 255 0
 SetBorderColor 0 0 0
 SetBackgroundColor 0 0 0
 
-Hide
-Rarity <= Magic
-AreaLevel >= 76
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres"
+# Hide
+# Rarity <= Magic
+# AreaLevel >= 76
+# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Spears"
 
-Hide
-Rarity <= Magic
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres"
-AreaLevel >= 65
+# Hide
+# Rarity <= Magic
+# Class "Flasks" "Quivers" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"  "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" "Spears"
+# AreaLevel >= 65
+
 #균열파편 0.5엑
 Show
 Class "Currency"
@@ -909,9 +916,11 @@ MinimapIcon 2 White Circle
 Show
 BaseType "Stone Charm" "Thawing Charm"
 #룬, 호신부제거
-Hide 
-BaseType " Rune" " Charm"
-AreaLevel >= 76
+
+# Hide 
+# BaseType " Rune" " Charm"
+# AreaLevel >= 76
+
 # Show
 # BaseType "Expert "
 # Rarity Rare
