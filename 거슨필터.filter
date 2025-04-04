@@ -124,10 +124,10 @@ PlayEffect White
 MinimapIcon 0 Red Star
 SetFontSize 45
 
-#기회의 오브
+#기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
 Show
 Rarity Normal
-BaseType  "Sapphire Ring" 
+BaseType  "Sapphire Ring" "Heavy Belt"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -165,39 +165,39 @@ CustomAlertSound "sounds/위플래쉬.mp3"
 
 
 #81이상 강조
-Show
-Rarity == Rare
-BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow" "Expert Dualstring Bow" "Advanced Dualstring Bow" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves"  "Expert Feathered Sandals" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
-ItemLevel >= 81
-SetFontSize 40
-SetTextColor 251 255 0
-SetBorderColor 255 255 255
-SetBackgroundColor 4 75 2
-PlayEffect White
-MinimapIcon 1 Yellow Diamond
+# Show
+# Rarity == Rare
+# BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring"  "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves"  "Expert Feathered Sandals" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
+# ItemLevel >= 81
+# SetFontSize 40
+# SetTextColor 251 255 0
+# SetBorderColor 255 255 255
+# SetBackgroundColor 4 75 2
+# PlayEffect White
+# MinimapIcon 1 Yellow Diamond
 
 #81이상 매직 강조
-Show
-Rarity = Magic
-BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
-ItemLevel >= 81
-SetFontSize 40
-SetTextColor 22 208 255
-SetBorderColor 255 255 255
-SetBackgroundColor 4 75 2
-PlayEffect White
-MinimapIcon 1 Blue Diamond
+# Show
+# Rarity = Magic
+# BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Dualstring Bow" "Advanced Dualstring Bow" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
+# ItemLevel >= 81
+# SetFontSize 40
+# SetTextColor 22 208 255
+# SetBorderColor 255 255 255
+# SetBackgroundColor 4 75 2
+# PlayEffect White
+# MinimapIcon 1 Blue Diamond
 
-Show
-Rarity == Normal
-BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
-ItemLevel >= 81
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 4 75 2
-PlayEffect White
-MinimapIcon 1 White Diamond
+# Show
+# Rarity == Normal
+# BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Expert Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Expert Keth Raiment" "Expert Hexer's Robe"  "Expert Feathered Tiara" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Expert Wrapped Sandals" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Intricate Gloves" "Expert Sombre Gloves"
+# ItemLevel >= 81
+# SetFontSize 40
+# SetTextColor 255 255 255
+# SetBorderColor 255 255 255
+# SetBackgroundColor 4 75 2
+# PlayEffect White
+# MinimapIcon 1 White Diamond
 
 # 그 외의 유니크     
 Show
