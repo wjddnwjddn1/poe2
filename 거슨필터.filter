@@ -918,13 +918,13 @@ BaseType "Stone Charm" "Thawing Charm"
 # BaseType " Rune" " Charm"
 # AreaLevel >= 76
 
-# Show
-# BaseType "Expert "
-# Rarity Rare
-# SetFontSize 35
-# PlayAlertSound 2 200
-# SetTextColor 94 58 0
-# SetBorderColor 77 48 2 192
-# SetBackgroundColor 255 238 210
-# PlayEffect Yellow Temp
-# MinimapIcon 2 Yellow UpsideDownHouse
+Show
+BaseType "Expert "
+Rarity Rare
+SetFontSize 35
+PlayAlertSound 2 200
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect Yellow Temp
+MinimapIcon 2 Yellow UpsideDownHouse
