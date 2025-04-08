@@ -32,9 +32,9 @@ AreaLevel >= 78
 # AreaLevel > 65
 # BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
 
-#진화의 오브, 확장의 오브 ,제왕의 파편
+#진화의 오브, 확장의 오브 
 Hide
-AreaLevel > 79
+AreaLevel >= 79
 BaseType == "Orb of Transmutation" "Orb of Augmentation"
 
 #제왕의 파편
@@ -123,9 +123,21 @@ MinimapIcon 0 Orange UpsideDownHouse
 SetFontSize 45
 
 #유니크 비싼 아이템
+# Show
+# Rarity Unique
+# BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves" "Furtive Wraps" "Grand Regalia" "Heavy Belt" "Amethyst" "Jade Amulet" " jewel" "Moulded Mitts"
+# SetTextColor 255 255 255 255
+# SetBorderColor 255 255 255 255
+# SetBackgroundColor 104 53 35
+# CustomAlertSound "sounds/u1.mp3" 150
+# PlayEffect White
+# MinimapIcon 0 Red Star
+# SetFontSize 45
+
+#유니크 비싼 아이템 악세
 Show
 Rarity Unique
-BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves" "Furtive Wraps" "Grand Regalia" "Heavy Belt" "Amethyst" "Jade Amulet" " jewel" "Moulded Mitts"
+BaseType  "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Ring" "Gold Amulet" "Utility Belt" "Gold" "Topaz Ring" "Plate Belt"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
@@ -133,6 +145,84 @@ CustomAlertSound "sounds/u1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Red Star
 SetFontSize 45
+
+#유니크 비싼 아이템 방어구
+Show
+Rarity Unique
+BaseType  "Garment" "Fine Bracers" "Heroic Armour" "Garment" "Spiritbone Crown" "Spiral Wraps" "Closed Helm" "Magus Tiara" "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Armoured Vest" "Rampart Tower Shield" "Smuggler Coat" "Stone Tower Shield" "Moulded Mitts" "Explorer Armour" "Knight Armour" "Velvet Cap" "Velvet Cap" "Chain Tiara" "Grand Visage" "Enlightened Robe"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 104 53 35
+CustomAlertSound "sounds/u1.mp3" 150
+PlayEffect White
+MinimapIcon 0 Red Star
+SetFontSize 45
+
+
+#유니크 비싼 아이템 플라스크 호신부
+Show
+    Rarity Unique
+    BaseType   "Ultimate Life Flask" "Silver Charm"  "Stone Charm" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+#유니크 비싼 아이템 주얼
+Show
+    Rarity Unique
+    BaseType   "Diamond" "Timeless Jewel"  "Time-Lost Diamond" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+#유니크 비싼 아이템 지도
+Show
+    Rarity Unique
+    BaseType   "Ritual Precursor Tablet" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+#유니크 비싼 아이템 무기
+Show
+    Rarity Unique
+    BaseType   "Dualstring Bow" "Giant Maul"  "Helix Spear" "Torment Club" "Spiked Club" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+#유니크 비싼 아이템 생텀
+Show
+    Rarity Unique
+    BaseType   "Incense Relic" #165D?
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+
+
+
+
+
+
 
 #기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
 Show
@@ -917,7 +1007,29 @@ BaseType "Stone Charm" "Thawing Charm"
 # Hide 
 # BaseType " Rune" " Charm"
 # AreaLevel >= 76
+Show
+Class "Socketable"
+BaseType "Greater "
+AreaLevel >= 76
+SetFontSize 35
+PlayAlertSound 2 200
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect Yellow Temp
+MinimapIcon 2 Yellow UpsideDownHouse
 
+Show
+Class "Socketable"
+BaseType " Rune"
+AreaLevel < 76
+SetFontSize 35
+PlayAlertSound 2 200
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect Yellow Temp
+MinimapIcon 2 Yellow UpsideDownHouse
 # Show
 # BaseType "Expert "
 # Rarity Rare
