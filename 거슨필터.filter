@@ -347,7 +347,7 @@ CustomAlertSound "sounds/mirror.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-#완벽한쥬얼러 360엑
+#완벽한쥬얼러
 Show
 Class "Currency"
 BaseType  "Perfect Jeweller's Orb" 
@@ -359,7 +359,7 @@ PlayEffect Red
 MinimapIcon 0 Red Star
 SetFontSize 45
 
-#신성한오브 195엑
+#신성한오브 
 Show
 Class "Currency"
 BaseType   "Divine Orb" 
@@ -371,7 +371,7 @@ CustomAlertSound "sounds/DivinePower.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-#소멸 10엑,기회의오브 10엑,상위 쥬얼러 15엑
+#소멸 ,기회의오브 ,상위 쥬얼러 
 Show
 Class "Currency"
 BaseType "Orb of Annulment" "Orb of Chance"  "Greater Jeweller's Orb"
@@ -383,7 +383,18 @@ PlayEffect White
 MinimapIcon 0 Orange Star
 SetFontSize 40
 
-#카오스 오브 4엑
+#분열의 오브 
+Show
+Class "Currency"
+BaseType   "Fracturing Orb" 
+SetTextColor 0 0 0
+SetBorderColor 0 255 255
+SetBackgroundColor 0 255 255
+CustomAlertSound "sounds/b1.mp3" 150
+PlayEffect White
+MinimapIcon 0 Orange Cross
+SetFontSize 50
+#카오스 오브 
 Show
 Class "Currency"
 BaseType   "Chaos Orb" 
@@ -395,7 +406,7 @@ PlayEffect White
 MinimapIcon 0 Orange Cross
 SetFontSize 50
 
-#엑잘티드오브 1엑
+#엑잘티드오브 
 Show
 Class "Currency"
 BaseType  "Exalted Orb" 
@@ -407,7 +418,7 @@ PlayEffect White
 MinimapIcon 1 Purple Cross
 SetFontSize 45
 
-#기회의 오브 파편 1엑
+#기회의 오브 파편 
 Show
 Class "Currency"
 BaseType    "Chance Shard"
@@ -429,7 +440,7 @@ SetFontSize 45
 
 
 
-#복제된 영토 파편 0.42엑
+#복제된 영토 파편 
 Show
 Class "Currency"
 BaseType   "Simulacrum Splinter"
@@ -453,7 +464,7 @@ PlayEffect White
 MinimapIcon 1 Purple Cross
 SetFontSize 45
 
-#세공사의 프리즘 0.9엑
+#세공사의 프리즘 
 Show
 Class "Currency"
 BaseType   "Gemcutter's Prism"
@@ -465,7 +476,7 @@ PlayEffect White
 MinimapIcon 1 Purple Cross
 SetFontSize 45
 
-#특이한 주화 1엑?
+#특이한 주화
 Show
 Class "Currency"
 BaseType   "Exotic Coinage"
@@ -481,7 +492,7 @@ SetFontSize 45
 
 
 
-###아이템 희귀도 영혼핵 435엑
+###아이템 희귀도 영혼핵 
 Show
 Class == "Socketable"
 BaseType == "Soul Core of Azcapa"
@@ -493,7 +504,7 @@ CustomAlertSound "sounds/handsclub.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-#최대 마나 영혼핵 69엑
+#최대 마나 영혼핵 
 Show
 Class == "Socketable"
 BaseType == "Soul Core of Zalatl"
@@ -521,6 +532,19 @@ MinimapIcon 1 Yellow Circle
 Show
 Class "Currency"
 BaseType "Neural Catalyst"  "Adaptive Catalyst" "Tul's Catalyst" "Esh's Catalyst"  "Reaver Catalyst" "Skittering Catalyst"
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 11 99 177
+CustomAlertSound "sounds/s1.wav" 150
+PlayEffect White
+MinimapIcon 2 White Circle
+
+
+
+
+Show
+Class "Currency"
+BaseType " Catalyst"
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
 SetBackgroundColor 11 99 177
