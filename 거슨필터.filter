@@ -1,7 +1,7 @@
 #===============================================================================================================
 # Modified from what NeverSink did.
 #===============================================================================================================
-# VERSION:  0.1.1
+# VERSION:  0.2.0 주석일부 수정안함
 # AUTHOR:   저거슨
 
 
@@ -929,9 +929,13 @@ Rarity <= Magic
 AreaLevel >= 76
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Spears"
 
+# Hide
+# Rarity <= Magic
+# Class "Flasks" 
+# AreaLevel >= 65
 Hide
 Rarity <= Magic
-Class "Flasks" "Quivers" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"  "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" "Spears"
+Class  "Quivers" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"  "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" "Spears"
 AreaLevel >= 65
 
 #균열파편 0.5엑
