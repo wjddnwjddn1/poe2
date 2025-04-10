@@ -238,7 +238,7 @@ CustomAlertSound "sounds/나야들기름.mp3" 300
 #기회의 오브
 Show
 Rarity Normal
-BaseType "Stellar Amulet" 
+BaseType "Stellar Amulet" "Solar Amulet" "Rampart tower shield"
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
