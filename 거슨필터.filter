@@ -110,6 +110,16 @@ PlayEffect White
 MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 45
 
+Show
+Class "Vault Keys"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 104 53 35
+CustomAlertSound "sounds/범내려온다.mp3" 150
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 45
+
 
 #탐험일지
 Show
