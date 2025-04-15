@@ -151,7 +151,7 @@ BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Precursor Tablet"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
-CustomAlertSound "sounds/괜찮아긺.mp3" 150
+CustomAlertSound "sounds/괜찮아긺.mp3" 300
 PlayEffect White
 MinimapIcon 0 Red Star
 SetFontSize 45
@@ -423,7 +423,7 @@ BaseType "Orb of Annulment" "Orb of Chance"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 255 102 0
-CustomAlertSound "sounds/괜찮아짧.mp3" 250
+CustomAlertSound "sounds/괜찮아짧.mp3" 300
 PlayEffect White
 MinimapIcon 0 Orange Star
 SetFontSize 40
