@@ -1080,9 +1080,24 @@ BaseType "Stone Charm" "Thawing Charm"
 # Hide 
 # BaseType " Rune" " Charm"
 # AreaLevel >= 76
+
+
+Show
+Class "Socketable"
+BaseType "Iron Rune" 
+AreaLevel >= 79
+SetFontSize 35
+PlayAlertSound 2 200
+SetTextColor 94 58 0
+SetBorderColor 77 48 2 192
+SetBackgroundColor 255 238 210
+PlayEffect Yellow Temp
+MinimapIcon 2 Yellow UpsideDownHouse
+
 Show
 Class "Socketable"
 BaseType "Greater "
+AreaLevel < 79
 AreaLevel >= 76
 SetFontSize 35
 PlayAlertSound 2 200
@@ -1103,6 +1118,8 @@ SetBorderColor 77 48 2 192
 SetBackgroundColor 255 238 210
 PlayEffect Yellow Temp
 MinimapIcon 2 Yellow UpsideDownHouse
+
+
 # Show
 # BaseType ""
 # Rarity Rare
