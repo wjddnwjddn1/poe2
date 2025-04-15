@@ -123,7 +123,7 @@ SetFontSize 45
 
 #탐험일지
 Show
-BaseType "Expedition Logbook"
+BaseType "Expedition Logbook" 
 SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
@@ -143,6 +143,18 @@ SetFontSize 45
 # PlayEffect White
 # MinimapIcon 0 Red Star
 # SetFontSize 45
+
+#유니크 
+Show
+Rarity Unique
+BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Precursor Tablet"
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 104 53 35
+CustomAlertSound "sounds/괜찮아긺.mp3" 150
+PlayEffect White
+MinimapIcon 0 Red Star
+SetFontSize 45
 
 #유니크 비싼 아이템 악세
 Show
@@ -193,16 +205,17 @@ Show
     SetFontSize 45
 
 #유니크 비싼 아이템 지도
-Show
-    Rarity Unique
-    BaseType   "Ritual Precursor Tablet" 
-    SetTextColor 255 255 255 255
-    SetBorderColor 255 255 255 255
-    SetBackgroundColor 104 53 35
-    CustomAlertSound "sounds/u1.mp3" 150
-    PlayEffect White
-    MinimapIcon 0 Red Star
-    SetFontSize 45
+# Show
+#     Rarity Unique
+#     BaseType   "Ritual Precursor Tablet" 
+#     SetTextColor 255 255 255 255
+#     SetBorderColor 255 255 255 255
+#     SetBackgroundColor 104 53 35
+#     CustomAlertSound "sounds/u1.mp3" 150
+#     PlayEffect White
+#     MinimapIcon 0 Red Star
+#     SetFontSize 45
+
 
 #유니크 비싼 아이템 무기
 Show
@@ -391,14 +404,26 @@ CustomAlertSound "sounds/DivinePower.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-#소멸 ,기회의오브 ,상위 쥬얼러 
+#상위 쥬얼러 
 Show
 Class "Currency"
-BaseType "Orb of Annulment" "Orb of Chance"  "Greater Jeweller's Orb"
+BaseType  "Greater Jeweller's Orb"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 255 102 0
 CustomAlertSound "sounds/범내려온다효과음.mp3" 250
+PlayEffect White
+MinimapIcon 0 Orange Star
+SetFontSize 40
+
+#소멸 ,기회의오브 
+Show
+Class "Currency"
+BaseType "Orb of Annulment" "Orb of Chance"  
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 102 0
+CustomAlertSound "sounds/괜찮아짧.mp3" 250
 PlayEffect White
 MinimapIcon 0 Orange Star
 SetFontSize 40
