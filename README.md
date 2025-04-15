@@ -45,5 +45,3 @@ sound 폴더에 있는 mp3 파일을 바꾸시면 원하는 소리가 나오는 
 
 
 
-감전 파열 탄환 석궁 데드아이 빌드
-https://www.snomet.kr/sample/gx/21
