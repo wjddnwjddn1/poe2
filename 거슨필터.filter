@@ -35,7 +35,7 @@ AreaLevel >= 78
 #진화의 오브, 확장의 오브 
 Hide
 AreaLevel >= 79
-BaseType == "Orb of Transmutation" "Orb of Augmentation"
+BaseType == "Orb of Transmutation" "Orb of Augmentation" "Lesser Jeweller's Orb"
 
 #제왕의 파편
 # Hide
@@ -478,10 +478,10 @@ SetFontSize 45
 
 
 #균열 파편 숨기고싶을때
-# Hide
-# Class "Currency"
-# BaseType "Breach Splinter"
-# StackSize < 2
+Hide
+Class "Currency"
+BaseType "Breach Splinter"
+StackSize < 2
 
 
 
@@ -647,7 +647,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/다죽어.mp3" 300
+CustomAlertSound "sounds/다죽어.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 #상위 에센스 20엑이하
