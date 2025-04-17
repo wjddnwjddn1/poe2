@@ -159,7 +159,7 @@ SetFontSize 45
 #유니크 비싼 아이템 악세
 Show
 Rarity Unique
-BaseType  "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Ring" "Gold Amulet" "Utility Belt" "Gold" "Topaz Ring" "Plate Belt"
+BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Ring" "Gold Amulet" "Utility Belt" "Gold" "Topaz Ring" "Plate Belt"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
@@ -482,7 +482,9 @@ Hide
 Class "Currency"
 BaseType "Breach Splinter"
 StackSize < 2
-
+SetTextColor 255 255 255
+SetBorderColor 252 255 180
+SetBackgroundColor 177 11 141
 
 
 #복제된 영토 파편 
@@ -1031,6 +1033,7 @@ CustomAlertSound "sounds/k1.mp3" 150
 PlayEffect Purple
 MinimapIcon 1 Purple Circle
 SetFontSize 45
+
 Show
 Class "Currency"
 BaseType "Breach Splinter"
