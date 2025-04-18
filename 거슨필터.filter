@@ -157,14 +157,14 @@ PlayEffect White
 MinimapIcon 0 Red Star
 SetFontSize 45
 
-#유니크 비싼 아이템 악세
+#유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
 Rarity Unique
 BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt" "Gold" "Topaz Ring" "Plate Belt"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
-CustomAlertSound "sounds/u1.mp3" 150
+CustomAlertSound "sounds/다죽어.mp3" 150
 PlayEffect White
 MinimapIcon 0 Red Star
 SetFontSize 45
@@ -650,7 +650,7 @@ SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/다죽어.mp3" 150
+CustomAlertSound "sounds/mariolvlup.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 #상위 에센스 20엑이하
