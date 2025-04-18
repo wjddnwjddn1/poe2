@@ -160,7 +160,7 @@ SetFontSize 45
 #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
 Rarity Unique
-BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt" "Gold" "Topaz Ring" "Plate Belt"
+BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
