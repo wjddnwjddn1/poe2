@@ -86,11 +86,11 @@ AreaLevel > 78
 # Class "Belts" "Staves"
 # Rarity <= Rare
 # AreaLevel >= 76
-#무거운 허리띠 기회의 오브
-# Hide
-# Rarity Normal
-# BaseType "Heavy Belt"
-# AreaLevel >= 76
+# 무거운 허리띠 기회의 오브
+Hide
+Rarity Normal
+BaseType "Heavy Belt" "Desolate Crossbow"
+AreaLevel >= 76
 
 
 
@@ -148,7 +148,7 @@ SetFontSize 45
 #유니크 
 Show
 Rarity Unique
-BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Precursor Tablet"
+BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Precursor Tablet" "Desolate Crossbow"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
