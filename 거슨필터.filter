@@ -17,6 +17,9 @@ Hide
 BaseType "Cultist Bow" 
 AreaLevel > 65
 
+Hide
+BaseType "Bow" 
+AreaLevel < 65
 #석궁 제거
 # Hide
 # BaseType  "Crossbow"
@@ -606,34 +609,11 @@ MinimapIcon 2 White Circle
 # BaseType "Catalyst" 
 # AreaLevel >= 76
 
-#정제된 고립 379엑 / 정제된 고통 75엑
-Show
-Class "Currency"
-BaseType   "Distilled Isolation" "Distilled Suffering" 
-SetFontSize 45
-SetTextColor 255 0 0 255
-SetBorderColor 255 0 0 255
-SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/우린깐부잖아.mp3" 300
-PlayEffect Red
-MinimapIcon 0 Red Pentagon
-
-#정제된 두려움 25엑
-Show
-Class "Currency"
-BaseType    "Distilled Fear"
-SetFontSize 45
-SetTextColor 199 13 13
-SetBorderColor 252 255 180
-SetBackgroundColor 11 177 141
-CustomAlertSound "sounds/sad.mp3" 300
-PlayEffect Red
-MinimapIcon 1 Yellow Circle
 
 #정제된 나머지
 Show
 Class "Currency"
-BaseType   "Distilled " 
+BaseType   "Liquid" 
 SetFontSize 45
 SetTextColor 0 0 0
 SetBorderColor 255 255 255
@@ -645,7 +625,7 @@ MinimapIcon 2 White Circle
 #상위 가속 에센스 430엑 #상위 무한의 에센스 138엑 #상위 전기의 에센스 99엑 #상위 마술의 에센스 80엑 #상위 고뇌의 에센스
 Show
 Class "Stackable Currency"
-BaseType   "Greater Essence of Haste" "Greater Essence of the Infinite" "Greater Essence of Electricity" "Greater Essence of Sorcery" "Greater Essence of Torment"
+BaseType   "Greater Essence of Haste" "Greater Essence of the Infinite" "Greater Essence of Electricity" "Greater Essence of Sorcery"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
