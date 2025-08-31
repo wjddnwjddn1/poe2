@@ -17,9 +17,9 @@ Hide
 BaseType "Cultist Bow" 
 AreaLevel > 65
 
-Show
-BaseType "Bow" 
-AreaLevel < 79
+# Show
+# BaseType "Bow" 
+# AreaLevel < 79
 #석궁 제거
 # Hide
 # BaseType  "Crossbow"
@@ -92,7 +92,7 @@ AreaLevel > 78
 # 무거운 허리띠 기회의 오브
 Show
 Rarity Normal
-BaseType "Heavy Belt" "Desolate Crossbow"
+BaseType "Heavy Belt" "Desolate Crossbow" "황량한 석궁"
 # AreaLevel >= 76
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
