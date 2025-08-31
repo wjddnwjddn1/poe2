@@ -17,9 +17,9 @@ Hide
 BaseType "Cultist Bow" 
 AreaLevel > 65
 
-Hide
+Show
 BaseType "Bow" 
-AreaLevel < 65
+AreaLevel < 79
 #석궁 제거
 # Hide
 # BaseType  "Crossbow"
@@ -28,7 +28,7 @@ AreaLevel < 65
 #감정 주문서 제거
 Hide
 BaseType "Scroll of Wisdom" 
-AreaLevel >= 78
+AreaLevel >= 65
 
 #탐험 유물 제거
 # Hide
@@ -90,10 +90,10 @@ AreaLevel > 78
 # Rarity <= Rare
 # AreaLevel >= 76
 # 무거운 허리띠 기회의 오브
-Hide
+Show
 Rarity Normal
 BaseType "Heavy Belt" "Desolate Crossbow"
-AreaLevel >= 76
+# AreaLevel >= 76
 
 
 
