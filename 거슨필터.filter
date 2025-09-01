@@ -20,6 +20,7 @@ AreaLevel > 65
 # Show
 # BaseType "Bow" 
 # AreaLevel < 79
+
 #석궁 제거
 # Hide
 # BaseType  "Crossbow"
@@ -78,7 +79,7 @@ AreaLevel >= 76
 #경로석 지우기
 Hide
 BaseType "Waystone"
-WaystoneTier <= 14   
+WaystoneTier <= 10   
 AreaLevel > 78
 #차임벨지팡이
 # Show
@@ -90,6 +91,28 @@ AreaLevel > 78
 # Rarity <= Rare
 # AreaLevel >= 76
 # 무거운 허리띠 기회의 오브
+Show
+BaseType  "Twin Bow"
+# AreaLevel >= 76
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 117 86 75
+CustomAlertSound "sounds/b1.mp3" 150
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 35
+
+Show
+BaseType "쿨레막의 초대" "아마나무의 응시" 
+# AreaLevel >= 76
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 104 53 35
+CustomAlertSound "sounds/범내려온다.mp3" 150
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 45
+
 Show
 Rarity Normal
 BaseType "Heavy Belt" "Desolate Crossbow" "황량한 석궁"
@@ -1120,3 +1143,6 @@ MinimapIcon 2 Yellow UpsideDownHouse
 # SetBackgroundColor 255 238 210
 # PlayEffect Yellow Temp
 # MinimapIcon 2 Yellow UpsideDownHouse
+Show
+BaseType "Bow" 
+AreaLevel < 79
