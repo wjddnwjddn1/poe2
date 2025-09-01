@@ -192,7 +192,7 @@ SetFontSize 45
 #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
 Rarity Unique
-BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt"
+BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt" 
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
@@ -428,8 +428,7 @@ SetFontSize 45
 #신성한오브 
 Show
 Class "Currency"
-BaseType   "Divine Orb" 
-SetFontSize 45
+BaseType   "Divine Orb"  "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment" "Secondary Calamity Fragment" "Primary Calamity Fragment" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Hedgewitch Assandra's Rune of Wisdom"  "Omen of Chance" "Ancient Jawbone" "Ancient Collarbone" "Dialla's Desire" "Rakiata's Flow" "Esh's Radiance" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Augury" "Uhtred's Omen" "Atalui's Bloodletting" "Brutus' Brain" "Garukhan's Resolve" "Xoph's Pyre" "Uhtred's Exodus" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering"
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
@@ -440,7 +439,8 @@ MinimapIcon 0 Red Star
 #상위 쥬얼러 
 Show
 Class "Currency"
-BaseType  "Greater Jeweller's Orb"
+BaseType  "Greater Jeweller's Orb" "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair"
+
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 255 102 0
@@ -452,7 +452,7 @@ SetFontSize 40
 #소멸 ,기회의오브 
 Show
 Class "Currency"
-BaseType "Orb of Annulment" "Orb of Chance"  
+BaseType "Orb of Annulment" "Orb of Chance"  "Primate Talisman"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 255 102 0
@@ -699,7 +699,7 @@ MinimapIcon 0 Red Star
 #타락의 징조 100엑 / 개량의 징조 70엑 
 Show
 Class "Omen"
-BaseType == "Omen of Amelioration" "Omen of Corruption"
+BaseType == "Omen of Amelioration" "Omen of Corruption" "Omen of Dextral Crystallisation" "Omen of Light" "Omen of Homogenising Exaltation" "Xesht's Reliquary Key"
 SetFontSize 45
 SetTextColor 255 255 255
 SetBorderColor 252 255 180
