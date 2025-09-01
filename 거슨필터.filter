@@ -1097,7 +1097,7 @@ BaseType "Stone Charm" "Thawing Charm"
 
 Show
 Class "Socketable"
-BaseType "Iron Rune" 
+BaseType "Iron Rune" "Storm Rune"
 AreaLevel >= 79
 SetFontSize 35
 PlayAlertSound 2 200
