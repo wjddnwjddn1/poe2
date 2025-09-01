@@ -115,7 +115,7 @@ SetFontSize 45
 
 Show
 Rarity Normal
-BaseType "Heavy Belt" "Desolate Crossbow" "황량한 석궁"
+BaseType "Heavy Belt" 
 # AreaLevel >= 76
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
