@@ -306,8 +306,8 @@ CustomAlertSound "sounds/ice.mp3" 250
 #조율 착취
 Show
 Rarity = Normal
-BaseType "Siphoning Wand"  "Attuned Wand"
-ItemLevel >= 82
+BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
+ItemLevel >= 80
 SetFontSize 40
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
