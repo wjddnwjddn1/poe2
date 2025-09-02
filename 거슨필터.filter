@@ -92,8 +92,18 @@ AreaLevel > 78
 # AreaLevel >= 76
 # 무거운 허리띠 기회의 오브
 Show
-BaseType  "Twin Bow" "Gemini Bow"
+BaseType  "Twin Bow" "Gemini Bow"   
 # AreaLevel >= 76
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 117 86 75
+CustomAlertSound "sounds/b1.mp3" 150
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 35
+Show
+BaseType  "Dualstring Bow"   
+AreaLevel <50
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 117 86 75
@@ -724,7 +734,7 @@ MinimapIcon 1 Yellow Circle
 Show
 Class "Omen"
 SetFontSize 45
-SetTextColor 124 243 108
+SetTextColor 14 75 6
 SetBorderColor 118 233 65
 SetBackgroundColor 255 255 255 255
 CustomAlertSound "sounds/b1.mp3" 150
