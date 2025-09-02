@@ -724,8 +724,8 @@ MinimapIcon 1 Yellow Circle
 Show
 Class "Omen"
 SetFontSize 45
-SetTextColor 255 0 0 255
-SetBorderColor 255 0 0 255
+SetTextColor 124 243 108
+SetBorderColor 118 233 65
 SetBackgroundColor 255 255 255 255
 CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect Red
