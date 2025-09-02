@@ -32,9 +32,9 @@ BaseType "Scroll of Wisdom"
 AreaLevel >= 65
 
 #탐험 유물 제거
-# Hide
-# AreaLevel > 65
-# BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
+Hide
+AreaLevel >= 79
+BaseType == "Black Scythe Artifact" "Sun Artifact" "Broken Circle Artifact" "Order Artifact"
 
 #진화의 오브, 확장의 오브 
 Hide
@@ -92,7 +92,7 @@ AreaLevel > 78
 # AreaLevel >= 76
 # 무거운 허리띠 기회의 오브
 Show
-BaseType  "Twin Bow"
+BaseType  "Twin Bow" "Gemini Bow"
 # AreaLevel >= 76
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
