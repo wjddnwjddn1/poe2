@@ -103,7 +103,7 @@ MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 35
 Show
 BaseType  "Dualstring Bow"   
-AreaLevel <50
+AreaLevel < 50
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 117 86 75
