@@ -43,7 +43,7 @@ BaseType == "Orb of Transmutation" "Orb of Augmentation" "Lesser Jeweller's Orb"
 
 #제왕의 파편
 Hide
-AreaLevel > 79
+AreaLevel >= 79
 BaseType == "Regal Shard" 
 
 #진바리야 결전 제거
