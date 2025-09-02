@@ -307,6 +307,18 @@ CustomAlertSound "sounds/ice.mp3" 250
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
+ItemLevel >= 82
+SetFontSize 45
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 163 163 163
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sounds/위플래쉬.mp3" 
+#조율 착취
+Show
+Rarity = Normal
+BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
 ItemLevel >= 80
 SetFontSize 40
 SetTextColor 255 255 255
