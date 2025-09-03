@@ -137,9 +137,26 @@ SetFontSize 45
 
 
 
+Show
+Class "Currency"
+BaseType    "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment" "Secondary Calamity Fragment" "Primary Calamity Fragment" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Hedgewitch Assandra's Rune of Wisdom"  "Omen of Chance" "Ancient Jawbone" "Ancient Collarbone" "Dialla's Desire" "Rakiata's Flow" "Esh's Radiance" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Augury" "Uhtred's Omen" "Atalui's Bloodletting" "Brutus' Brain" "Garukhan's Resolve" "Xoph's Pyre" "Uhtred's Exodus" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering"
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sounds/괜찮아긺.mp3" 300
+PlayEffect Red
+MinimapIcon 0 Red Star
 
-
-
+#신성한오브 
+Show
+Class "Currency"
+BaseType   "Divine Orb"  
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+CustomAlertSound "sounds/DivinePower.mp3" 150
+PlayEffect Red
+MinimapIcon 0 Red Star
 
 
 Show
@@ -447,16 +464,7 @@ PlayEffect Red
 MinimapIcon 0 Red Star
 SetFontSize 45
 
-#신성한오브 
-Show
-Class "Currency"
-BaseType   "Divine Orb"  "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment" "Secondary Calamity Fragment" "Primary Calamity Fragment" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Hedgewitch Assandra's Rune of Wisdom"  "Omen of Chance" "Ancient Jawbone" "Ancient Collarbone" "Dialla's Desire" "Rakiata's Flow" "Esh's Radiance" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Augury" "Uhtred's Omen" "Atalui's Bloodletting" "Brutus' Brain" "Garukhan's Resolve" "Xoph's Pyre" "Uhtred's Exodus" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering"
-SetTextColor 255 0 0 255
-SetBorderColor 255 0 0 255
-SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/DivinePower.mp3" 150
-PlayEffect Red
-MinimapIcon 0 Red Star
+
 
 #상위 쥬얼러 
 Show
