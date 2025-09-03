@@ -143,7 +143,7 @@ BaseType    "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment"
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/괜찮아긺.mp3" 300
+CustomAlertSound "sounds/mariolvlup.mp3" 150
 PlayEffect Red
 MinimapIcon 0 Red Star
 
@@ -681,28 +681,28 @@ CustomAlertSound "sounds/b1.mp3" 300
 PlayEffect Red
 MinimapIcon 2 White Circle
 
-#상위 가속 에센스 430엑 #상위 무한의 에센스 138엑 #상위 전기의 에센스 99엑 #상위 마술의 에센스 80엑 #상위 고뇌의 에센스
-Show
-Class "Stackable Currency"
-BaseType   "Essence of Hysteria" "Perfect Essence of Battle" "Essence of Horror" "Perfect Essence of Sorcery" "Perfect Essence of Haste"
-SetFontSize 45
-SetTextColor 255 0 0 255
-SetBorderColor 255 0 0 255
-SetBackgroundColor 255 255 255 255
-CustomAlertSound "sounds/mariolvlup.mp3" 150
-PlayEffect Red
-MinimapIcon 0 Red Star
-#상위 에센스 20엑이하
-Show
-Class "Stackable Currency"
-BaseType   "Lesser Essence of Ruin" "Greater Essence of Abrasion" "Greater Essence of Ruin" "Lesser Essence of Sorcery" "Essence of Alacrity" "Essence of Abrasion" "Essence of Delirium" "Essence of Command" "Greater Essence of Haste"
-SetFontSize 45
-SetTextColor 255 255 255
-SetBorderColor 252 255 180
-SetBackgroundColor 11 177 141
-CustomAlertSound "sounds/mariolvlup.mp3" 150
-PlayEffect Red
-MinimapIcon 1 Yellow Circle
+# #상위 가속 에센스 430엑 #상위 무한의 에센스 138엑 #상위 전기의 에센스 99엑 #상위 마술의 에센스 80엑 #상위 고뇌의 에센스
+# Show
+# Class "Stackable Currency"
+# BaseType   "Essence of Hysteria" "Perfect Essence of Battle" "Essence of Horror" "Perfect Essence of Sorcery" "Perfect Essence of Haste"
+# SetFontSize 45
+# SetTextColor 255 0 0 255
+# SetBorderColor 255 0 0 255
+# SetBackgroundColor 255 255 255 255
+# CustomAlertSound "sounds/mariolvlup.mp3" 150
+# PlayEffect Red
+# MinimapIcon 0 Red Star
+# #상위 에센스 20엑이하
+# Show
+# Class "Stackable Currency"
+# BaseType   "Lesser Essence of Ruin" "Greater Essence of Abrasion" "Greater Essence of Ruin" "Lesser Essence of Sorcery" "Essence of Alacrity" "Essence of Abrasion" "Essence of Delirium" "Essence of Command" "Greater Essence of Haste"
+# SetFontSize 45
+# SetTextColor 255 255 255
+# SetBorderColor 252 255 180
+# SetBackgroundColor 11 177 141
+# CustomAlertSound "sounds/mariolvlup.mp3" 150
+# PlayEffect Red
+# MinimapIcon 1 Yellow Circle
 
 #하위 에센스
 Show
