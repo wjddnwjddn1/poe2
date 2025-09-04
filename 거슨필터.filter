@@ -219,7 +219,7 @@ SetFontSize 45
 #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
 Rarity Unique
-BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt" "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring" "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt" 
+BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt"  "Ornate Belt" "Jade Amulet" "Sapphire Ring" "Pearl Ring"  "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet" "Solar Amulet" "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt" 
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 104 53 35
@@ -816,7 +816,7 @@ SetBackgroundColor 0 0 0 180
 #미가공 보조잼
 Show
 BaseType "Uncut Support "
-ItemLevel = 3
+GemLevel = 3
 SetTextColor 0 0 0
 SetBackgroundColor 255 255 255
 SetBorderColor 0 0 0
@@ -829,12 +829,12 @@ MinimapIcon 1 Blue Triangle
 
 # Hide
 # BaseType "Uncut "
-# ItemLevel <= 18
+# GemLevel <= 18
 # AreaLevel >= 79
 
 Show
 BaseType "Uncut "
-ItemLevel <= 13
+GemLevel <= 13
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
 PlayAlertSound 2 200
@@ -844,8 +844,8 @@ MinimapIcon 1 Cyan Triangle
 
 Show
 BaseType "Uncut "
-ItemLevel >= 14
-ItemLevel <= 19
+GemLevel >= 14
+GemLevel <= 19
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
 CustomAlertSound "sounds/j1.wav" 150
@@ -853,8 +853,8 @@ MinimapIcon 0 White Raindrop
 PlayEffect Cyan
 
 Show
-BaseType "Uncut Skill Gem"
-ItemLevel = 20
+BaseType "Uncut Skill Gem "
+GemLevel = 20
 SetTextColor 255 0 0
 SetBackgroundColor 255 255 255
 SetBorderColor 210 240 240
@@ -866,7 +866,7 @@ MinimapIcon 0 Red Raindrop
 
 Show
 BaseType "Uncut Spirit Gem"
-ItemLevel = 20
+GemLevel = 20
 SetTextColor 37 180 185
 SetBackgroundColor 255 255 255
 SetBorderColor 210 240 240
