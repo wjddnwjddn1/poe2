@@ -9,9 +9,13 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 #01-25 기준 하위 쥬얼러 1엑잘당 50개
-
-
-
+#특출난
+Show
+BaseType "Exceptional "
+SetBorderColor 255 12 12
+ItemLevel > 79
+CustomAlertSound "sounds/b1.mp3" 150
+SetFontSize 45
 #카오스 활
 Hide
 BaseType "Cultist Bow" 
