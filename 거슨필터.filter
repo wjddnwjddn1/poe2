@@ -16,6 +16,7 @@ Show
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
 	BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Composite Bow" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Fine Bracers" "Furtive Wraps" "Garment" "Giant Maul" "Golden Charm" "Heavy Bow" "Heavy Crown" "Heraldric Tower Shield" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Iron Buckler" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sapphire" "Scalper's Jacket" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Spiritbone Crown" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Toxic Quiver" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap"
    SetBorderColor 255 12 12
+    MinimapIcon 2 Orange Star
 Show
     Corrupted False
     Sockets >= 2
@@ -32,6 +33,7 @@ Show
     ItemLevel > 79
     CustomAlertSound "sounds/b1.mp3" 150
     SetFontSize 45
+    MinimapIcon 0 Orange Star
 Show
     Corrupted False
     Sockets >= 2
@@ -42,7 +44,7 @@ Show
     ItemLevel > 79
     CustomAlertSound "sounds/b1.mp3" 150
     SetFontSize 45
-
+    MinimapIcon 0 Orange Star
 Show
     Corrupted False
     Quality >= 27
@@ -56,7 +58,7 @@ Show
     SetFontSize 55
     SetTextColor 255 255 255 255
     SetBackgroundColor 7 5 4
-
+    MinimapIcon 0 Orange Star
 #카오스 활
 Hide
 BaseType "Cultist Bow" 
@@ -137,7 +139,7 @@ AreaLevel > 78
 # AreaLevel >= 76
 # 무거운 허리띠 기회의 오브
 Show
-BaseType  "Gemini Bow"   
+BaseType  "Gemini Bow" "Obliterator Bow"
 ItemLevel >= 81
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
