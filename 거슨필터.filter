@@ -218,7 +218,7 @@ MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 45
 
 Show
-BaseType "Dialla's Desire" "Atalui's Bloodletting" "Rakiata's Flow" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Omen" "Arjun's Medal"
+BaseType "Dialla's Desire" "Atalui's Bloodletting" "Rakiata's Flow" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Omen" "Arjun's Medal" "Arjun's Medal"
 
 Show
 # Class "Currency"
@@ -417,27 +417,27 @@ CustomAlertSound "sounds/ice.mp3" 250
 #조율 착취
 Show
 Rarity = Normal
-BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
-ItemLevel >= 82
+BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+ItemLevel >= 81
 SetFontSize 45
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 163 163 163
+SetTextColor 125 165 250
+SetBorderColor 252 75 178
+SetBackgroundColor 0 0 0
 PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sounds/위플래쉬.mp3" 
 #조율 착취
-Show
-Rarity = Normal
-BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
-ItemLevel >= 80
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 163 163 163
-PlayEffect Red
-MinimapIcon 0 Red Circle
-CustomAlertSound "sounds/위플래쉬.mp3"  130
+# Show
+# Rarity = Normal
+# BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
+# ItemLevel >= 80
+# SetFontSize 40
+# SetTextColor 255 255 255
+# SetBorderColor 255 255 255
+# SetBackgroundColor 163 163 163
+# PlayEffect Red
+# MinimapIcon 0 Red Circle
+# CustomAlertSound "sounds/위플래쉬.mp3"  130
 
 
 
