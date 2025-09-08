@@ -395,16 +395,17 @@ Show
 
 
 #기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
-Show
-Rarity Normal
-BaseType  "Heavy Belt"
-SetFontSize 40
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetBackgroundColor 255 123 0
-PlayEffect Red
-MinimapIcon 0 Red Circle
-CustomAlertSound "sounds/나야들기름.mp3" 300
+# Show
+# Rarity Normal
+# BaseType  "Heavy Belt"
+# SetFontSize 40
+# SetTextColor 255 255 255
+# SetBorderColor 255 255 255
+# SetBackgroundColor 255 123 0
+# PlayEffect Red
+# MinimapIcon 0 Red Circle
+# CustomAlertSound "sounds/나야들기름.mp3" 300
+
 #기회의 오브
 Show
 Rarity Normal
@@ -555,8 +556,20 @@ SetFontSize 45
 
 #상위 쥬얼러 
 Show
-Class "Currency"
-BaseType  "Greater Jeweller's Orb" "Ancient " "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair"
+Class "Socketable"
+BaseType   "Ancient "
+
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 255 102 0
+CustomAlertSound "sounds/범내려온다효과음.mp3" 250
+PlayEffect White
+MinimapIcon 0 Orange Star
+SetFontSize 40
+#상위 쥬얼러 
+Show
+# Class "Currency"
+BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair"
 
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
@@ -1084,8 +1097,17 @@ MinimapIcon 1 Yellow Diamond
 
 Hide
 Class  "Belts"
-Rarity <= Magic
+Rarity = Magic
 AreaLevel >= 76
+Show
+Class  "Belts"
+Rarity = Normal
+ItemLevel > 80
+# Hide
+# Class  "Belts"
+# Rarity = Normal
+# ItemLevel <= 80
+# AreaLevel >= 76
 
 Hide
 Class "Rings" "Amulets"
@@ -1122,8 +1144,9 @@ PlayAlertSound 2 200
 SetTextColor 251 255 0
 SetBorderColor 0 0 0
 SetBackgroundColor 0 0 0
+
 Show
-BaseType "Daggerfoot Shoes" "Sekhema Sandals" "Ancestral Tiara" "Grinning Mask" "Feathered Raiment" "Austere Garb" "Sirenscale Gloves" "Secured Wraps"
+BaseType "Daggerfoot Shoes" "Sekhema Sandals" "Ancestral Tiara" "Grinning Mask" "Feathered Raiment" "Austere Garb" "Sirenscale Gloves" "Secured Wraps" "Belt"
 ItemLevel > 80
 
 Hide
