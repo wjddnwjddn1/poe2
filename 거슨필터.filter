@@ -10,6 +10,9 @@
 #--------------------------
 #01-25 기준 하위 쥬얼러 1엑잘당 50개
 #특출난
+Show 
+    BaseType  "exceptional "
+
 Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_achancing
 	Corrupted False
 	Quality >= 27
@@ -1119,18 +1122,32 @@ PlayAlertSound 2 200
 SetTextColor 251 255 0
 SetBorderColor 0 0 0
 SetBackgroundColor 0 0 0
+Show
+BaseType "Daggerfoot Shoes" "Sekhema Sandals" "Ancestral Tiara" "Grinning Mask" "Feathered Raiment" "Austere Garb" "Sirenscale Gloves" "Secured Wraps"
+ItemLevel > 80
 
 Hide
-Rarity <= Magic
+Rarity = Magic
 AreaLevel >= 76
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Spears"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Spears" "buckler"
+Hide
+Rarity = Normal
+ItemLevel < 82
+AreaLevel >= 76
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Spears" "buckler"
 
 # Hide
 # Rarity <= Magic
 # Class "Flasks" 
 # AreaLevel >= 65
 Hide
-Rarity <= Magic
+Rarity = Magic
+Class  "Quivers" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"  "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" "Spears"
+AreaLevel >= 65
+
+Hide
+Rarity = Normal
+ItemLevel < 82
 Class  "Quivers" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"  "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows"  "Sceptres" "Spears"
 AreaLevel >= 65
 
