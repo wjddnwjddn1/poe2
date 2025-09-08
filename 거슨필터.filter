@@ -200,7 +200,7 @@ SetFontSize 45
 
 
 Show
-Class "Currency"
+# Class "Currency"
 BaseType    "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment" "Secondary Calamity Fragment" "Primary Calamity Fragment" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Hedgewitch Assandra's Rune of Wisdom"  "Omen of Chance" "Ancient Jawbone" "Ancient Collarbone" "Dialla's Desire" "Rakiata's Flow" "Esh's Radiance" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Augury" "Uhtred's Omen" "Atalui's Bloodletting" "Brutus' Brain" "Garukhan's Resolve" "Xoph's Pyre" "Uhtred's Exodus" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering" "Idol of Estazunti"
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
