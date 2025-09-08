@@ -137,7 +137,18 @@ AreaLevel > 78
 # Class "Belts" "Staves"
 # Rarity <= Rare
 # AreaLevel >= 76
-# 무거운 허리띠 기회의 오브
+Show
+BaseType  "Gemini Bow" "Obliterator Bow"
+ItemLevel >= 82
+Rarity Normal
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 117 86 75
+CustomAlertSound "sounds/나야들기름.mp3" 300
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 35
+
 Show
 BaseType  "Gemini Bow" "Obliterator Bow"
 ItemLevel >= 81
@@ -149,6 +160,7 @@ CustomAlertSound "sounds/b1.mp3" 150
 PlayEffect White
 MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 35
+
 Show
 BaseType  "Gemini Bow"  
 Show
