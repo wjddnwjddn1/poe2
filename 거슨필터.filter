@@ -10,6 +10,14 @@
 #--------------------------
 #01-25 기준 하위 쥬얼러 1엑잘당 50개
 #특출난
+Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_achancing
+	Corrupted False
+	Quality >= 27
+	Rarity Normal
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Orange Star
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 7 5 4
 Show
     Corrupted False
 	Sockets >= 3
@@ -138,7 +146,7 @@ AreaLevel > 78
 # Rarity <= Rare
 # AreaLevel >= 76
 Show
-BaseType  "Gemini Bow" "Obliterator Bow"
+BaseType  "Gemini Bow" "Obliterator Bow" "Visceral Quiver"
 ItemLevel >= 82
 Rarity Normal
 SetTextColor 255 255 255 255
