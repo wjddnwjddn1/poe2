@@ -554,9 +554,9 @@ SetFontSize 45
 
 
 
-#상위 쥬얼러 
+#r고대
 Show
-Class "Socketable"
+Class "Stackable Currency"
 BaseType   "Ancient "
 
 SetTextColor 255 255 255
