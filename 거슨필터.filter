@@ -212,16 +212,14 @@ Show
 Rarity Normal
 BaseType "Heavy Belt" 
 # AreaLevel >= 76
-SetTextColor 255 255 255 255
-SetBorderColor 255 255 255 255
-SetBackgroundColor 104 53 35
+SetTextColor 173 24 136
+SetBorderColor 255 0 0
+SetBackgroundColor 255 255 255
 CustomAlertSound "sounds/범내려온다.mp3" 150
 PlayEffect White
 MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 45
 
-Show
-BaseType "Dialla's Desire" "Atalui's Bloodletting" "Rakiata's Flow" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Omen" "Arjun's Medal" "Arjun's Medal"
 
 Show
 # Class "Currency"
@@ -1103,11 +1101,11 @@ Show
 Class  "Belts"
 Rarity = Normal
 ItemLevel > 80
-# Hide
-# Class  "Belts"
-# Rarity = Normal
-# ItemLevel <= 80
-# AreaLevel >= 76
+Hide
+Class  "Belts"
+Rarity = Normal
+ItemLevel <= 80
+AreaLevel >= 79
 
 Hide
 Class "Rings" "Amulets"
