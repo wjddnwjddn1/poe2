@@ -8,7 +8,6 @@
 #--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
-#01-25 기준 하위 쥬얼러 1엑잘당 50개
 #특출난
 Show 
     BaseType  "exceptional "
@@ -74,7 +73,6 @@ Show
     Quality >= 27
     Rarity Normal
     BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Composite Bow" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Fine Bracers" "Furtive Wraps" "Garment" "Giant Maul" "Golden Charm" "Heavy Bow" "Heavy Crown" "Heraldric Tower Shield" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Iron Buckler" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sapphire" "Scalper's Jacket" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Spiritbone Crown" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Toxic Quiver" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap"
-
     Quality >= 27
     Corrupted False
     SetBorderColor 255 12 12
