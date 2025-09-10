@@ -39,20 +39,45 @@ Show
     Corrupted False
 	Sockets >= 3
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
-
-   SetBorderColor 255 12 12
+    SetBorderColor 255 12 12
     MinimapIcon 2 Blue Star
+CustomAlertSound "sounds/mariolvlup.mp3" 150
+PlayEffect White
 Show
     Corrupted False
     Sockets >= 2
     Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-
+SetBorderColor 255 12 12
+    MinimapIcon 2 Blue Star
+CustomAlertSound "sounds/mariolvlup.mp3" 150
+PlayEffect White
+Show
+    Corrupted False
+    Sockets >= 2
+    Rarity Normal
+    Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
+    SetBorderColor 255 12 12
+SetBackgroundColor 209 194 186
+    ItemLevel > 81
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
 Show
     Corrupted False
 	Sockets >= 3
 	Rarity Normal
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
-
+    SetBorderColor 255 12 12
+SetBackgroundColor 209 194 186
+    ItemLevel > 81
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
+Show
+    Corrupted False
+	Sockets >= 3
+	Rarity Normal
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
     SetBorderColor 255 12 12
     ItemLevel > 79
     CustomAlertSound "sounds/b1.mp3" 150
@@ -68,6 +93,7 @@ Show
     CustomAlertSound "sounds/b1.mp3" 150
     SetFontSize 45
     MinimapIcon 0 Blue Star
+
 Show
     Corrupted False
     Quality >= 27
@@ -115,10 +141,10 @@ Hide
 AreaLevel >= 79
 BaseType == "Regal Shard" 
 
-#진바리야 결전 제거
-# Hide
-# BaseType  "Barya" "Ultimatum" 
-# AreaLevel >= 78
+# 진바리야 결전 제거
+Hide
+BaseType  "Barya" "Ultimatum" 
+AreaLevel >= 78
 
 # Hide
 # Rarity <= Rare
