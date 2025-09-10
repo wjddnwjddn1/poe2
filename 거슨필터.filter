@@ -1181,7 +1181,7 @@ ItemLevel < 82
 AreaLevel >= 76
 Sockets < 2
 Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
-Show
+Hide
 ItemLevel < 82
 AreaLevel >= 76
 Sockets <= 1
