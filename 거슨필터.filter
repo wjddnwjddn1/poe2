@@ -12,8 +12,23 @@
 #특출난
 Show 
     BaseType  "exceptional "
-
-Show # %D6 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_achancing
+Show 
+    Rarity Rare
+	UnidentifiedItemTier >= 3
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Orange Star
+    SetTextColor 247 214 68
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetBackgroundColor 7 5 4
+Show 
+    Rarity Magic
+	UnidentifiedItemTier >= 4
+    SetBorderColor 48 12 255
+    MinimapIcon 2 Orange Star
+    SetTextColor 247 214 68
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetBackgroundColor 7 5 4
+Show 
 	Corrupted False
 	Quality >= 27
 	Rarity Normal
