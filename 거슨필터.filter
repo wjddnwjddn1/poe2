@@ -161,6 +161,18 @@ MinimapIcon 0 Brown UpsideDownHouse
 SetFontSize 35
 
 Show
+BaseType  "Gemini Bow" "Obliterator Bow" 
+ItemLevel >= 82
+Rarity Magic
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 32 0 61
+CustomAlertSound "sounds/나야들기름.mp3" 300
+PlayEffect White
+MinimapIcon 0 Brown UpsideDownHouse
+SetFontSize 35
+
+Show
 BaseType  "Gemini Bow" "Obliterator Bow"
 ItemLevel >= 81
 Rarity Normal
@@ -416,7 +428,7 @@ PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sounds/ice.mp3" 250
 
-#조율 착취
+#각종완드 
 Show
 Rarity = Normal
 BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
@@ -428,19 +440,17 @@ SetBackgroundColor 0 0 0
 PlayEffect Red
 MinimapIcon 0 Red Circle
 CustomAlertSound "sounds/위플래쉬.mp3" 
-#조율 착취
-# Show
-# Rarity = Normal
-# BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand"
-# ItemLevel >= 80
-# SetFontSize 40
-# SetTextColor 255 255 255
-# SetBorderColor 255 255 255
-# SetBackgroundColor 163 163 163
-# PlayEffect Red
-# MinimapIcon 0 Red Circle
-# CustomAlertSound "sounds/위플래쉬.mp3"  130
-
+Show
+Rarity = Magic
+BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+ItemLevel >= 81
+SetFontSize 45
+SetTextColor 125 165 250
+SetBorderColor 252 75 178
+SetBackgroundColor 15 0 68
+PlayEffect Red
+MinimapIcon 0 Red Circle
+CustomAlertSound "sounds/위플래쉬.mp3" 
 
 
 
