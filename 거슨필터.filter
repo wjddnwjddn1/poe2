@@ -15,7 +15,7 @@ Hide #상위진화 군왕 징조
 Hide
     BaseType "Uncut "
     GemLevel <= 19
-    AreaLevel > 79
+    AreaLevel >= 79
 Hide# 5등급 미만 그냥 다 숨기기
     Rarity < Unique
     Rarity >= Magic
@@ -362,7 +362,17 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     SetFontSize 45
 
-
+    # 균열서판   
+Show
+    Rarity Unique
+    BaseType "Breach Precursor Tablet" "Overseer Precursor Tablet" "Expedition Precursor Tablet"
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 53 13 13 255
+    CustomAlertSound "sounds/w1.mp3" 100
+    PlayEffect Brown
+    MinimapIcon 0 Red Diamond
+    SetFontSize 40
     #유니크 
 Show
     Rarity Unique
@@ -378,7 +388,7 @@ Show
     #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
     Rarity Unique
-    BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt"  "Ornate Belt" "Jade Amulet" "Pearl Ring"  "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet"  "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt"  "Sacred Focus" "Viper Cap"
+    BaseType  "Heavy Belt"   "Pearl Ring"  "Bloodstone Amulet" "Jade Amulet"  "Wide Belt" "Utility Belt"  "Sacred Focus" "Viper Cap"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -389,8 +399,8 @@ Show
 
     #유니크 비싼 아이템 방어구
 Show
-    Rarity Unique
-    BaseType  "Garment" "Fine Bracers" "Heroic Armour" "Garment" "Spiritbone Crown" "Spiral Wraps" "Closed Helm" "Magus Tiara" "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Armoured Vest" "Rampart Tower Shield" "Smuggler Coat" "Stone Tower Shield" "Moulded Mitts" "Explorer Armour" "Knight Armour" "Velvet Cap" "Velvet Cap" "Chain Tiara" "Grand Visage" "Enlightened Robe"
+    Rarity Unique #타뷸라
+    BaseType  "Garment" "Fine Bracers"  "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Moulded Mitts"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35

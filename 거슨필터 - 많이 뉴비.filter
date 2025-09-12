@@ -251,19 +251,17 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     SetFontSize 45
 
-    #유니크 비싼 아이템
-    # Show
-    # Rarity Unique
-    # BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves" "Furtive Wraps" "Grand Regalia" "Heavy Belt" "Amethyst" "Jade Amulet" " jewel" "Moulded Mitts"
-    # SetTextColor 255 255 255 255
-    # SetBorderColor 255 255 255 255
-    # SetBackgroundColor 104 53 35
-    # CustomAlertSound "sounds/u1.mp3" 150
-    # PlayEffect White
-    # MinimapIcon 0 Red Star
-    # SetFontSize 45
-
-
+    # 균열서판   
+Show
+    Rarity Unique
+    BaseType "Breach Precursor Tablet" "Overseer Precursor Tablet" "Expedition Precursor Tablet"
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 53 13 13 255
+    CustomAlertSound "sounds/w1.mp3" 100
+    PlayEffect Brown
+    MinimapIcon 0 Red Diamond
+    SetFontSize 40
     #유니크 
 Show
     Rarity Unique
@@ -279,7 +277,7 @@ Show
     #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
     Rarity Unique
-    BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt"  "Ornate Belt" "Jade Amulet" "Pearl Ring"  "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet"  "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt"  "Sacred Focus" "Viper Cap"
+    BaseType  "Heavy Belt"   "Pearl Ring"  "Bloodstone Amulet" "Jade Amulet"  "Wide Belt" "Utility Belt"  "Sacred Focus" "Viper Cap"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -290,8 +288,8 @@ Show
 
     #유니크 비싼 아이템 방어구
 Show
-    Rarity Unique
-    BaseType  "Garment" "Fine Bracers" "Heroic Armour" "Garment" "Spiritbone Crown" "Spiral Wraps" "Closed Helm" "Magus Tiara" "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Armoured Vest" "Rampart Tower Shield" "Smuggler Coat" "Stone Tower Shield" "Moulded Mitts" "Explorer Armour" "Knight Armour" "Velvet Cap" "Velvet Cap" "Chain Tiara" "Grand Visage" "Enlightened Robe"
+    Rarity Unique #타뷸라
+    BaseType  "Garment" "Fine Bracers"  "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Moulded Mitts"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -324,18 +322,6 @@ Show
     MinimapIcon 0 Red Star
     SetFontSize 45
 
-    #유니크 비싼 아이템 지도
-    # Show
-    #     Rarity Unique
-    #     BaseType   "Ritual Precursor Tablet" 
-    #     SetTextColor 255 255 255 255
-    #     SetBorderColor 255 255 255 255
-    #     SetBackgroundColor 104 53 35
-    #     CustomAlertSound "sounds/u1.mp3" 150
-    #     PlayEffect White
-    #     MinimapIcon 0 Red Star
-    #     SetFontSize 45
-
 
     #유니크 비싼 아이템 무기
 Show
@@ -367,17 +353,6 @@ Show
 
 
 
-    #기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
-    # Show
-    # Rarity Normal
-    # BaseType  "Heavy Belt"
-    # SetFontSize 40
-    # SetTextColor 255 255 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 255 123 0
-    # PlayEffect Red
-    # MinimapIcon 0 Red Circle
-    # CustomAlertSound "sounds/나야들기름.mp3" 300
 
     #기회의 오브
 Show
@@ -418,29 +393,6 @@ Show
 
 
 
-    #81이상 강조
-    # Show
-    # Rarity == Rare
-    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring"  "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves"  "Feathered Sandals" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 251 255 0
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 Yellow Diamond
-
-    #81이상 매직 강조
-    # Show
-    # Rarity = Magic
-    # BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Dualstring Bow" "Advanced Dualstring Bow" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 22 208 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 Blue Diamond
 
 Show
     Rarity == Normal
@@ -452,16 +404,7 @@ Show
     SetBackgroundColor 4 75 2
     PlayEffect White
     MinimapIcon 1 White Diamond
-    # Show
-    # Rarity == Normal
-    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 255 255 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 White Diamond
+
 
     # 그 외의 유니크     
 Show
@@ -499,6 +442,7 @@ Show
     MinimapIcon 0 Red Diamond
     SetFontSize 40
 
+    
     
     #거울
 Show
