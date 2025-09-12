@@ -8,7 +8,45 @@
 #--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
+#숨기기
 
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    AreaLevel > 78
+    Sockets < 3
+    UnidentifiedItemTier < 5
+    # ItemLevel < 82
+    BaseType "Cultist Bow" "Adherent Bow" "Warmonger Bow" "Fanatic Bow" "Guardian Bow" "Militant Bow" "Cavalry Bow" "Seastorm Mantle" "Death Mantle" "Thane Mail" "Death Mail" "Shrouded Mail" "Warlord Cuirass" "Utzaal Cuirass" "Trailblazer Armour" "Conjurer Mantle" "Soldier Cuirass" "Ornate Plate" "Conqueror Plate" "Elegant Plate" "Wolfskin Mantle" "Heartcarver Mantle"
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    AreaLevel > 78
+    Sockets < 2
+    UnidentifiedItemTier < 5
+    # ItemLevel < 82
+    BaseType "Adherent Cuffs" "Gleaming Cuffs" "Blacksteel Gauntlets" "Cultist Gauntlets" "Massive Mitts" "Vaal Mitts" "Cryptic Leggings" "Warlock Leggings" "Blacksteel Sabatons" "Fortress Sabatons" "Tasalian Greaves" "Vaal Greaves" "Cryptic Crown" "Divine Crown" "Gladiatorial Helm" "Champion Helm" "Imperial Greathelm" "Paragon Greathelm" "Dueling Wand" "Elegant Greathelm" "Ornate Cuffs" "Gladiatoral Helm" "Bastion Sabatons" "Zealot Gauntlets" "Steelmail Gauntlets" "Feathered Mitts" "Spiritbone Crown" "Saintly Crown" "Masked Greathelm" "Warmonger Greathelm" "Noble Sabatons" "Apostle Leggings" "Plated Vestments" "Fierce Greathelm" "Ornate Greaves" "Bulwark Greaves" "Warded Helm" "Guardian Greathelm" "Ancient Cuffs" "Commander Gauntlets"
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    Class "Claws" "Daggers" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Shields" "Bucklers" "Foci"
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
+    Sockets < 2
+    # ItemLevel < 82
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    Class "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces"  "Quarterstaves"  
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
+    Sockets < 3
+Hide#화살통 숨기기
+    Rarity < Unique
+    Rarity >= Magic
+    Class  "Quivers"  
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
 
     # ItemLevel < 82
 
