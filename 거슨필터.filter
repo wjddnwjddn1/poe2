@@ -9,22 +9,42 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 #숨기기
+Hide# 5등급 미만 그냥 다 숨기기
+    Rarity < Unique
+    Rarity >= Magic
+    Class "Bows" "Staves"  "Two Hand Swords"   "Two Hand Axes"   "Two Hand Maces"   "Quarterstaves"    "Crossbows"   "Traps"   "Body Armours"  
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
+    Sockets < 3
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    Class "Claws" "Daggers" "Wands" "One Hand Swords"  "One Hand Axes" "One Hand Maces""Sceptres""Spears""Flails""Helmets""Boots""Gloves" "Foci" "Bucklers" "Shields" "Quivers" 
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
+    Sockets < 2
+Hide
+    Rarity < Unique
+    Rarity >= Magic
+    Class "Belts" "Rings" "Amulets"
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
 Hide
     Rarity < Unique
     Rarity >= Magic
     AreaLevel > 78
     Sockets < 3
     UnidentifiedItemTier < 5
-    ItemLevel < 82
-    BaseType "Cultist Bow" "Adherent Bow" "Warmonger Bow" "Fanatic Bow" "Guardian Bow" "Militant Bow" "Cavalry Bow" "Seastorm Mantle""Death Mantle""Thane Mail""Death Mail""Shrouded Mail""Warlord Cuirass""Utzaal Cuirass" "Trailblazer Armour" "Conjurer Mantle"
+    # ItemLevel < 82
+    BaseType "Cultist Bow" "Adherent Bow" "Warmonger Bow" "Fanatic Bow" "Guardian Bow" "Militant Bow" "Cavalry Bow" "Seastorm Mantle" "Death Mantle" "Thane Mail" "Death Mail" "Shrouded Mail" "Warlord Cuirass" "Utzaal Cuirass" "Trailblazer Armour" "Conjurer Mantle" "Soldier Cuirass" "Ornate Plate" "Conqueror Plate" "Elegant Plate" "Wolfskin Mantle" "Heartcarver Mantle"
 Hide
     Rarity < Unique
     Rarity >= Magic
     AreaLevel > 78
     Sockets < 2
     UnidentifiedItemTier < 5
-    ItemLevel < 82
-    BaseType "Adherent Cuffs" "Gleaming Cuffs" "Blacksteel Gauntlets" "Cultist Gauntlets""Massive Mitts""Vaal Mitts""Cryptic Leggings""Warlock Leggings""Blacksteel Sabatons""Fortress Sabatons""Tasalian Greaves""Vaal Greaves""Cryptic Crown" "Divine Crown""Gladiatorial Helm""Champion Helm""Imperial Greathelm""Paragon Greathelm" "Dueling Wand" "Elegant Greathelm" "Ornate Cuffs" "Gladiatoral Helm" "Bastion Sabatons" "Zealot Gauntlets" "Steelmail Gauntlets" "Feathered Mitts" "Spiritbone Crown"
+    # ItemLevel < 82
+    BaseType "Adherent Cuffs" "Gleaming Cuffs" "Blacksteel Gauntlets" "Cultist Gauntlets" "Massive Mitts" "Vaal Mitts" "Cryptic Leggings" "Warlock Leggings" "Blacksteel Sabatons" "Fortress Sabatons" "Tasalian Greaves" "Vaal Greaves" "Cryptic Crown" "Divine Crown" "Gladiatorial Helm" "Champion Helm" "Imperial Greathelm" "Paragon Greathelm" "Dueling Wand" "Elegant Greathelm" "Ornate Cuffs" "Gladiatoral Helm" "Bastion Sabatons" "Zealot Gauntlets" "Steelmail Gauntlets" "Feathered Mitts" "Spiritbone Crown" "Saintly Crown" "Masked Greathelm" "Warmonger Greathelm" "Noble Sabatons" "Apostle Leggings" "Plated Vestments" "Fierce Greathelm" "Ornate Greaves" "Bulwark Greaves" "Warded Helm" "Guardian Greathelm" "Ancient Cuffs" "Commander Gauntlets"
 Hide
     Rarity < Unique
     Rarity >= Magic
@@ -32,7 +52,7 @@ Hide
     UnidentifiedItemTier < 5
     AreaLevel > 78
     Sockets < 2
-    ItemLevel < 82
+    # ItemLevel < 82
 Hide
     Rarity < Unique
     Rarity >= Magic
@@ -40,7 +60,14 @@ Hide
     UnidentifiedItemTier < 5
     AreaLevel > 78
     Sockets < 3
-    ItemLevel < 82
+Hide#화살통 숨기기
+    Rarity < Unique
+    Rarity >= Magic
+    Class  "Quivers"  
+    UnidentifiedItemTier < 5
+    AreaLevel > 78
+
+    # ItemLevel < 82
 
     #특출난
 Show 
@@ -1339,11 +1366,11 @@ Show
     MinimapIcon 1 White Circle
     SetFontSize 30
 
-    #룬, 호신부제거
+    # 룬, 호신부제거
 
-    # Hide 
-    # BaseType " Rune" " Charm"
-    # AreaLevel >= 76
+Hide 
+    BaseType   " Charm"
+    AreaLevel >= 76
 
 
 Show
@@ -1386,7 +1413,7 @@ Show
 
 
     # Show
-    # BaseType ""
+    # BaseType " "
     # Rarity Rare
     # SetFontSize 35
     # PlayAlertSound 2 200
