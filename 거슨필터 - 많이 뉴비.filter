@@ -1,0 +1,1189 @@
+#===============================================================================================================
+# Modified from what NeverSink did.
+#===============================================================================================================
+# VERSION:  0.2.0 주석일부 수정안함
+# AUTHOR:   저거슨
+
+
+#--------------------------
+# Overrides - Uniques, Valuables
+#--------------------------
+
+
+    #특출난
+Show 
+    BaseType  "exceptional "
+Show 
+    Rarity Rare
+	UnidentifiedItemTier >= 4
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Orange Star
+    SetTextColor 247 214 68
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetBackgroundColor 7 5 4
+Show 
+    Rarity Magic
+	UnidentifiedItemTier >= 4
+    SetTextColor 15 27 53
+    SetBorderColor 48 12 255
+    SetTextColor 255 255 255
+    MinimapIcon 2 Orange Star
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetBackgroundColor 74 124 231
+Show 
+	Corrupted False
+	Quality >= 27
+	Rarity Normal
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Orange Star
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 7 5 4
+Show
+    Corrupted False
+	Sockets >= 3
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Blue Star
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    PlayEffect White
+Show
+    Corrupted False
+    Sockets >= 2
+    Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
+    SetBorderColor 255 12 12
+    MinimapIcon 2 Blue Star
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    PlayEffect White
+Show
+    Corrupted False
+    Sockets >= 2
+    Rarity Normal
+    Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
+    SetBorderColor 255 12 12
+    SetBackgroundColor 209 194 186
+    ItemLevel > 81
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
+Show
+    Corrupted False
+	Sockets >= 3
+	Rarity Normal
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
+    SetBorderColor 255 12 12
+    SetBackgroundColor 209 194 186
+    ItemLevel > 81
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
+Show
+    Corrupted False
+	Sockets >= 3
+	Rarity Normal
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Two Hand Maces"
+    SetBorderColor 255 12 12
+    ItemLevel > 79
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
+Show
+    Corrupted False
+    Sockets >= 2
+    Rarity Normal
+    Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
+    SetBorderColor 255 12 12
+    ItemLevel > 79
+    CustomAlertSound "sounds/b1.mp3" 150
+    SetFontSize 45
+    MinimapIcon 0 Blue Star
+
+Show
+    Corrupted False
+    Quality >= 27
+    Rarity Normal
+    BaseType == "Altar Robe" "Amethyst Charm" "Armoured Cap" "Armoured Vest" "Blacksteel Tower Shield" "Burnished Gauntlets" "Composite Bow" "Conqueror Plate" "Death Mask" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Fine Bracers" "Furtive Wraps" "Garment" "Giant Maul" "Golden Charm" "Heavy Bow" "Heavy Crown" "Heraldric Tower Shield" "Heroic Armour" "Incense Relic" "Intricate Crest Shield" "Iron Buckler" "Jewelled Gloves" "Lattice Sandals" "Magus Tiara" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Ring" "Ruby" "Ruby Charm" "Sacred Focus" "Sapphire" "Scalper's Jacket" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Spiritbone Crown" "Stone Charm" "Stone Tower Shield" "Thawing Charm" "Timeless Jewel" "Time-Lost Diamond" "Torment Club" "Totemic Greatclub" "Toxic Quiver" "Tribal Mask" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap"
+    Quality >= 27
+    Corrupted False
+    SetBorderColor 255 12 12
+    ItemLevel > 79
+    SetFontSize 55
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 7 5 4
+    MinimapIcon 0 Green Star
+
+Show
+    BaseType  "Gemini Bow" "Obliterator Bow" "Visceral Quiver"
+    ItemLevel >= 82
+    Rarity Normal
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 117 86 75
+    CustomAlertSound "sounds/나야들기름.mp3" 300
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 35
+
+Show
+    BaseType  "Gemini Bow" "Obliterator Bow" 
+    ItemLevel >= 82
+    Rarity >= Magic
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 32 0 61
+    CustomAlertSound "sounds/나야들기름.mp3" 300
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 35
+
+Show
+    BaseType  "Gemini Bow" "Obliterator Bow"
+    ItemLevel >= 81
+    Rarity Normal
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 117 86 75
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 35
+
+Show
+    BaseType  "Gemini Bow"  
+Show
+    AreaLevel < 79
+    BaseType  "Twin Bow" 
+    # AreaLevel >= 76
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 117 86 75
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 35
+
+Show
+    BaseType  "Dualstring Bow"   
+    AreaLevel < 50
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 117 86 75
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 35
+
+Show
+    BaseType "쿨레막의 초대" "아마나무의 응시" 
+    # AreaLevel >= 76
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 45
+
+Show
+    Rarity Normal
+    BaseType "Heavy Belt" 
+    # AreaLevel >= 76
+    SetTextColor 173 24 136
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 255 255
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 45
+
+
+Show
+    # Class "Currency"
+    BaseType    "Hinekora's Lock" "Perfect Exalted Orb" "Tertiary Calamity Fragment" "Secondary Calamity Fragment" "Primary Calamity Fragment" "Countess Seske's Rune of Archery" "Farrul's Rune of the Chase" "Hedgewitch Assandra's Rune of Wisdom"  "Omen of Chance" "Ancient Jawbone" "Ancient Collarbone" "Dialla's Desire" "Rakiata's Flow" "Esh's Radiance" "Uul-Netol's Embrace" "Uhtred's Augury" "Uhtred's Augury" "Uhtred's Omen" "Atalui's Bloodletting" "Brutus' Brain" "Garukhan's Resolve" "Xoph's Pyre" "Uhtred's Exodus" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering" "Idol of Estazunti" 
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/mariolvlup.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+    #신성한오브 
+Show
+    Class "Currency"
+    BaseType   "Divine Orb"  
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/DivinePower.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+Show
+    Class "Pinnacle Keys"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 45
+
+Show
+    Class "Vault Keys"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 45
+
+
+    #탐험일지
+Show
+    BaseType "Expedition Logbook" 
+    SetTextColor 255 207 255
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    CustomAlertSound "sounds/밤양갱.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Orange UpsideDownHouse
+    SetFontSize 45
+
+    #유니크 비싼 아이템
+    # Show
+    # Rarity Unique
+    # BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves" "Furtive Wraps" "Grand Regalia" "Heavy Belt" "Amethyst" "Jade Amulet" " jewel" "Moulded Mitts"
+    # SetTextColor 255 255 255 255
+    # SetBorderColor 255 255 255 255
+    # SetBackgroundColor 104 53 35
+    # CustomAlertSound "sounds/u1.mp3" 150
+    # PlayEffect White
+    # MinimapIcon 0 Red Star
+    # SetFontSize 45
+
+
+    #유니크 
+Show
+    Rarity Unique
+    BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Precursor Tablet" "Desolate Crossbow"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/괜찮아긺.mp3" 300
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+    #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
+Show
+    Rarity Unique
+    BaseType  "Forked Spear" "Stellar Amulet" "Amethyst Ring" "Unset Ring" "Heavy Belt"  "Ornate Belt" "Jade Amulet" "Pearl Ring"  "Bloodstone Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Crimson Amulet"  "Wide Belt" "Gold Amulet" "Utility Belt"  "Topaz Ring" "Plate Belt"  "Sacred Focus" "Viper Cap"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/다죽어.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+    #유니크 비싼 아이템 방어구
+Show
+    Rarity Unique
+    BaseType  "Garment" "Fine Bracers" "Heroic Armour" "Garment" "Spiritbone Crown" "Spiral Wraps" "Closed Helm" "Magus Tiara" "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Armoured Vest" "Rampart Tower Shield" "Smuggler Coat" "Stone Tower Shield" "Moulded Mitts" "Explorer Armour" "Knight Armour" "Velvet Cap" "Velvet Cap" "Chain Tiara" "Grand Visage" "Enlightened Robe"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+
+    #유니크 비싼 아이템 플라스크 호신부
+Show
+    Rarity Unique
+    BaseType   "Ultimate Life Flask" "Silver Charm"  "Stone Charm" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+    #유니크 비싼 아이템 주얼
+Show
+    Rarity Unique
+    BaseType   "Diamond" "Timeless Jewel"  "Diamond" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+    #유니크 비싼 아이템 지도
+    # Show
+    #     Rarity Unique
+    #     BaseType   "Ritual Precursor Tablet" 
+    #     SetTextColor 255 255 255 255
+    #     SetBorderColor 255 255 255 255
+    #     SetBackgroundColor 104 53 35
+    #     CustomAlertSound "sounds/u1.mp3" 150
+    #     PlayEffect White
+    #     MinimapIcon 0 Red Star
+    #     SetFontSize 45
+
+
+    #유니크 비싼 아이템 무기
+Show
+    Rarity Unique
+    BaseType   "Dualstring Bow" "Giant Maul"  "Helix Spear" "Torment Club" "Spiked Club" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+    #유니크 비싼 아이템 생텀
+Show
+    Rarity Unique
+    BaseType   "Incense Relic" #165D?
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/u1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+
+
+
+
+
+
+
+    #기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
+    # Show
+    # Rarity Normal
+    # BaseType  "Heavy Belt"
+    # SetFontSize 40
+    # SetTextColor 255 255 255
+    # SetBorderColor 255 255 255
+    # SetBackgroundColor 255 123 0
+    # PlayEffect Red
+    # MinimapIcon 0 Red Circle
+    # CustomAlertSound "sounds/나야들기름.mp3" 300
+
+    #기회의 오브
+Show
+    Rarity Normal
+    BaseType "Stellar Amulet"  "Blacksteel Tower Shield"
+    SetFontSize 40
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 123 0
+    PlayEffect Red
+    MinimapIcon 0 Red Circle
+    CustomAlertSound "sounds/ice.mp3" 250
+
+    #각종완드 
+Show
+    Rarity = Normal
+    BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+    ItemLevel >= 81
+    SetFontSize 45
+    SetTextColor 125 165 250
+    SetBorderColor 252 75 178
+    SetBackgroundColor 0 0 0
+    PlayEffect Red
+    MinimapIcon 0 Red Circle
+    CustomAlertSound "sounds/위플래쉬.mp3" 
+Show
+    Rarity = Magic
+    BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+    ItemLevel >= 81
+    SetFontSize 45
+    SetTextColor 125 165 250
+    SetBorderColor 252 75 178
+    SetBackgroundColor 15 0 68
+    PlayEffect Red
+    MinimapIcon 0 Red Circle
+    CustomAlertSound "sounds/위플래쉬.mp3" 
+
+
+
+
+    #81이상 강조
+    # Show
+    # Rarity == Rare
+    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring"  "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves"  "Feathered Sandals" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
+    # ItemLevel >= 81
+    # SetFontSize 40
+    # SetTextColor 251 255 0
+    # SetBorderColor 255 255 255
+    # SetBackgroundColor 4 75 2
+    # PlayEffect White
+    # MinimapIcon 1 Yellow Diamond
+
+    #81이상 매직 강조
+    # Show
+    # Rarity = Magic
+    # BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Dualstring Bow" "Advanced Dualstring Bow" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
+    # ItemLevel >= 81
+    # SetFontSize 40
+    # SetTextColor 22 208 255
+    # SetBorderColor 255 255 255
+    # SetBackgroundColor 4 75 2
+    # PlayEffect White
+    # MinimapIcon 1 Blue Diamond
+
+Show
+    Rarity == Normal
+    BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" 
+    ItemLevel >= 81
+    SetFontSize 40
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 4 75 2
+    PlayEffect White
+    MinimapIcon 1 White Diamond
+    # Show
+    # Rarity == Normal
+    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
+    # ItemLevel >= 81
+    # SetFontSize 40
+    # SetTextColor 255 255 255
+    # SetBorderColor 255 255 255
+    # SetBackgroundColor 4 75 2
+    # PlayEffect White
+    # MinimapIcon 1 White Diamond
+
+    # 그 외의 유니크     
+Show
+    Rarity Unique
+    BaseType "Iron Ring" "Lazuli Ring" "Ruby Ring" "Topaz Ring" "Amethyst Ring" "Pearl Ring" "Ringmail Gauntlets" " ring" "ring " "gold Amulet"
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 53 13 13 255
+    CustomAlertSound "sounds/w1.mp3" 100
+    PlayEffect Brown
+    MinimapIcon 0 Red Diamond
+    SetFontSize 40
+
+    #칼란드라의 반지를 위한 하지만 나머지 58개의 잡고유를 포함한
+Show
+    Rarity Unique
+    Class  "Ring"
+    BaseType  "Ring"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 165 52 11
+    CustomAlertSound "sounds/무궁화.mp3" 300
+    PlayEffect White
+    MinimapIcon 1 Brown Circle
+    SetFontSize 45
+
+    # 그 외의 유니크     
+Show
+    Rarity Unique
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 53 13 13 255
+    CustomAlertSound "sounds/w1.mp3" 100
+    PlayEffect Brown
+    MinimapIcon 0 Red Diamond
+    SetFontSize 40
+
+    
+    #거울
+Show
+    Class "Currency"
+    BaseType   "Mirror of Kalandra"
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/mirror.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+
+    #완벽한쥬얼러
+Show
+    Class "Currency"
+    BaseType  "Perfect Jeweller's Orb" 
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/PerfectJeweller.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+    SetFontSize 45
+
+
+
+    #r고대
+Show
+    Class "Stackable Currency"
+    BaseType   "Ancient "
+
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 102 0
+    CustomAlertSound "sounds/범내려온다효과음.mp3" 250
+    PlayEffect White
+    MinimapIcon 0 Orange Star
+    SetFontSize 40
+    #상위 쥬얼러 
+Show
+    # Class "Currency"
+    BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair" "Perfect Essence of Battle"
+
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 102 0
+    CustomAlertSound "sounds/범내려온다효과음.mp3" 250
+    PlayEffect White
+    MinimapIcon 0 Orange Star
+    SetFontSize 40
+
+    #소멸 ,기회의오브 
+Show
+    Class "Currency"
+    BaseType "Orb of Annulment" "Orb of Chance"  "Primate Talisman"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 255 102 0
+    CustomAlertSound "sounds/괜찮아짧.mp3" 300
+    PlayEffect White
+    MinimapIcon 0 Orange Star
+    SetFontSize 40
+
+    #분열의 오브 
+Show
+    Class "Currency"
+    BaseType   "Fracturing Orb" 
+    SetTextColor 0 0 0
+    SetBorderColor 0 255 255
+    SetBackgroundColor 0 255 255
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Orange Cross
+    SetFontSize 50
+    #카오스 오브 
+Show
+    Class "Currency"
+    BaseType   "Chaos Orb" 
+    SetTextColor 0 0 0
+    SetBorderColor 0 255 255
+    SetBackgroundColor 0 255 255
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Orange Cross
+    SetFontSize 50
+
+    #엑잘티드오브 
+Show
+    Class "Currency"
+    BaseType  "Exalted Orb" 
+    SetTextColor 111 0 255
+    SetBorderColor 111 0 255
+    SetBackgroundColor 255 255 255
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 45
+
+    #기회의 오브 파편 
+Show
+    Class "Currency"
+    BaseType    "Chance Shard"
+    SetTextColor 180 117 0
+    SetBorderColor 185 121 2
+    SetBackgroundColor 255 255 255
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 45
+
+
+
+    #복제된 영토 파편 
+Show
+    Class "Currency"
+    BaseType   "Simulacrum Splinter"
+    StackSize >= 4
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 27 31 255
+    CustomAlertSound "sounds/j1.wav" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 50
+
+Show
+    Class "Currency"
+    BaseType   "Simulacrum Splinter"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 27 31 255
+    CustomAlertSound "sounds/j1.wav" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 45
+
+    #세공사의 프리즘 
+Show
+    Class "Currency"
+    BaseType   "Gemcutter's Prism"
+    SetTextColor 0 0 0
+    SetBorderColor 255 255 255
+    SetBackgroundColor 89 240 75
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 45
+
+    #특이한 주화
+Show
+    Class "Currency"
+    BaseType   "Exotic Coinage"
+    SetTextColor 0 0 0
+    SetBorderColor 255 255 255
+    SetBackgroundColor 89 240 75
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect White
+    MinimapIcon 1 Purple Cross
+    SetFontSize 45
+
+
+
+
+
+    ###아이템 희귀도 영혼핵 
+Show
+    Class == "Socketable"
+    BaseType == "Soul Core of Azcapa"
+    SetFontSize 45
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/handsclub.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+
+    #최대 마나 영혼핵 
+Show
+    Class == "Socketable"
+    BaseType == "Soul Core of Zalatl"
+    SetFontSize 45
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/Zalatl.mp3" 150
+    PlayEffect Red
+    MinimapIcon 1 Yellow Star
+
+    #공속 영혼핵 18엑/ 모든원소저항 영혼핵 10엑 /화염저항 최대치 10엑 /최생 영혼핵 9엑 / 번개저항 최대치 영혼핵 10엑 / 
+Show
+    Class == "Socketable"
+    BaseType == "Soul Core of Quipolatl" "Soul Core of Citaqualotl" "Soul Core of Puhuarte" "Soul Core of Jiquani" "Soul Core of Ticaba" "Soul Core of Opiloti" "Soul Core of Tzamoto" "Soul Core of Zantipi" "Soul Core of Topotante" "Soul Core of Tacati" "Soul Core of Cholotl" 
+    SetFontSize 45
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 11 177 141
+    CustomAlertSound "sounds/sad.mp3" 150
+    PlayEffect Red
+    MinimapIcon 1 Yellow Circle
+
+    #신경기폭제 0.25엑 적응형 기폭제 2.7엑 툴의 기폭제 0.3엑 애쉬 0.5액 강탈자 0.4엑 달리는 0.2엑
+Show
+    Class "Currency"
+    BaseType "Neural Catalyst"  "Adaptive Catalyst" "Tul's Catalyst" "Esh's Catalyst"  "Reaver Catalyst" "Skittering Catalyst"
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 11 99 177
+    CustomAlertSound "sounds/s1.wav" 150
+    PlayEffect White
+    MinimapIcon 2 White Circle
+
+
+
+
+Show
+    Class "Currency"
+    BaseType " Catalyst"
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 11 99 177
+    CustomAlertSound "sounds/s1.wav" 150
+    PlayEffect White
+    MinimapIcon 2 White Circle
+
+
+    #정제된 나머지
+Show
+    Class "Currency"
+    BaseType   "Liquid" 
+    SetFontSize 45
+    SetTextColor 0 0 0
+    SetBorderColor 255 255 255
+    SetBackgroundColor 50 248 255
+    CustomAlertSound "sounds/b1.mp3" 300
+    PlayEffect Red
+    MinimapIcon 2 White Circle
+
+    # #상위 가속 에센스 430엑 #상위 무한의 에센스 138엑 #상위 전기의 에센스 99엑 #상위 마술의 에센스 80엑 #상위 고뇌의 에센스
+    # Show
+    # Class "Stackable Currency"
+    # BaseType   "Essence of Hysteria" "Perfect Essence of Battle" "Essence of Horror" "Perfect Essence of Sorcery" "Perfect Essence of Haste"
+    # SetFontSize 45
+    # SetTextColor 255 0 0 255
+    # SetBorderColor 255 0 0 255
+    # SetBackgroundColor 255 255 255 255
+    # CustomAlertSound "sounds/mariolvlup.mp3" 150
+    # PlayEffect Red
+    # MinimapIcon 0 Red Star
+    # #상위 에센스 20엑이하
+    # Show
+    # Class "Stackable Currency"
+    # BaseType   "Lesser Essence of Ruin" "Greater Essence of Abrasion" "Greater Essence of Ruin" "Lesser Essence of Sorcery" "Essence of Alacrity" "Essence of Abrasion" "Essence of Delirium" "Essence of Command" "Greater Essence of Haste"
+    # SetFontSize 45
+    # SetTextColor 255 255 255
+    # SetBorderColor 252 255 180
+    # SetBackgroundColor 11 177 141
+    # CustomAlertSound "sounds/mariolvlup.mp3" 150
+    # PlayEffect Red
+    # MinimapIcon 1 Yellow Circle
+
+    #하위 에센스
+Show
+    Class "Stackable Currency"
+    BaseType  "Essence of " 
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 11 99 177
+    CustomAlertSound "sounds/h1.wav" 150
+    PlayEffect White
+    MinimapIcon 2 White Circle
+
+    #좌측 말소의 징조 3800엑 /우측 소멸의 징조 2800엑 /좌측 소멸의 징조 2800엑/ 우측말소의 징조 2100엑 / 절사의 징조 1700엑 
+Show
+    Class "Omen"
+    BaseType == "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment" "Omen of Whittling"
+    SetFontSize 45
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/부기부기.mp3" 150
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+    #타락의 징조 100엑 / 개량의 징조 70엑 
+Show
+    Class "Omen"
+    BaseType == "Omen of Amelioration" "Omen of Corruption" "Omen of Dextral Crystallisation" "Omen of Light" "Omen of Homogenising Exaltation" "Xesht's Reliquary Key"
+    SetFontSize 45
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 11 177 141
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect Red
+    MinimapIcon 1 Yellow Circle
+
+    #나머지 징조
+Show
+    Class "Omen"
+    SetFontSize 45
+    SetTextColor 14 75 6
+    SetBorderColor 118 233 65
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/b1.mp3" 150
+    PlayEffect Red
+    MinimapIcon 2 White Circle
+
+
+    #입장 표기 상관없는 왕알현 균열 복제된영토 / 중재자 조각 / 결전 조각/ 탐험일지
+Show
+    BaseType  "An Audience with the King" "Breachstone" "Simulacrum"  "Deadly Fate" "Victorious Fate" "Cowardly Fate" "Expedition Logbook"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Brown UpsideDownHouse
+    SetFontSize 45
+
+    #의식 서판
+Show
+    BaseType "Ritual Precursor Tablet"
+    SetTextColor 253 171 253
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    CustomAlertSound "sounds/의식서판.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Orange UpsideDownHouse
+    SetFontSize 40
+
+    # 서판/ 진바리야 결전은 위에서 숨길거지만 일단 설정.
+Show
+    BaseType  " Tablet" "Barya" "Ultimatum" 
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    CustomAlertSound "sounds/r1.mp3" 150
+    PlayEffect White
+    MinimapIcon 0 Orange UpsideDownHouse
+    SetFontSize 40
+
+    #골드
+Show
+    StackSize >= 2500
+    BaseType == "Gold"
+    AreaLevel > 70
+    SetTextColor 212 175 55 255 #D4AF37
+    SetBackgroundColor 16 16 16 240 #000000
+    CustomAlertSound "sounds/k1.mp3" 50
+    PlayEffect Orange Temp
+    MinimapIcon 2 Pink Hexagon
+
+Show
+    StackSize >= 1000
+    AreaLevel < 70
+    BaseType == "Gold"
+    SetTextColor 212 175 55 255 #D4AF37
+    SetBackgroundColor 16 16 16 240 #000000
+    PlayEffect Orange Temp
+
+
+Show
+    BaseType == "Gold"
+    SetTextColor 212 175 55 220 #D4AF37
+    SetBackgroundColor 0 0 0 180
+
+    #미가공 보조잼
+Show
+    BaseType "Uncut Support "
+    GemLevel = 3
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    PlayAlertSound 2 200
+    PlayEffect Cyan
+    SetFontSize 30
+    MinimapIcon 1 Blue Triangle
+
+
+
+Show
+    BaseType "Uncut "
+    GemLevel <= 13
+    SetTextColor 20 240 240
+    SetBorderColor 20 240 240
+    PlayAlertSound 2 200
+    PlayEffect Cyan
+    SetFontSize 30
+    MinimapIcon 1 Cyan Triangle
+
+Show
+    BaseType "Uncut "
+    GemLevel >= 14
+    GemLevel <= 19
+    AreaLevel <= 79
+    SetTextColor 20 240 240
+    SetBorderColor 20 240 240
+    CustomAlertSound "sounds/j1.wav" 150
+    MinimapIcon 0 White Raindrop
+    PlayEffect Cyan
+
+Show
+    BaseType "Uncut Skill Gem "
+    GemLevel = 20
+    SetTextColor 255 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 210 240 240
+    PlayAlertSound 2 200
+    PlayEffect Cyan
+    SetFontSize 50
+    CustomAlertSound "sounds/uncut20.mp3" 300
+    MinimapIcon 0 Red Raindrop
+
+Show
+    BaseType "Uncut Spirit Gem"
+    GemLevel = 20
+    SetTextColor 37 180 185
+    SetBackgroundColor 255 255 255
+    SetBorderColor 210 240 240
+    PlayAlertSound 2 200
+    PlayEffect Cyan
+    SetFontSize 50
+    CustomAlertSound "sounds/죽습니다.mp3" 300
+    MinimapIcon 0 Red Raindrop
+
+
+    #유물
+Show 
+    Class "Relic"
+    SetTextColor 0 240 190
+    SetBorderColor 0 240 190
+    SetFontSize 40
+    MinimapIcon 2 Cyan Triangle
+    PlayEffect Cyan
+
+    #주얼 
+Show
+    Class "Jewel"
+    SetTextColor 0 240 190
+    SetBorderColor 0 240 190
+    SetBackgroundColor 0 0 0
+    SetFontSize 40
+    MinimapIcon 0 Cyan Triangle
+    PlayEffect Cyan
+    CustomAlertSound "sounds/j1.wav" 150
+
+
+
+
+
+Show
+    BaseType "Waystone"
+    WaystoneTier = 16
+    Rarity <= Rare
+    SetTextColor 255 255 255
+    SetBorderColor 200 200 200
+    SetBackgroundColor 255 10 10
+    CustomAlertSound "sounds/map.mp3" 200
+    PlayEffect Red
+    MinimapIcon 1 Red Square
+    SetFontSize 60
+
+
+Show
+    BaseType "Waystone"
+    WaystoneTier = 15
+    Rarity <= Rare
+    AnyEnchantment True
+    SetTextColor 255 255 255
+    SetBorderColor 200 200 200
+    SetBackgroundColor 255 10 10 205
+    CustomAlertSound "sounds/map.mp3" 200
+    PlayEffect Red
+    MinimapIcon 0 Red Square
+    SetFontSize 60
+
+Show
+    BaseType "Waystone"
+    WaystoneTier = 15
+    Rarity <= Rare
+    SetTextColor 255 255 255
+    SetBorderColor 200 200 200
+    SetBackgroundColor 255 10 10
+    CustomAlertSound "sounds/map.mp3" 200
+    PlayEffect Red
+    MinimapIcon 1 Red Square
+    SetFontSize 60
+
+Show
+    BaseType "Waystone"
+    # WaystoneTier < 15
+    WaystoneTier = 14
+    Rarity <= Rare
+    AreaLevel <= 78
+    SetTextColor 0 128 0
+    SetBorderColor 107 236 98
+    SetBackgroundColor 255 255 255 255
+    CustomAlertSound "sounds/s1.wav" 150
+    PlayEffect Red
+    MinimapIcon 1 Red Square
+    SetFontSize 60
+
+Show
+    BaseType "Waystone"
+    WaystoneTier <= 14   
+    SetTextColor 255 255 21
+    SetBorderColor 200 200 200
+    SetBackgroundColor 0 0 0
+
+    
+
+
+    #열쇠
+Show
+    BaseType  "Silver Key" "Bronze Key"
+    SetTextColor 255 207 132
+    SetBorderColor 255 207 132
+    SetBackgroundColor 76 51 12
+    CustomAlertSound "sounds/범내려온다.mp3" 150
+    PlayEffect White
+    MinimapIcon 2 Red Diamond
+    SetFontSize 40
+
+    #열쇠
+Show
+    BaseType "Gold Key" 
+    SetTextColor 255 207 132
+    SetBorderColor 255 207 132
+    SetBackgroundColor 76 51 12
+    CustomAlertSound "sounds/주목.mp3" 150
+    PlayEffect White
+    MinimapIcon 2 Red Diamond
+    SetFontSize 40
+
+    #반지 목걸이 벨트 레어 제외하고 안보이게.
+Show
+    Class "Rings" "Amulets" "Belts"
+    Rarity Rare
+    SetFontSize 40
+    SetTextColor 233 206 75
+    SetBorderColor 233 206 75
+    MinimapIcon 1 Yellow Diamond
+
+
+
+
+Show
+    Rarity Rare
+    SetFontSize 35
+    PlayAlertSound 2 200
+    SetTextColor 251 255 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 0 0
+
+Show
+    BaseType "Daggerfoot Shoes" "Sekhema Sandals" "Ancestral Tiara" "Grinning Mask" "Feathered Raiment" "Austere Garb" "Sirenscale Gloves" "Secured Wraps" "Belt"
+    ItemLevel > 80
+
+    #균열파편 0.5엑
+Show
+    Class "Currency"
+    BaseType "Breach Splinter" 
+    StackSize >= 4
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 177 11 141
+    CustomAlertSound "sounds/k1.mp3" 150
+    PlayEffect Purple
+    MinimapIcon 1 Purple Circle
+    SetFontSize 50
+
+Show
+    Class "Currency"
+    BaseType "Breach Splinter" 
+    StackSize >= 2
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 177 11 141
+    CustomAlertSound "sounds/k1.mp3" 150
+    PlayEffect Purple
+    MinimapIcon 1 Purple Circle
+    SetFontSize 45
+
+Show
+    Class "Currency"
+    BaseType "Breach Splinter"
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 177 11 141
+    CustomAlertSound "sounds/k1.mp3" 150
+    PlayEffect Purple
+    MinimapIcon 1 Purple Circle
+    SetFontSize 40
+
+Show
+    Class "Currency"
+    BaseType "Glassblower's Bauble"
+    SetTextColor 255 255 255
+    SetBorderColor 252 255 180
+    SetBackgroundColor 177 11 141
+    CustomAlertSound "sounds/k1.mp3" 150
+    MinimapIcon 1 Purple Circle
+    SetFontSize 35
+
+    #연금술 /바알/특이한주화/제왕의 오브/숙련공/유리구슬/대장장이/
+Show
+    Class "Currency"
+    BaseType  "Orb of Alchemy"  "Vaal Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble"  "Orb of Chance" "Lesser Jeweller's Orb" "Blacksmith's Whetstone" "Arcanist's Etcher" "Armourer's Scrap" "Orb of Augmentation" "Orb of Transmutation" 
+    SetTextColor 255 207 132
+    SetBorderColor 255 207 132
+    SetBackgroundColor 76 51 12
+    CustomAlertSound "sounds/a1.mp3" 150
+    MinimapIcon 1 White Circle
+    SetFontSize 40
+
+    
+    #모르는 커런시
+Show
+    Class "Currency"
+    SetTextColor 0 0 0
+    SetBorderColor 252 255 180
+    SetBackgroundColor 230 210 37
+    SetFontSize 40
+    MinimapIcon 2 White Circle
+
+Show
+    BaseType "Stone Charm" "Thawing Charm"
+Show
+    BaseType "Stone Charm" 
+    Quality >= 10
+    SetTextColor 255 207 132
+    SetBorderColor 255 207 132
+    SetBackgroundColor 76 51 12
+    CustomAlertSound "sounds/a1.mp3" 150
+    MinimapIcon 1 White Circle
+    SetFontSize 30
+
+
+Show
+    Class "Socketable"
+    BaseType "Iron Rune" 
+    #BaseType "Iron Rune" "Storm Rune"
+    AreaLevel >= 79
+    SetFontSize 35
+    PlayAlertSound 2 200
+    SetTextColor 94 58 0
+    SetBorderColor 77 48 2 192
+    SetBackgroundColor 255 238 210
+    PlayEffect Yellow Temp
+    MinimapIcon 2 Yellow UpsideDownHouse
+
+Show
+    Class "Socketable"
+    BaseType "Greater "
+    AreaLevel < 79
+    AreaLevel >= 76
+    SetFontSize 35
+    PlayAlertSound 2 200
+    SetTextColor 94 58 0
+    SetBorderColor 77 48 2 192
+    SetBackgroundColor 255 238 210
+    PlayEffect Yellow Temp
+    MinimapIcon 2 Yellow UpsideDownHouse
+
+Show
+    Class "Socketable"
+    BaseType " Rune"
+    AreaLevel < 76
+    SetFontSize 35
+    PlayAlertSound 2 200
+    SetTextColor 94 58 0
+    SetBorderColor 77 48 2 192
+    SetBackgroundColor 255 238 210
+    PlayEffect Yellow Temp
+    MinimapIcon 2 Yellow UpsideDownHouse
+
+
+    # Show
+    # BaseType " "
+    # Rarity Rare
+    # SetFontSize 35
+    # PlayAlertSound 2 200
+    # SetTextColor 94 58 0
+    # SetBorderColor 77 48 2 192
+    # SetBackgroundColor 255 238 210
+    # PlayEffect Yellow Temp
+    # MinimapIcon 2 Yellow UpsideDownHouse
+Show
+    BaseType "Bow" 
+    AreaLevel < 79
+    
