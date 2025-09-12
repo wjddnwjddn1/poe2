@@ -177,14 +177,7 @@ Hide
     BaseType "Cultist Bow" 
     AreaLevel > 65
 
-    # Show
-    # BaseType "Bow" 
-    # AreaLevel < 79
 
-    #석궁 제거
-    # Hide
-    # BaseType  "Crossbow"
-    # AreaLevel > 65
 
     #감정 주문서 제거
 Hide
@@ -211,18 +204,6 @@ Hide
     BaseType  "Barya" "Ultimatum" 
     AreaLevel >= 78
 
-    # Hide
-    # Rarity <= Rare
-    # Class  "Quarterstaves" "Shields" "One Hand Maces" 
-    # AreaLevel > 65
-
-    #조율 착취 제외 각종완드 제거
-    # Hide
-    # Rarity <= Rare
-    # Class "Wands" 
-    # BaseType "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Offering Wand" "Acrid Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand"
-    # SetTextColor 0 240 190
-    # AreaLevel >= 76
 
     #집중구 육척봉 셉터
 Hide 
@@ -231,25 +212,12 @@ Hide
     Class  "Foci" "Quarterstaves" "Sceptres"
     AreaLevel >= 76
 
-    #하위 쥬얼러
-    # Hide 
-    # Class "currency"
-    # BaseType "Lesser Jeweller's Orb"
-    # AreaLevel > 75
-    #경로석 지우기
+
 Hide
     BaseType "Waystone"
     WaystoneTier <= 10   
     AreaLevel > 78
-    #차임벨지팡이
-    # Show
-    # BaseType "Chiming Staff"
-    # ItemLevel > 80
-    #벨트 지팡이
-    # Hide
-    # Class "Belts" "Staves"
-    # Rarity <= Rare
-    # AreaLevel >= 76
+  
 Show
     BaseType  "Gemini Bow" "Obliterator Bow" "Visceral Quiver"
     ItemLevel >= 82
@@ -390,18 +358,6 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     SetFontSize 45
 
-    #유니크 비싼 아이템
-    # Show
-    # Rarity Unique
-    # BaseType  "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate" "Diamond" "Sapphire" "Trimmed Greaves" "Furtive Wraps" "Grand Regalia" "Heavy Belt" "Amethyst" "Jade Amulet" " jewel" "Moulded Mitts"
-    # SetTextColor 255 255 255 255
-    # SetBorderColor 255 255 255 255
-    # SetBackgroundColor 104 53 35
-    # CustomAlertSound "sounds/u1.mp3" 150
-    # PlayEffect White
-    # MinimapIcon 0 Red Star
-    # SetFontSize 45
-
 
     #유니크 
 Show
@@ -463,18 +419,6 @@ Show
     MinimapIcon 0 Red Star
     SetFontSize 45
 
-    #유니크 비싼 아이템 지도
-    # Show
-    #     Rarity Unique
-    #     BaseType   "Ritual Precursor Tablet" 
-    #     SetTextColor 255 255 255 255
-    #     SetBorderColor 255 255 255 255
-    #     SetBackgroundColor 104 53 35
-    #     CustomAlertSound "sounds/u1.mp3" 150
-    #     PlayEffect White
-    #     MinimapIcon 0 Red Star
-    #     SetFontSize 45
-
 
     #유니크 비싼 아이템 무기
 Show
@@ -506,17 +450,6 @@ Show
 
 
 
-    #기회의 오브 꿈의조각 마나 너프했는데 동결불가 옵션때문에 쓸진모르겠음
-    # Show
-    # Rarity Normal
-    # BaseType  "Heavy Belt"
-    # SetFontSize 40
-    # SetTextColor 255 255 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 255 123 0
-    # PlayEffect Red
-    # MinimapIcon 0 Red Circle
-    # CustomAlertSound "sounds/나야들기름.mp3" 300
 
     #기회의 오브
 Show
@@ -557,29 +490,6 @@ Show
 
 
 
-    #81이상 강조
-    # Show
-    # Rarity == Rare
-    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring"  "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves"  "Feathered Sandals" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 251 255 0
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 Yellow Diamond
-
-    #81이상 매직 강조
-    # Show
-    # Rarity = Magic
-    # BaseType =  "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Dualstring Bow" "Advanced Dualstring Bow" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 22 208 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 Blue Diamond
 
 Show
     Rarity == Normal
@@ -591,16 +501,7 @@ Show
     SetBackgroundColor 4 75 2
     PlayEffect White
     MinimapIcon 1 White Diamond
-    # Show
-    # Rarity == Normal
-    # BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" "Chain Tiara" "Rattling Sceptre" "Omen Sceptre" "Cultist Greathammer" "Siphoning Wand"  "Attuned Wand" "Keth Raiment" "Hexer's Robe"  "Feathered Tiara" "Intricate Gloves" "Jewelled Gloves" "Primed Quiver" "Volant Quiver" "Wrapped Sandals" "Feathered Sandals" "Silk Slippers" "Intricate Gloves" "Sombre Gloves"
-    # ItemLevel >= 81
-    # SetFontSize 40
-    # SetTextColor 255 255 255
-    # SetBorderColor 255 255 255
-    # SetBackgroundColor 4 75 2
-    # PlayEffect White
-    # MinimapIcon 1 White Diamond
+
 
     # 그 외의 유니크     
 Show
@@ -872,11 +773,6 @@ Show
     PlayEffect White
     MinimapIcon 2 White Circle
 
-    #하위 기폭제 다 안보이게
-    # Hide
-    # Class "Currency"
-    # BaseType "Catalyst" 
-    # AreaLevel >= 76
 
 
     #정제된 나머지
@@ -891,28 +787,7 @@ Show
     PlayEffect Red
     MinimapIcon 2 White Circle
 
-    # #상위 가속 에센스 430엑 #상위 무한의 에센스 138엑 #상위 전기의 에센스 99엑 #상위 마술의 에센스 80엑 #상위 고뇌의 에센스
-    # Show
-    # Class "Stackable Currency"
-    # BaseType   "Essence of Hysteria" "Perfect Essence of Battle" "Essence of Horror" "Perfect Essence of Sorcery" "Perfect Essence of Haste"
-    # SetFontSize 45
-    # SetTextColor 255 0 0 255
-    # SetBorderColor 255 0 0 255
-    # SetBackgroundColor 255 255 255 255
-    # CustomAlertSound "sounds/mariolvlup.mp3" 150
-    # PlayEffect Red
-    # MinimapIcon 0 Red Star
-    # #상위 에센스 20엑이하
-    # Show
-    # Class "Stackable Currency"
-    # BaseType   "Lesser Essence of Ruin" "Greater Essence of Abrasion" "Greater Essence of Ruin" "Lesser Essence of Sorcery" "Essence of Alacrity" "Essence of Abrasion" "Essence of Delirium" "Essence of Command" "Greater Essence of Haste"
-    # SetFontSize 45
-    # SetTextColor 255 255 255
-    # SetBorderColor 252 255 180
-    # SetBackgroundColor 11 177 141
-    # CustomAlertSound "sounds/mariolvlup.mp3" 150
-    # PlayEffect Red
-    # MinimapIcon 1 Yellow Circle
+    
 
     #하위 에센스
 Show
@@ -1035,12 +910,6 @@ Show
     SetFontSize 30
     MinimapIcon 1 Blue Triangle
 
-    #미가공 잼 15티어 이상에서 18렙이하 숨김.
-
-    # Hide
-    # BaseType "Uncut "
-    # GemLevel <= 18
-    # AreaLevel >= 79
 
 Show
     BaseType "Uncut "
@@ -1226,26 +1095,6 @@ Hide
     AreaLevel >= 76
 
 
-    #광신자의 대망치
-
-    # Hide
-    # Rarity <= Rare
-    # Class "Two Hand Maces"
-    # AreaLevel >= 76
-
-    #고급
-
-    # Show
-    # BaseType "Advanced "
-    # Rarity Rare
-    # ItemLevel >= 82
-    # AreaLevel >= 76
-
-    # Hide
-    # BaseType "Advanced "
-    # ItemLevel < 82
-    # Rarity <= Rare
-    # AreaLevel >= 76
 
 Show
     Rarity Rare
@@ -1415,16 +1264,6 @@ Show
     MinimapIcon 2 Yellow UpsideDownHouse
 
 
-    # Show
-    # BaseType " "
-    # Rarity Rare
-    # SetFontSize 35
-    # PlayAlertSound 2 200
-    # SetTextColor 94 58 0
-    # SetBorderColor 77 48 2 192
-    # SetBackgroundColor 255 238 210
-    # PlayEffect Yellow Temp
-    # MinimapIcon 2 Yellow UpsideDownHouse
 Show
     BaseType "Bow" 
     AreaLevel < 79
