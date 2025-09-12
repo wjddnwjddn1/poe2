@@ -9,6 +9,9 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 #숨기기
+Hide #상위진화 군왕 징조
+    BaseType "Greater Orb of Transmutation" "Omen of the Liege"
+    AreaLevel > 79
 Hide# 5등급 미만 그냥 다 숨기기
     Rarity < Unique
     Rarity >= Magic
