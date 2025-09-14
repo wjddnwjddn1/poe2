@@ -1,4 +1,23 @@
 방어도 관련템을 많이 가렸습니다.
+81이상 베이스 아이템 몇가지 괜찮은거 강조 했습니다.
+
+Show
+    Rarity Normal
+    BaseType  "Rattling Sceptre" "Gemini Crossbow" "Siege Crossbow" "Desolate Crossbow" "Massive Greathammer" "Tawhoan Greatclub" "Bolting Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Vile Robe" "Amethyst Ring" "Prismatic Ring" "Breach Ring" "Gold Amulet" "Solar Amulet" "Stellar Amulet"
+    ItemLevel > 81
+    SetTextColor 255 255 255
+    SetBorderColor 107 107 107
+    SetTextColor 255 255 255
+    SetFontSize 45
+Show
+    Rarity Normal
+    BaseType  "Reaping Staff" "Dueling Wand" "Chiming Staff"
+    ItemLevel > 81
+    SetTextColor 255 255 255
+    SetBorderColor 68 68 68
+    SetTextColor 255 255 255
+    SetFontSize 45
+
 -----------------------------------------------------------------------------------------------------
 <br><br><br>
 
