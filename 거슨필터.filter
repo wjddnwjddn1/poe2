@@ -240,7 +240,7 @@ Hide
     AreaLevel > 78
   
 Show
-    BaseType  "Gemini Bow" "Obliterator Bow" "Visceral Quiver" ""Warmonger Bow""
+    BaseType  "Gemini Bow" "Obliterator Bow" "Visceral Quiver" "Warmonger Bow"
     ItemLevel >= 82
     Rarity Normal
     SetTextColor 255 255 255 255
