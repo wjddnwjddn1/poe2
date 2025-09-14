@@ -18,6 +18,7 @@ Show
     SetBorderColor 107 107 107
     SetTextColor 255 255 255
     SetFontSize 45
+    CustomAlertSound "sounds/b1.mp3" 150
 Show
     Rarity Normal
     BaseType  "Reaping Staff" "Dueling Wand" "Chiming Staff"
@@ -26,6 +27,7 @@ Show
     SetBorderColor 68 68 68
     SetTextColor 255 255 255
     SetFontSize 45
+    CustomAlertSound "sounds/b1.mp3" 150
 Hide #상위진화 군왕 징조
     BaseType "Greater Orb of Transmutation" "Omen of the Liege" "Artificer's Orb"
     AreaLevel > 79
