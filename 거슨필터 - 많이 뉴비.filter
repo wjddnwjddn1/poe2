@@ -484,7 +484,7 @@ Show
     #상위 쥬얼러 
 Show
     # Class "Currency"
-    BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair" "Perfect Essence of Battle"
+    BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair" "Perfect Essence of Battle" "Essence of Horror" "Essence of Delirium" "Essence of Hysteria"
 
     SetTextColor 255 255 255
     SetBorderColor 255 255 255

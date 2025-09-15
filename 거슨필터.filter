@@ -19,6 +19,8 @@ Show
     SetTextColor 255 255 255
     SetFontSize 45
     CustomAlertSound "sounds/b1.mp3" 150
+    MinimapIcon 2 Orange Star
+    PlayEffect White 1
 Show
     Rarity Normal
     BaseType  "Reaping Staff" "Dueling Wand" "Chiming Staff"
@@ -28,6 +30,8 @@ Show
     SetTextColor 255 255 255
     SetFontSize 45
     CustomAlertSound "sounds/b1.mp3" 150
+    MinimapIcon 2 Orange Star
+    PlayEffect White 1
 Hide #상위진화 군왕 징조
     BaseType "Greater Orb of Transmutation" "Omen of the Liege" "Artificer's Orb"
     AreaLevel > 79
@@ -509,17 +513,17 @@ Show
     PlayEffect Red
     MinimapIcon 0 Red Circle
     CustomAlertSound "sounds/위플래쉬.mp3" 
-Show
-    Rarity = Magic
-    BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
-    ItemLevel >= 81
-    SetFontSize 45
-    SetTextColor 125 165 250
-    SetBorderColor 252 75 178
-    SetBackgroundColor 15 0 68
-    PlayEffect Red
-    MinimapIcon 0 Red Circle
-    CustomAlertSound "sounds/위플래쉬.mp3" 
+# Show
+#     Rarity = Magic
+#     BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+#     ItemLevel >= 81
+#     SetFontSize 45
+#     SetTextColor 125 165 250
+#     SetBorderColor 252 75 178
+#     SetBackgroundColor 15 0 68
+#     PlayEffect Red
+#     MinimapIcon 0 Red Circle
+#     CustomAlertSound "sounds/위플래쉬.mp3" 
 
 
 
@@ -614,7 +618,7 @@ Show
     #상위 쥬얼러 
 Show
     # Class "Currency"
-    BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair" "Perfect Essence of Battle"
+    BaseType  "Greater Jeweller's Orb"  "Thane Leld's Rune of Spring" "Thane Girt's Rune of Wildness" "Courtesan Mannan's Rune of Cruelty" "Saqawal's Rune of the Sky" "The Greatwolf's Rune of Willpower" "The Greatwolf's Rune of Claws" "Talisman of Ralakesh" "Talisman of Sirrius" "Ancient Rib" "Preserved Collarbone" "Ixchel's Torment" "Ratha's Assault" "Tecrod's Revenge" "Arbiter's Ignition" "Concentrated Liquid Fear" "Liquid Despair" "Perfect Essence of Battle" "Essence of Horror" "Essence of Delirium" "Essence of Hysteria"
 
     SetTextColor 255 255 255
     SetBorderColor 255 255 255
