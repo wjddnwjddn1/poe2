@@ -369,10 +369,10 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     SetFontSize 45
 
-    # 균열서판   
+     
 Show
     Rarity Unique
-    BaseType "Breach Precursor Tablet" "Overseer Precursor Tablet" "Expedition Precursor Tablet"
+    BaseType "Breach Precursor Tablet" "Overseer Precursor Tablet" "Expedition Precursor Tablet" "Delirium Precursor Tablet" "Ritual Precursor Tablet"
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
     SetBackgroundColor 53 13 13 255
@@ -395,7 +395,14 @@ Show
     #유니크 비싼 아이템 악세 Wide Belt(악무는 띠 넓은허리띠 넓은허리띠는 3개있음 다른건 싼거임.)
 Show
     Rarity Unique
-    BaseType  "Heavy Belt"   "Pearl Ring"  "Bloodstone Amulet" "Jade Amulet"  "Wide Belt" "Utility Belt"  "Sacred Focus" "Viper Cap"
+    BaseType    "Wide Belt" 
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    SetFontSize 35
+Show
+    Rarity Unique
+    BaseType  "Heavy Belt"   "Pearl Ring"  "Bloodstone Amulet" "Jade Amulet"   "Utility Belt"  "Sacred Focus" "Viper Cap"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
