@@ -1,5 +1,7 @@
 방어도 관련템을 많이 가렸습니다.
 81이상 노말 베이스 몇가지 강조했습니다.
+https://snomet.kr/poe2/gx/1
+<br>
     BaseType  "Rattling Sceptre" "Gemini Crossbow" "Siege Crossbow" "Desolate Crossbow" "Massive Greathammer" "Tawhoan Greatclub" "Bolting Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Vile Robe" "Amethyst Ring" "Prismatic Ring" "Breach Ring" "Gold Amulet" "Solar Amulet" "Stellar Amulet"
 
 -----------------------------------------------------------------------------------------------------
