@@ -510,7 +510,7 @@ Show
     #각종완드 
 Show
     Rarity = Normal
-    BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand"
+    BaseType "Siphoning Wand"  "Attuned Wand" "Withered Wand" "Bone Wand" "Galvanic Wand" "Dueling Wand"
     ItemLevel >= 81
     SetFontSize 45
     SetTextColor 125 165 250
@@ -537,7 +537,7 @@ Show
 
 Show
     Rarity == Normal
-    BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring" 
+    BaseType = "Siphoning Wand"  "Attuned Wand" "Breach Ring"  "Dueling Wand"
     ItemLevel >= 81
     SetFontSize 40
     SetTextColor 255 255 255
