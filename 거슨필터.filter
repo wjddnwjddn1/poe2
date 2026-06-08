@@ -544,9 +544,35 @@ Show
     MinimapIcon 0 Red Star
     SetFontSize 45
 
+# GERSON: Hide unique bases with max price <= 3ex from local price data. Added 2026-06-09. Filtered to known filter BaseTypes.
 
+Hide
+    Rarity Unique
+    BaseType == "Abyssal Signet" "Acrid Wand" "Aged Cuffs" "Altar Robe" "Amber Amulet" "Amethyst Charm" "Amethyst Ring" "Amphora Relic" "Ancestral Mail" "Anchorite Garb" "Ancient Leggings" "Ancient Mail" "Ancient Visor" "Antidote Charm" "Antler Focus" "Artillery Bow" "Ashen Staff" "Assassin Garb" "Attuned Wand" "Azure Amulet" "Barbed Spear" "Barricade Tower Shield" "Beaded Circlet" "Blacksteel Tower Shield" "Blazon Crest Shield" "Blunt Quiver" "Bolstered Mitts" "Bone Raiment" "Bone Wand" "Braced Sabatons" "Braced Tower Shield" "Broadhead Quiver" "Bronze Greaves" "Burnished Gauntlets" "Chain Mail" "Champion Cuirass" "Changeling Talisman" "Chiming Staff" "Cleric Vestments" "Cloaked Mail" "Closed Helm" "Composite Bow" "Conqueror Plate" "Corsair Cap" "Corvus Mantle" "Covered Sabatons" "Covert Hood" "Cowled Helm" "Crescent Quarterstaff" "Crescent Targe" "Crimson Amulet" "Crucible Tower Shield" "Crude Bow" "Crumbling Maul" "Crystal Focus" "Cultist Crown" "Cultist Greathammer" "Death Mask" "Desolate Crossbow" "Double Belt" "Doubled Gauntlets" "Dousing Charm" "Dualstring Bow" "Dyad Crossbow" "Elementalist Robe" "Elite Greathelm" "Emblem Crest Shield" "Embossed Boots" "Embroidered Gloves" "Emerald Ring"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+    DisableDropSound True
 
+Hide
+    Rarity Unique
+    BaseType == "Engraved Focus" "Execratus Hammer" "Explorer Armour" "Exquisite Vest" "Face Mask" "Familial Talisman" "Fanatic Bow" "Feathered Robe" "Feathered Sandals" "Feathered Tiara" "Felled Greatclub" "Fierce Greathelm" "Fire Quiver" "Firm Bracers" "Flanged Mace" "Forge Maul" "Forked Spear" "Full Plate" "Fur Plate" "Gargantuan Life Flask" "Gauze Wraps" "Gelid Staff" "Gilded Vestments" "Gold Amulet" "Gold Circlet" "Gold Ring" "Goldcast Cuffs" "Gothic Quarterstaff" "Grand Cuisses" "Grand Visage" "Grounding Charm" "Guarded Helm" "Hardwood Spear" "Hardwood Targe" "Havoc Raiment" "Heavy Bow" "Helix Spear" "Heraldric Tower Shield" "Hermit Garb" "Heroic Armour" "Hewn Mask" "Hexer's Robe" "Hooded Mask" "Horned Crown" "Hunter Hood" "Hunting Shoes" "Hunting Spear" "Intricate Gloves" "Iron Buckler" "Iron Crown" "Iron Cuirass" "Iron Greaves" "Iron Ring" "Ironclad Vestments" "Ironhead Spear" "Irradiated Tablet" "Jade Tiara" "Jewelled Gloves" "Jingling Crest Shield" "Keth Raiment" "Lace Hood" "Laced Boots" "Lapis Amulet" "Layered Gauntlets" "Lazuli Ring" "Leaden Greathammer" "Leather Buckler" "Leather Vest" "Leatherbound Hood" "Linen Belt"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+    DisableDropSound True
 
+Hide
+    Rarity Unique
+    BaseType == "Linen Wraps" "Lizardscale Boots" "Long Belt" "Long Quarterstaff" "Lunar Amulet" "Magus Tiara" "Mail Belt" "Mail Sabatons" "Mail Vestments" "Makeshift Crossbow" "Marabout Garb" "Maraketh Cuirass" "Martyr Crown" "Oak Greathammer" "Omen Crest Shield" "Omen Sceptre" "Ornate Belt" "Ornate Buckler" "Painted Tower Shield" "Pathfinder Coat" "Pauascale Gloves" "Pearl Ring" "Penetrating Quiver" "Pilgrim Vestments" "Plate Belt" "Plate Gauntlets" "Plated Buckler" "Plated Mace" "Plated Raiment" "Pointed Maul" "Pyrophyte Staff" "Quilted Vest" "Rampart Tower Shield" "Rattling Sceptre" "Ravenous Staff" "Rawhide Belt" "Recurve Bow" "Reflecting Staff" "Rhoahide Coat" "Ridged Buckler" "Ringmail Gauntlets" "Riveted Mitts" "Rogue Armour" "Rope Cuffs" "Rough Greaves" "Ruby Charm" "Ruby Ring" "Rusted Cuirass" "Rusted Greathelm" "Sacral Quiver" "Sacrificial Mantle" "Sapphire Charm" "Scale Mail" "Scalper's Jacket" "Scout's Vest" "Seal Relic" "Sectioned Bracers" "Secured Leggings" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Shortbow" "Shrouded Vest" "Sigil Crest Shield" "Silk Slippers" "Slim Mace" "Soldier Greathelm" "Solid Mask" "Sombre Gloves"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+    DisableDropSound True
+
+Hide
+    Rarity Unique
+    BaseType == "Spiked Buckler" "Spined Bracers" "Spired Greathelm" "Spiritbone Crown" "Splintered Tower Shield" "Stacked Sabatons" "Staunching Charm" "Steel Plate" "Steelpoint Quarterstaff" "Stitched Gloves" "Stone Greaves" "Stone Tower Shield" "Straw Sandals" "Strider Vest" "Studded Greatclub" "Studded Vest" "Suede Bracers" "Tapestry Relic" "Tattered Robe" "Tempered Mitts" "Temple Maul" "Tense Crossbow" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Topaz Charm" "Topaz Ring" "Torment Club" "Torn Gloves" "Toxic Quiver" "Trimmed Greaves" "Twig Circlet" "Twig Focus" "Vaal Cuirass" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Velvet Cap" "Venerable Defender" "Vermeil Circlet" "Vicious Talisman" "Visceral Quiver" "Visored Helm" "Volatile Wand" "Voltaic Staff" "Voodoo Focus" "Votive Raiment" "War Spear" "Warpick" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Wide Belt" "Withered Wand" "Wooden Buckler" "Wooden Club" "Woven Focus" "Wrapped Greathelm" "Wrapped Quarterstaff" "Wrapped Sandals" "Wyrm Quarterstaff" "Zealot Bow"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+    DisableDropSound True
 
 
 
