@@ -456,7 +456,18 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Silk Robe" "Grand Manchettes" "Sacrificial Regalia" "Armoured Vest" "Grand Regalia" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Ornate Gauntlets" "Enlightened Robe" "Utility Wraps" "Intricate Crest Shield" "Sacred Focus" "Knight Armour" "Heavy Belt" "Utility Belt" "Ring" "Jade Amulet" "Bloodstone Amulet" "Shrine Sceptre" "Pronged Spear" "Permafrost Staff" "Trarthan Cannon" "Ashbark Talisman" "Siphoning Wand" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
+    BaseType "Ring"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 80 0 0 255
+    CustomAlertSound "sounds/tiger-effect.mp3" 250
+    PlayEffect Red
+    MinimapIcon 0 Red Diamond
+    SetFontSize 45
+
+Show
+    Rarity Unique
+    BaseType "Silk Robe" "Grand Manchettes" "Sacrificial Regalia" "Armoured Vest" "Grand Regalia" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Ornate Gauntlets" "Enlightened Robe" "Utility Wraps" "Intricate Crest Shield" "Sacred Focus" "Knight Armour" "Heavy Belt" "Utility Belt" "Jade Amulet" "Bloodstone Amulet" "Shrine Sceptre" "Pronged Spear" "Permafrost Staff" "Trarthan Cannon" "Ashbark Talisman" "Siphoning Wand" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
     SetTextColor 255 255 255 255
     SetBorderColor 255 0 0 255
     SetBackgroundColor 80 0 0 255
@@ -467,7 +478,18 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Fine Belt" "Stellar Amulet" "Sapphire Ring" "Stocky Mitts" "Lattice Sandals" "Viper Cap" "Array Buckler" "Garment" "Tribal Mask" "Smuggler Coat" "Ironclad Vestments" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Morning Star" "Winged Spear"
+    BaseType "Sapphire Ring"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 104 53 35
+    CustomAlertSound "sounds/괜찮아긺.mp3" 300
+    PlayEffect White
+    MinimapIcon 0 Red Diamond
+    SetFontSize 45
+
+Show
+    Rarity Unique
+    BaseType "Fine Belt" "Stellar Amulet" "Stocky Mitts" "Lattice Sandals" "Viper Cap" "Array Buckler" "Garment" "Tribal Mask" "Smuggler Coat" "Ironclad Vestments" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Morning Star" "Winged Spear"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -5104,14 +5126,14 @@ Show # %H6 $type->maplike->special $tier->logbookslow !fragments_a
 Show # $type->uniques $tier->sekhemaring !uniques_a
 	Sockets > 0
 	Rarity Unique
-	BaseType == "Ring"
+    BaseType == "Ring"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 188 96 37 255
 	PlayAlertSound 1 300
 	PlayEffect Red
-	MinimapIcon 0 Yellow Star
+	MinimapIcon 0 Yellow Diamond
 
 #------------------------------------
 #   [2802] Tier 1 and 2 uniques
@@ -5120,7 +5142,19 @@ Show # $type->uniques $tier->sekhemaring !uniques_a
 
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Pronged Spear" "Ring" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask" "Unset Ring"
+    BaseType == "Ring" "Unset Ring"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
+	CustomAlertSound "sounds/tiger-effect.mp3" 250
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+
+Show # $type->uniques $tier->t1 !apex_stier
+	Rarity Unique
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Pronged Spear" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -5215,7 +5249,23 @@ Show # %D5 $type->uniques $tier->oversocketuniques2 !uniques_exceptional
 
 Show # $type->uniques $tier->multispecial !uniques_x
 	Rarity Unique
-	BaseType == "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Sapphire Ring" "Solar Amulet" "Temple Tablet"
+    BaseType == "Sapphire Ring"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+#------------------------------------
+#   [2804] Low tier exceptions
+#------------------------------------
+# !! Waypoint c11.uniques.low : "Tierlist - Uniques - Low Tier Uniques" : "Uniques"
+
+Show # $type->uniques $tier->multispecial !uniques_x
+	Rarity Unique
+	BaseType == "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Solar Amulet" "Temple Tablet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -5231,7 +5281,18 @@ Show # $type->uniques $tier->multispecial !uniques_x
 
 Show # %H6 $type->uniques $tier->earlyleague !uniques_b
 	Rarity Unique
-	BaseType == "Enlightened Robe" "Fine Belt" "Prismatic Ring" "Vermeil Circlet" "Viper Cap"
+    BaseType == "Prismatic Ring"
+	SetFontSize 42
+	SetTextColor 188 96 37 255
+	SetBorderColor 188 96 37 255
+	SetBackgroundColor 53 13 13 255
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 1 Brown Diamond
+
+Show # %H6 $type->uniques $tier->earlyleague !uniques_b
+	Rarity Unique
+	BaseType == "Enlightened Robe" "Fine Belt" "Vermeil Circlet" "Viper Cap"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5244,7 +5305,24 @@ Show # $type->uniques $tier->corrupteduniques !uniques_b
 	AnyEnchantment True
 	Corrupted True
 	Rarity Unique
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Talismans" "Two Hand Maces" "Wands"
+    Class == "Rings"
+	SetFontSize 42
+	SetTextColor 188 96 37 255
+	SetBorderColor 188 96 37 255
+	SetBackgroundColor 53 13 13 255
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 1 Brown Diamond
+
+#------------------------------------
+#   [2805] Tier 3 uniques 
+#------------------------------------
+
+Show # $type->uniques $tier->corrupteduniques !uniques_b
+	AnyEnchantment True
+	Corrupted True
+	Rarity Unique
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Shields" "Spears" "Staves" "Talismans" "Two Hand Maces" "Wands"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
