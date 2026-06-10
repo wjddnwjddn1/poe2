@@ -1,4 +1,4 @@
-﻿#===============================================================================================================
+#===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
 # VERSION:  0.10.0.2026.149.17
@@ -193,6 +193,16 @@ Show
     CustomAlertSound "sounds/b1.mp3" 150
     SetFontSize 45
     MinimapIcon 0 Blue Star
+
+
+# GERSON: Ruby Ring plain display, no minimap star - 2026-06-10.
+Show
+    BaseType == "Ruby Ring"
+    Rarity Normal Magic Rare
+    SetTextColor 255 255 255 255
+    SetBorderColor 130 80 80 180
+    SetFontSize 35
+    DisableDropSound True
 
 # GERSON PRICE BASE - Obliterator Bow, normal base around 6ex, moderate highlight
 Show
@@ -438,7 +448,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Silk Robe" "Grand Manchettes" "Cinched Boots" "Grand Visage" "Sacrificial Regalia" "Armoured Vest" "Primed Quiver" "Exquisite Vest" "Explorer Armour" "Grand Regalia" "Crucible Tower Shield" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Furtive Wraps" "Grand Cuisses" "Penetrating Quiver" "Ornate Gauntlets" "Enlightened Robe" "Utility Wraps" "Intricate Crest Shield" "Champion Cuirass" "Corvus Mantle" "Sacred Focus" "Knight Armour" "Heavy Belt" "Utility Belt" "Ring" "Jade Amulet" "Bloodstone Amulet" "Gold Amulet" "Shrine Sceptre" "Pronged Spear" "Flanged Mace" "Permafrost Staff" "Trarthan Cannon" "Wyrm Quarterstaff" "Ashbark Talisman" "Siphoning Wand" "Desolate Crossbow" "Fanatic Bow" "Heavy Bow" "Helix Spear" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
+    BaseType "Silk Robe" "Grand Manchettes" "Sacrificial Regalia" "Armoured Vest" "Primed Quiver" "Grand Regalia" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Ornate Gauntlets" "Enlightened Robe" "Utility Wraps" "Intricate Crest Shield" "Sacred Focus" "Knight Armour" "Heavy Belt" "Utility Belt" "Ring" "Jade Amulet" "Bloodstone Amulet" "Shrine Sceptre" "Pronged Spear" "Permafrost Staff" "Trarthan Cannon" "Ashbark Talisman" "Siphoning Wand" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
     SetTextColor 255 255 255 255
     SetBorderColor 255 0 0 255
     SetBackgroundColor 80 0 0 255
@@ -449,7 +459,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Amethyst Ring" "Fine Belt" "Stellar Amulet" "Pearl Ring" "Abyssal Signet" "Sapphire Ring" "Lapis Amulet" "Stocky Mitts" "Broadhead Quiver" "Ancient Leggings" "Heroic Armour" "Lattice Sandals" "Viper Cap" "Shaman Mantle" "Leatherbound Hood" "Havoc Raiment" "Closed Helm" "Array Buckler" "Garment" "Tempered Mitts" "Conqueror Plate" "Spired Greathelm" "Embroidered Gloves" "Tribal Mask" "Smuggler Coat" "Plated Vestments" "Ironclad Vestments" "Transcendent Mana Flask" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Reflecting Staff" "Torment Club" "Giant Maul" "Spiked Club" "Morning Star" "Winged Spear" "Ravenous Staff" "Totemic Greatclub" "Execratus Hammer"
+    BaseType "Fine Belt" "Stellar Amulet" "Sapphire Ring" "Stocky Mitts" "Lattice Sandals" "Viper Cap" "Array Buckler" "Garment" "Tribal Mask" "Smuggler Coat" "Ironclad Vestments" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Morning Star" "Winged Spear"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -460,7 +470,7 @@ Show
 
 Show
     Rarity Unique
-  BaseType "Breach Tablet" "Overseer Tablet" "Delirium Tablet" "Ritual Tablet" "Irradiated Tablet" "Temple Tablet" "Abyss Tablet"
+  BaseType "Breach Tablet" "Overseer Tablet" "Delirium Tablet" "Ritual Tablet" "Temple Tablet" "Abyss Tablet"
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
     SetBackgroundColor 53 13 13 255
@@ -472,7 +482,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Breach Tablet" "Overseer Tablet" "Delirium Tablet" "Ritual Tablet" "Irradiated Tablet" "Temple Tablet" "Abyss Tablet" "Desolate Crossbow"
+    BaseType   "Shrine Sceptre"  "Golden Charm" "Vase Relic" "Breach Tablet" "Overseer Tablet" "Delirium Tablet" "Ritual Tablet" "Temple Tablet" "Abyss Tablet"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -483,7 +493,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType  "Heavy Belt"   "Pearl Ring"  "Bloodstone Amulet" "Jade Amulet" "Utility Belt"  "Sacred Focus" "Viper Cap"
+    BaseType  "Heavy Belt"  "Bloodstone Amulet" "Jade Amulet" "Utility Belt"  "Sacred Focus" "Viper Cap"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -496,7 +506,7 @@ Show
 
 Show
     Rarity Unique #타뷸라
-    BaseType  "Garment" "Fine Bracers"  "Embroidered Gloves" "Blacksteel Tower Shield" "Armoured Cap" "Ornate Gauntlets" "Moulded Mitts"
+    BaseType  "Garment" "Fine Bracers" "Armoured Cap" "Ornate Gauntlets"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -533,18 +543,6 @@ Show
 
 
     #유니크 비싼 아이템 무기
-
-Show
-    Rarity Unique
-    BaseType   "Dualstring Bow" "Giant Maul"  "Helix Spear" "Torment Club" "Spiked Club" 
-    SetTextColor 255 255 255 255
-    SetBorderColor 255 255 255 255
-    SetBackgroundColor 104 53 35
-    CustomAlertSound "sounds/u1.mp3" 150
-    PlayEffect White
-    MinimapIcon 0 Red Star
-    SetFontSize 45
-    #유니크 비싼 아이템 생텀
 
 Show
     Rarity Unique
@@ -606,7 +604,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Iron Ring" "Lazuli Ring" "Ruby Ring" "Topaz Ring" "Amethyst Ring" "Pearl Ring" "Ringmail Gauntlets" " ring" "ring " "gold Amulet"
+    BaseType " ring" "ring "
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
     SetBackgroundColor 53 13 13 255
@@ -673,7 +671,7 @@ Show
 
 Show
     Class "Currency" "Stackable Currency"
-    BaseType "Perfect Orb of Augmentation" "Perfect Orb of Transmutation"
+    BaseType "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Perfect Regal Orb"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 255 102 0 255
@@ -1421,7 +1419,7 @@ Show # %H3 $type->gold $tier->any !gold_pilesmall
 
 Show # %D9 $type->exoticbases $tier->superexoticbases !exotics_btier
 	Rarity Normal Magic Rare
-	BaseType == "Aberrant Sledge" "Abyssal Signet" "Ancient Gauntlets" "Ancient Leggings" "Ancient Mail" "Ancient Visor" "Diamond" "Glacial Fortress" "Heartwood Shortbow" "Ornate Ringmail" "Pearlescent Amulet" "Perching Staff" "Primal Markings" "Reflecting Staff" "Runic Fork" "Sacrificial Regalia" "Tenebrous Crown" "Time-Lost Diamond" "Twisted Wand" "Two-Stone Ring" "Venerable Defender" "Veridical Chain" "Warding Quarterstaff"
+	BaseType == "Aberrant Sledge" "Ancient Gauntlets" "Diamond" "Glacial Fortress" "Heartwood Shortbow" "Ornate Ringmail" "Pearlescent Amulet" "Perching Staff" "Primal Markings" "Runic Fork" "Sacrificial Regalia" "Time-Lost Diamond" "Twisted Wand" "Two-Stone Ring" "Veridical Chain" "Warding Quarterstaff"
 	SetFontSize 42
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -1522,7 +1520,7 @@ Show # %D9 $type->exotic->exceptional $tier->overqual1q1 !exotics_artifacthigh
 	Corrupted False
 	Quality >= 27
 	Rarity Normal Magic Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	SetFontSize 42
 	SetTextColor 240 0 0 255
 	SetBorderColor 240 0 0 255
@@ -1536,7 +1534,7 @@ Show # %D9 $type->exotic->exceptional $tier->oversockt1s3 !exotics_artifacthigh
 	Sockets >= 3
 	Rarity Normal Magic Rare
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Talismans" "Two Hand Maces"
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	SetFontSize 42
 	SetTextColor 240 0 0 255
 	SetBorderColor 240 0 0 255
@@ -1550,7 +1548,7 @@ Show # %D9 $type->exotic->exceptional $tier->oversockt1s2 !exotics_artifacthigh
 	Sockets >= 2
 	Rarity Normal Magic Rare
 	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	SetFontSize 42
 	SetTextColor 240 0 0 255
 	SetBorderColor 240 0 0 255
@@ -1563,7 +1561,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoverqual !itemproperty_acha
 	Corrupted False
 	Quality >= 24
 	Rarity Normal
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Chain Tiara" "Decorated Helm" "Diamond" "Emerald" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Golden Charm" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Pronged Spear" "Ring" "Ruby" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Trarthan Cannon" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1577,7 +1575,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoversocket3 !itemproperty_a
 	Sockets >= 3
 	Rarity Normal
 	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Staves" "Talismans" "Two Hand Maces"
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Chain Tiara" "Decorated Helm" "Diamond" "Emerald" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Golden Charm" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Pronged Spear" "Ring" "Ruby" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Trarthan Cannon" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1591,7 +1589,7 @@ Show # %D9 $type->exotic->exceptional $tier->chancingoversocket2 !itemproperty_a
 	Sockets >= 2
 	Rarity Normal
 	Class == "Boots" "Bucklers" "Foci" "Gloves" "Helmets" "One Hand Maces" "Sceptres" "Shields" "Spears" "Wands"
-	BaseType == "Abyss Tablet" "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Emerald" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Golden Charm" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Ornate Gauntlets" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Primed Quiver" "Pronged Spear" "Pyrophyte Staff" "Ravenous Staff" "Reflecting Staff" "Ring" "Rope Cuffs" "Ruby" "Sacred Focus" "Sapphire" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Trimmed Greaves" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Chain Tiara" "Decorated Helm" "Diamond" "Emerald" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Golden Charm" "Incense Relic" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Ornate Gauntlets" "Permafrost Staff" "Primed Quiver" "Pronged Spear" "Ring" "Ruby" "Sacred Focus" "Sapphire" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Time-Lost Diamond" "Timeless Jewel" "Trarthan Cannon" "Ultimate Life Flask" "Ultimate Mana Flask" "Unset Ring" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2085,7 +2083,7 @@ Show # $type->decorators->rareeg $tier->corruptedraresimplicit !exotics_corrupth
 Show # %D7 $type->ut->rare $tier->gear4a !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2098,7 +2096,7 @@ Show # %D7 $type->ut->rare $tier->gear4a !exotics_btier
 Show # %D6 $type->ut->rare $tier->gear3a !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2109,7 +2107,7 @@ Show # %D6 $type->ut->rare $tier->gear3a !exotics_ctier
 Show # %D4 $type->ut->rare $tier->gear2a !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2117,7 +2115,7 @@ Show # %D4 $type->ut->rare $tier->gear2a !gear_highlightedsize
 Show # %D6 $type->ut->rare $tier->gear4b !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2128,7 +2126,7 @@ Show # %D6 $type->ut->rare $tier->gear4b !exotics_ctier
 Show # %D5 $type->ut->rare $tier->gear3b !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2136,7 +2134,7 @@ Show # %D5 $type->ut->rare $tier->gear3b !gear_highlightedsize
 Show # %D4 $type->ut->rare $tier->gear2b !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2144,7 +2142,7 @@ Show # %D4 $type->ut->rare $tier->gear2b !gear_highlightedsize
 Show # %D5 $type->ut->rare $tier->gear4c !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2155,7 +2153,7 @@ Show # %D5 $type->ut->rare $tier->gear4c !exotics_ctier
 Show # %D4 $type->ut->rare $tier->gear3c !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2163,7 +2161,7 @@ Show # %D4 $type->ut->rare $tier->gear3c !gear_highlightedsize
 Show # %D3 $type->ut->rare $tier->gear2c !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2171,7 +2169,7 @@ Show # %D3 $type->ut->rare $tier->gear2c !gear_highlightedsize
 Show # %D8 $type->ut->rare $tier->j4a !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2184,7 +2182,7 @@ Show # %D8 $type->ut->rare $tier->j4a !exotics_btier
 Show # %D7 $type->ut->rare $tier->j3a !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2197,7 +2195,7 @@ Show # %D7 $type->ut->rare $tier->j3a !exotics_btier
 Show # %D6 $type->ut->rare $tier->j2a !gear_tieredjewellery
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 255 255 0 255
@@ -2210,7 +2208,7 @@ Show # %D6 $type->ut->rare $tier->j2a !gear_tieredjewellery
 Show # %D8 $type->ut->rare $tier->j4b !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2223,7 +2221,7 @@ Show # %D8 $type->ut->rare $tier->j4b !exotics_btier
 Show # %D7 $type->ut->rare $tier->j3b !gear_tieredjewellery
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 255 255 0 255
@@ -2236,7 +2234,7 @@ Show # %D7 $type->ut->rare $tier->j3b !gear_tieredjewellery
 Show # %D5 $type->ut->rare $tier->j2b !gear_tieredjewellery
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 255 255 0 255
@@ -2249,7 +2247,7 @@ Show # %D5 $type->ut->rare $tier->j2b !gear_tieredjewellery
 Show # %D6 $type->ut->rare $tier->j4c !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2262,7 +2260,7 @@ Show # %D6 $type->ut->rare $tier->j4c !exotics_btier
 Show # %D5 $type->ut->rare $tier->j3c !gear_tieredjewellery
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 255 255 0 255
@@ -2275,7 +2273,7 @@ Show # %D5 $type->ut->rare $tier->j3c !gear_tieredjewellery
 Show # %D5 $type->ut->rare $tier->j2c !gear_highlightedsize
 	UnidentifiedItemTier >= 2
 	Rarity Rare
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
@@ -2335,7 +2333,7 @@ Show # %D6 $type->ut->rare $tier->anyremaining4j !gear_tieredjewellery
 Show # %D7 $type->ut->magic $tier->gear4a !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2346,7 +2344,7 @@ Show # %D7 $type->ut->magic $tier->gear4a !exotics_ctier
 Show # %D6 $type->ut->magic $tier->gear3a !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2357,7 +2355,7 @@ Show # %D6 $type->ut->magic $tier->gear3a !exotics_ctier
 Show # %D4 $type->ut->magic $tier->gear2a !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2365,7 +2363,7 @@ Show # %D4 $type->ut->magic $tier->gear2a !gear_highlightdrop2
 Show # %D6 $type->ut->magic $tier->gear4b !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2376,7 +2374,7 @@ Show # %D6 $type->ut->magic $tier->gear4b !exotics_ctier
 Show # %D5 $type->ut->magic $tier->gear3b !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2384,7 +2382,7 @@ Show # %D5 $type->ut->magic $tier->gear3b !gear_highlightdrop2
 Show # %D4 $type->ut->magic $tier->gear2b !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2392,7 +2390,7 @@ Show # %D4 $type->ut->magic $tier->gear2b !gear_highlightdrop2
 Show # %D5 $type->ut->magic $tier->gear4c !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2403,7 +2401,7 @@ Show # %D5 $type->ut->magic $tier->gear4c !exotics_ctier
 Show # %D3 $type->ut->magic $tier->gear3c !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2411,7 +2409,7 @@ Show # %D3 $type->ut->magic $tier->gear3c !gear_highlightdrop2
 Show # %D3 $type->ut->magic $tier->gear2c !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2419,7 +2417,7 @@ Show # %D3 $type->ut->magic $tier->gear2c !gear_highlightdrop2
 Show # %D8 $type->ut->magic $tier->j4a !exotics_btier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetTextColor 0 240 190 255
@@ -2432,7 +2430,7 @@ Show # %D8 $type->ut->magic $tier->j4a !exotics_btier
 Show # %D7 $type->ut->magic $tier->j3a !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2443,7 +2441,7 @@ Show # %D7 $type->ut->magic $tier->j3a !exotics_ctier
 Show # %D6 $type->ut->magic $tier->j2a !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2451,7 +2449,7 @@ Show # %D6 $type->ut->magic $tier->j2a !gear_highlightdrop2
 Show # %D7 $type->ut->magic $tier->j4b !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2462,7 +2460,7 @@ Show # %D7 $type->ut->magic $tier->j4b !exotics_ctier
 Show # %D6 $type->ut->magic $tier->j3b !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2473,7 +2471,7 @@ Show # %D6 $type->ut->magic $tier->j3b !exotics_ctier
 Show # %D5 $type->ut->magic $tier->j2b !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2481,7 +2479,7 @@ Show # %D5 $type->ut->magic $tier->j2b !gear_highlightdrop2
 Show # %D6 $type->ut->magic $tier->j4c !exotics_ctier
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetTextColor 0 240 190 255
@@ -2492,7 +2490,7 @@ Show # %D6 $type->ut->magic $tier->j4c !exotics_ctier
 Show # %D5 $type->ut->magic $tier->j3c !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2500,7 +2498,7 @@ Show # %D5 $type->ut->magic $tier->j3c !gear_highlightdrop2
 Show # %D4 $type->ut->magic $tier->j2c !gear_highlightdrop2
 	UnidentifiedItemTier >= 2
 	Rarity Magic
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2611,7 +2609,7 @@ Show # %D5 $type->endgame->charms $tier->hight1charms !typebased_flaskcharms1hig
 	ItemLevel >= 83
 	Rarity Normal Magic
 	Class == "Charms"
-	BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Golden Charm" "Grounding Charm" "Stone Charm" "Thawing Charm"
+	BaseType == "Golden Charm" "Stone Charm" "Thawing Charm"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBorderColor 245 175 0
@@ -2623,7 +2621,7 @@ Show # %D4 $type->endgame->charms $tier->highothercharms !typebased_flaskcharms1
 	ItemLevel >= 83
 	Rarity Normal Magic
 	Class == "Charms"
-	BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Golden Charm" "Grounding Charm" "Ruby Charm" "Sapphire Charm" "Silver Charm" "Staunching Charm" "Stone Charm" "Thawing Charm" "Topaz Charm"
+	BaseType == "Golden Charm" "Silver Charm" "Stone Charm" "Thawing Charm"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBorderColor 245 175 0
@@ -2645,7 +2643,7 @@ Show # %D4 $type->endgame->charms $tier->earlymappingcharms !typebased_flaskchar
 	Corrupted False
 	Rarity Normal Magic
 	Class == "Charms"
-	BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Golden Charm" "Grounding Charm" "Stone Charm" "Thawing Charm"
+	BaseType == "Golden Charm" "Stone Charm" "Thawing Charm"
 	AreaLevel >= 65
 	AreaLevel <= 70
 	SetFontSize 40
@@ -2738,7 +2736,7 @@ Show # %D3 $type->endgame->normalcraft->extra $tier->wands !itemproperty_topleve
 	Corrupted False
 	ItemLevel >= 81
 	Rarity Normal Magic
-	BaseType == "Dueling Wand" "Galvanic Wand" "Withered Wand"
+	BaseType == "Dueling Wand" "Galvanic Wand"
 	SetBorderColor 122 87 0
 
 #------------------------------------
@@ -2752,7 +2750,7 @@ Show # %D5 $type->endgame->normalcraft->any $tier->t1ideallevel !gear_unstyled
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 
 #Show # %D2 $type->endgame->normalcraft->any $tier->t2ideallevel !gear_unstyled
 #	Mirrored False
@@ -2790,14 +2788,14 @@ Show # %D4 $type->endgame->normalcraft->any $tier->t1 !gear_unstyled
 	Mirrored False
 	Corrupted False
 	Rarity Normal Magic
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	AreaLevel >= 65
 
 Show # %D3 $type->endgame->normalcraft->any $tier->t2onlevel !gear_unstyled
 	Mirrored False
 	Corrupted False
 	Rarity Normal Magic
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	AreaLevel >= 65
 	AreaLevel <= 75
 
@@ -2819,7 +2817,7 @@ Show # %D7 $type->endgame->jewellery $tier->jt1ideallevel !gear_highlightdrop2
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2829,7 +2827,7 @@ Show # %D5 $type->endgame->jewellery $tier->jt2ideallevel !gear_highlightdrop2
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 42
 	SetBackgroundColor 30 0 70 255
@@ -2839,7 +2837,7 @@ Show # %D3 $type->endgame->jewellery $tier->jt3ideallevel !utility_highlight3
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 
@@ -2856,7 +2854,7 @@ Show # %D5 $type->endgame->jewellery $tier->jt1 !gear_highlightdrop3
 	Mirrored False
 	Corrupted False
 	Rarity Normal Magic
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 30 0 70 255
@@ -2865,7 +2863,7 @@ Show # %D4 $type->endgame->jewellery $tier->jt2 !gear_highlightdrop3
 	Mirrored False
 	Corrupted False
 	Rarity Normal Magic
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 30 0 70 255
@@ -2874,7 +2872,7 @@ Show # %D3 $type->endgame->jewellery $tier->jt3 !utility_highlight4
 	Mirrored False
 	Corrupted False
 	Rarity Normal Magic
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	AreaLevel >= 65
 	SetFontSize 38
 
@@ -3091,7 +3089,7 @@ Hide # $type->hidelayer $tier->normalmagicendgame
 Show # %D7 $type->rr->jewelleryeg $tier->t1 !gear_jewellery1
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -3100,7 +3098,7 @@ Show # %D7 $type->rr->jewelleryeg $tier->t1 !gear_jewellery1
 Show # %D6 $type->rr->jewelleryeg $tier->t2 !gear_jewellery1
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -3109,7 +3107,7 @@ Show # %D6 $type->rr->jewelleryeg $tier->t2 !gear_jewellery1
 Show # %D5 $type->rr->jewelleryeg $tier->t3 !gear_jewellery2
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 	PlayEffect Yellow
@@ -3118,7 +3116,6 @@ Show # %D5 $type->rr->jewelleryeg $tier->t3 !gear_jewellery2
 Show # %D4 $type->rr->jewelleryeg $tier->t4 !gear_jewellery2
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Linen Belt" "Mail Belt" "Ornate Belt" "Wide Belt"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 	PlayEffect Yellow
@@ -3127,7 +3124,7 @@ Show # %D4 $type->rr->jewelleryeg $tier->t4 !gear_jewellery2
 Show # %D6 $type->rr->jewellery $tier->t1 !gear_jewellery1
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Amethyst Ring" "Breach Ring" "Prismatic Ring" "Solar Amulet"
+	BaseType == "Breach Ring" "Prismatic Ring" "Solar Amulet"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -3136,7 +3133,7 @@ Show # %D6 $type->rr->jewellery $tier->t1 !gear_jewellery1
 Show # %D5 $type->rr->jewellery $tier->t2 !gear_jewellery1
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Amber Amulet" "Azure Amulet" "Bloodstone Amulet" "Gold Amulet" "Gold Ring" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Pearl Ring" "Plate Belt" "Ruby Ring" "Sapphire Ring" "Stellar Amulet" "Topaz Ring" "Unset Ring" "Utility Belt"
+	BaseType == "Bloodstone Amulet" "Jade Amulet" "Sapphire Ring" "Stellar Amulet" "Unset Ring" "Utility Belt"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -3145,7 +3142,7 @@ Show # %D5 $type->rr->jewellery $tier->t2 !gear_jewellery1
 Show # %D4 $type->rr->jewellery $tier->t3 !gear_jewellery2
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Heavy Belt" "Iron Ring" "Lazuli Ring" "Long Belt" "Rawhide Belt"
+	BaseType == "Fine Belt" "Heavy Belt"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 	PlayEffect Yellow
@@ -3154,7 +3151,6 @@ Show # %D4 $type->rr->jewellery $tier->t3 !gear_jewellery2
 Show # %D3 $type->rr->jewellery $tier->t4 !gear_jewellery2
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Linen Belt" "Mail Belt" "Ornate Belt" "Wide Belt"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 	PlayEffect Yellow
@@ -3170,7 +3166,7 @@ Show # %D3 $type->rr->jewellery $tier->t4 !gear_jewellery2
 Show # %D5 $type->rr $tier->t1_top !gear_highlightedsize
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
@@ -3178,7 +3174,7 @@ Show # %D4 $type->rr $tier->t1_other !gear_highlightedsize
 	ItemLevel >= 65
 	ItemLevel <= 81
 	Rarity Rare
-	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Desolate Crossbow" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Omen Sceptre" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle"
+	BaseType == "Adherent Cuffs" "Akoyan Spear" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Blacksteel Gauntlets" "Blacksteel Sabatons" "Bolting Quarterstaff" "Conjurer Mantle" "Corsair Coat" "Cryptic Crown" "Cryptic Leggings" "Daggerfoot Shoes" "Dastard Armour" "Death Mail" "Desert Buckler" "Drakeskin Boots" "Dueling Wand" "Falconer's Jacket" "Fanatic Greathammer" "Flying Spear" "Freebooter Cap" "Galvanic Wand" "Gemini Bow" "Gladiatorial Helm" "Golden Targe" "Grinning Mask" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Paralysing Staff" "Polished Bracers" "Primed Quiver" "Razor Quarterstaff" "Secured Wraps" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Sleek Jacket" "Slipstrike Vest" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Wolfskin Mantle"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
@@ -3187,7 +3183,7 @@ Show # %D4 $type->rr $tier->t1_other !gear_highlightedsize
 Show # %D4 $type->rr $tier->t2_top !gear_highlightedsize
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
@@ -3195,7 +3191,7 @@ Show # %D3 $type->rr $tier->t2_a1 !gear_weakrare1
 	ItemLevel >= 75
 	ItemLevel <= 81
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	SetFontSize 35
 	SetBackgroundColor 35 35 35 240
 
@@ -3203,7 +3199,7 @@ Show # %D4 $type->rr $tier->t2_other !gear_highlightedsize
 	ItemLevel >= 65
 	ItemLevel <= 74
 	Rarity Rare
-	BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Cinched Boots" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fanatic Bow" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Vaal Wraps" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
+	BaseType == "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Austere Garb" "Barbed Bracers" "Baroque Targe" "Cavalry Boots" "Champion Helm" "Charmed Shoes" "Commander Gauntlets" "Cryptic Helm" "Cultist Gauntlets" "Death Mantle" "Desert Cap" "Divine Crown" "Dragonscale Boots" "Dreaming Quarterstaff" "Elegant Crossbow" "Elegant Wraps" "Fang Talisman" "Faridun Mask" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Sabatons" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Grand Bracers" "Grand Spear" "Guardian Bow" "Guardian Spear" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Noble Sabatons" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Quickslip Shoes" "Rambler Jacket" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Shrouded Mail" "Siphoning Wand" "Soaring Mask" "Soaring Spear" "Soaring Targe" "Sorcerous Tiara" "Spiked Spear" "Stalking Bracers" "Stalking Spear" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Swiftstalker Coat" "Tawhoan Greatclub" "Thane Mail" "Thunder Talisman" "Trapper Hood" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Wraps" "Volant Quiver" "Warlock Leggings" "Woven Cap" "Wrath Sceptre" "Wyrmscale Coat"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
@@ -3212,7 +3208,7 @@ Show # %D4 $type->rr $tier->t2_other !gear_highlightedsize
 Show # %D3 $type->rr $tier->t3_top !gear_weakrare1
 	ItemLevel >= 82
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	SetFontSize 35
 	SetBackgroundColor 35 35 35 240
 
@@ -3228,7 +3224,7 @@ Show # %D3 $type->rr $tier->t3_a2 !gear_weakrare1
 	ItemLevel >= 70
 	ItemLevel <= 74
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	SetFontSize 35
 	SetBackgroundColor 35 35 35 240
 
@@ -3236,7 +3232,7 @@ Show # %D4 $type->rr $tier->t3_other !gear_highlightedsize
 	ItemLevel >= 65
 	ItemLevel <= 69
 	Rarity Rare
-	BaseType == "Adorned Wraps" "Anvil Maul" "Ashen Staff" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bone Wand" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Flanged Mace" "Gelid Staff" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Buckler" "Ornate Cuffs" "Pronged Spear" "Pyrophyte Staff" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Toxic Quiver" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Volatile Wand" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
+	BaseType == "Adorned Wraps" "Anvil Maul" "Avian Mask" "Bastion Sabatons" "Bladed Quarterstaff" "Bound Cuffs" "Bound Sandals" "Brigand Mask" "Bulwark Greaves" "Cannonade Crossbow" "Carved Greaves" "Cassis Helm" "Cavalry Bow" "Ceremonial Robe" "Condemned Talisman" "Crown Mace" "Deerstalker Hood" "Druidic Crown" "Druidic Focus" "Dunerunner Sandals" "Engraved Crossbow" "Faithful Leggings" "Feathered Mitts" "Gold Gloves" "Golden Mail" "Goldworked Tower Shield" "Grim Gloves" "Guardian Quarterstaff" "Gutspike Buckler" "Hallowed Focus" "Hawker's Jacket" "Heartcarver Mantle" "Inquisitor Crown" "Intricate Crest Shield" "Ironwood Greathammer" "Ironwood Shortbow" "Jungle Tiara" "Knightly Mitts" "Lizardscale Coat" "Lunar Quarterstaff" "Mammoth Targe" "Molten Hammer" "Noble Greathelm" "Orichalcum Spear" "Ornate Cuffs" "Pronged Spear" "Royal Tower Shield" "Sacred Maul" "Seaglass Spear" "Sekheman Crest Shield" "Serpentscale Boots" "Shamanistic Leggings" "Shrine Sceptre" "Skycrown Tiara" "Spiked Bracers" "Spiny Talisman" "Steelmail Gauntlets" "Stone Cuirass" "Stout Crossbow" "Trailblazer Armour" "Treerunner Shoes" "Twin Bow" "Two-Point Quiver" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Warmonger Greathelm" "Wildwood Talisman" "Wingbeat Talisman" "Zealot Gauntlets"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 
@@ -3261,7 +3257,7 @@ Show # %D3 $type->rr $tier->t4_other !gear_weakrare1
 	ItemLevel >= 65
 	ItemLevel <= 69
 	Rarity Rare
-	BaseType == "Adherent Bow" "Adherent's Raiment" "Ancient Mitts" "Arrayed Focus" "Avian Targe" "Bandit Mace" "Baroque Gloves" "Bladeguard Buckler" "Bleak Crossbow" "Blunt Quiver" "Branched Spear" "Buckled Wraps" "Bulwark Tower Shield" "Cabalist Helm" "Corsair Cap" "Covered Sabatons" "Cruel Talisman" "Cultist Focus" "Detailed Mitts" "Disintegrating Maul" "Elegant Greathelm" "Elegant Greaves" "Elegant Plate" "Elegant Slippers" "Embroidered Gloves" "Fierce Greathelm" "Fine Bracers" "Flared Boots" "Flax Sandals" "Fury Talisman" "Glowering Crest Shield" "Goldcast Cuffs" "Hallowed Crown" "Hatungo Garb" "Heavy Greathammer" "Heavy Plate" "Helix Spear" "Howling Talisman" "Hunting Shoes" "Itinerant Jacket" "Jade Tiara" "Jagged Spear" "Jingling Buckler" "Layered Vest" "Leatherbound Hood" "Lizardscale Boots" "Mantled Mail" "Marching Mace" "Militant Bow" "Noble Tower Shield" "Occultist Mantle" "Pariah Mask" "Plate Gauntlets" "Plated Vestments" "Quartered Crest Shield" "Reefsteel Greaves" "Refined Bracers" "River Raiment" "Roaring Talisman" "Runner Vest" "Sandsworn Tiara" "Serrated Quiver" "Smooth Quarterstaff" "Solid Mask" "Spined Bracers" "Spiral Wraps" "Steelpoint Shoes" "Stone Targe" "Structured Hammer" "Studded Boots" "Twin Crossbow" "Waxing Quarterstaff" "Weaver Leggings" "Wrapped Cap"
+	BaseType == "Adherent Bow" "Adherent's Raiment" "Ancient Mitts" "Arrayed Focus" "Avian Targe" "Bandit Mace" "Baroque Gloves" "Bladeguard Buckler" "Bleak Crossbow" "Branched Spear" "Buckled Wraps" "Bulwark Tower Shield" "Cabalist Helm" "Cruel Talisman" "Cultist Focus" "Detailed Mitts" "Disintegrating Maul" "Elegant Greathelm" "Elegant Greaves" "Elegant Plate" "Elegant Slippers" "Fine Bracers" "Flared Boots" "Flax Sandals" "Fury Talisman" "Glowering Crest Shield" "Hallowed Crown" "Hatungo Garb" "Heavy Greathammer" "Heavy Plate" "Howling Talisman" "Itinerant Jacket" "Jagged Spear" "Jingling Buckler" "Layered Vest" "Mantled Mail" "Militant Bow" "Noble Tower Shield" "Occultist Mantle" "Pariah Mask" "Quartered Crest Shield" "Reefsteel Greaves" "Refined Bracers" "River Raiment" "Roaring Talisman" "Runner Vest" "Sandsworn Tiara" "Serrated Quiver" "Smooth Quarterstaff" "Spiral Wraps" "Steelpoint Shoes" "Stone Targe" "Structured Hammer" "Studded Boots" "Twin Crossbow" "Waxing Quarterstaff" "Weaver Leggings" "Wrapped Cap"
 	SetFontSize 35
 	SetBackgroundColor 35 35 35 240
 
@@ -3586,7 +3582,7 @@ Show # %H5 $type->jewels->generic $tier->anymagic !gear_jewelmagic
 
 Show # $type->relics->generic $tier->any !exotics_dtier
 	Rarity Normal Magic
-	BaseType == "Amphora Relic" "Coffer Relic" "Incense Relic" "Seal Relic" "Tapestry Relic" "Urn Relic" "Vase Relic"
+	BaseType == "Coffer Relic" "Incense Relic" "Urn Relic" "Vase Relic"
 	SetFontSize 40
 	SetTextColor 0 240 190 255
 	PlayAlertSound 3 300
@@ -5069,7 +5065,7 @@ Show # $type->uniques $tier->sekhemaring !uniques_a
 
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Primed Quiver" "Pronged Spear" "Reflecting Staff" "Ring" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask" "Unset Ring"
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Primed Quiver" "Pronged Spear" "Ring" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask" "Unset Ring"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -5081,7 +5077,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # %H8 $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Altar Robe" "Amethyst Charm" "Ancestral Mail" "Barbed Spear" "Blacksteel Tower Shield" "Burnished Gauntlets" "Chain Tiara" "Champion Cuirass" "Conqueror Plate" "Crucible Tower Shield" "Decorated Helm" "Desolate Crossbow" "Diamond" "Embroidered Gloves" "Fanatic Bow" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Giant Maul" "Gilded Vestments" "Heavy Bow" "Heroic Armour" "Hunting Shoes" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Moulded Mitts" "Ornate Belt" "Permafrost Staff" "Plate Belt" "Plated Vestments" "Pyrophyte Staff" "Ravenous Staff" "Rope Cuffs" "Sacred Focus" "Scale Mail" "Scalper's Jacket" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Tribal Mask" "Trimmed Greaves" "Ultimate Mana Flask" "Utility Belt" "Utility Wraps" "Vase Relic" "Velvet Cap" "Winged Spear" "Wyrm Quarterstaff"
+	BaseType == "Chain Tiara" "Decorated Helm" "Diamond" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Permafrost Staff" "Sacred Focus" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Trarthan Cannon" "Tribal Mask" "Ultimate Mana Flask" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -5118,7 +5114,7 @@ Show # $type->uniques $tier->vaalmodunique !uniques_exceptional
 
 Show # $type->uniques $tier->multispecialhigh !uniques_x
 	Rarity Unique
-	BaseType == "Amethyst Ring" "Grand Regalia" "Heavy Belt" "Jade Amulet" "Sacrificial Regalia" "Stellar Amulet"
+	BaseType == "Grand Regalia" "Heavy Belt" "Jade Amulet" "Sacrificial Regalia" "Stellar Amulet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -5164,7 +5160,7 @@ Show # %D5 $type->uniques $tier->oversocketuniques2 !uniques_exceptional
 
 Show # $type->uniques $tier->multispecial !uniques_x
 	Rarity Unique
-	BaseType == "Antler Focus" "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Broadhead Quiver" "Composite Bow" "Crude Bow" "Delirium Tablet" "Dualstring Bow" "Face Mask" "Fur Plate" "Furtive Wraps" "Gold Amulet" "Gold Ring" "Iron Ring" "Irradiated Tablet" "Lazuli Ring" "Marabout Garb" "Martyr Crown" "Overseer Tablet" "Pathfinder Coat" "Pearl Ring" "Rawhide Belt" "Ritual Tablet" "Riveted Mitts" "Sapphire Ring" "Shortbow" "Solar Amulet" "Spiked Club" "Temple Tablet" "Topaz Ring" "Wrapped Sandals"
+	BaseType == "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Sapphire Ring" "Solar Amulet" "Temple Tablet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -5180,7 +5176,7 @@ Show # $type->uniques $tier->multispecial !uniques_x
 
 Show # %H6 $type->uniques $tier->earlyleague !uniques_b
 	Rarity Unique
-	BaseType == "Amber Amulet" "Anchorite Garb" "Antidote Charm" "Azure Amulet" "Corsair Cap" "Corvus Mantle" "Covert Hood" "Crimson Amulet" "Death Mask" "Dousing Charm" "Emerald Ring" "Enlightened Robe" "Feathered Sandals" "Fine Belt" "Forked Spear" "Gargantuan Life Flask" "Gauze Wraps" "Gold Circlet" "Grounding Charm" "Havoc Raiment" "Heraldric Tower Shield" "Iron Buckler" "Iron Crown" "Iron Greaves" "Jade Tiara" "Jewelled Gloves" "Layered Gauntlets" "Leaden Greathammer" "Leatherbound Hood" "Lunar Amulet" "Magus Tiara" "Pilgrim Vestments" "Prismatic Ring" "Rampart Tower Shield" "Ruby Charm" "Sacrificial Mantle" "Sapphire Charm" "Shrouded Vest" "Spired Greathelm" "Staunching Charm" "Stone Greaves" "Strider Vest" "Tattered Robe" "Topaz Charm" "Vaal Tower Shield" "Vermeil Circlet" "Viper Cap"
+	BaseType == "Enlightened Robe" "Fine Belt" "Prismatic Ring" "Vermeil Circlet" "Viper Cap"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5219,7 +5215,7 @@ Show # %D5 $type->uniques $tier->vaaltypeuniques !uniques_b
 
 Show # %H5 $type->uniques $tier->t3boss !uniques_xbossdrop
 	Rarity Unique
-	BaseType == "Abyssal Signet" "Chiming Staff" "Cinched Boots" "Closed Helm" "Explorer Armour" "Grand Cuisses" "Grand Manchettes" "Grand Visage" "Lapis Amulet" "Omen Crest Shield" "Penetrating Quiver" "Silk Robe" "Spiritbone Crown" "Visceral Quiver" "Wide Belt"
+	BaseType == "Grand Manchettes" "Silk Robe"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5230,7 +5226,7 @@ Show # %H5 $type->uniques $tier->t3boss !uniques_xbossdrop
 
 Show # %H5 $type->uniques $tier->t3 !uniques_b
 	Rarity Unique
-	BaseType == "Amphora Relic" "Assassin Garb" "Barricade Tower Shield" "Bolstered Mitts" "Coffer Relic" "Crescent Quarterstaff" "Double Belt" "Doubled Gauntlets" "Emblem Crest Shield" "Execratus Hammer" "Feathered Tiara" "Fierce Greathelm" "Heavy Crown" "Helix Spear" "Hooded Mask" "Hunter Hood" "Linen Belt" "Long Belt" "Mail Belt" "Marching Mace" "Pauascale Gloves" "Pelage Targe" "Plated Mace" "Pointed Maul" "Ruby Ring" "Sacral Quiver" "Seal Relic" "Secured Leggings" "Solid Mask" "Spined Bracers" "Stone Tower Shield" "Tapestry Relic" "Tense Crossbow" "Torn Gloves" "Toxic Quiver" "Vaal Cuirass" "Voodoo Focus" "Wrapped Greathelm"
+	BaseType == "Coffer Relic" "Heavy Crown" "Pelage Targe" "Plated Mace" "Stone Tower Shield"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5245,7 +5241,7 @@ Show # %H5 $type->uniques $tier->t3 !uniques_b
 
 Show # %H4 $type->uniques $tier->hideable !uniques_c
 	Rarity Unique
-	BaseType == "Acrid Wand" "Aged Cuffs" "Artillery Bow" "Ashen Staff" "Attuned Wand" "Beaded Circlet" "Blazon Crest Shield" "Blunt Quiver" "Bone Raiment" "Bone Wand" "Braced Sabatons" "Braced Tower Shield" "Brimmed Helm" "Bronze Greaves" "Chain Mail" "Changeling Talisman" "Cleric Vestments" "Cloaked Mail" "Covered Sabatons" "Cowled Helm" "Crescent Targe" "Crumbling Maul" "Crystal Focus" "Cultist Crown" "Cultist Greathammer" "Dyad Crossbow" "Effigial Tower Shield" "Elementalist Robe" "Elite Greathelm" "Embossed Boots" "Engraved Focus" "Familial Talisman" "Feathered Robe" "Felled Greatclub" "Fire Quiver" "Firm Bracers" "Forge Maul" "Full Plate" "Gelid Staff" "Goldcast Cuffs" "Gothic Quarterstaff" "Guarded Helm" "Hardwood Spear" "Hardwood Targe" "Hermit Garb" "Hewn Mask" "Hexer's Robe" "Horned Crown" "Hunting Spear" "Intricate Gloves" "Iron Cuirass" "Ironhead Spear" "Jingling Crest Shield" "Kalguuran Cuffs" "Keth Raiment" "Knight Armour" "Lace Hood" "Laced Boots" "Lamellar Mail" "Leather Buckler" "Leather Vest" "Linen Wraps" "Lizardscale Boots" "Long Quarterstaff" "Mail Sabatons" "Mail Vestments" "Makeshift Crossbow" "Maraketh Cuirass" "Oak Greathammer" "Omen Sceptre" "Ornate Buckler" "Painted Tower Shield" "Plate Gauntlets" "Plated Buckler" "Plated Raiment" "Quilted Vest" "Raider Plate" "Rattling Sceptre" "Recurve Bow" "Rhoahide Coat" "Ridged Buckler" "Ringmail Gauntlets" "Rogue Armour" "Rough Greaves" "Rusted Cuirass" "Rusted Greathelm" "Scout's Vest" "Sectioned Bracers" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Sigil Crest Shield" "Silk Slippers" "Slim Mace" "Smithing Hammer" "Soldier Greathelm" "Sombre Gloves" "Spiked Buckler" "Splintered Tower Shield" "Stacked Sabatons" "Steel Plate" "Steelpoint Quarterstaff" "Steeltoe Boots" "Stitched Gloves" "Straw Sandals" "Studded Greatclub" "Studded Vest" "Suede Bracers" "Tempered Mitts" "Temple Maul" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Twig Circlet" "Twig Focus" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Vicious Talisman" "Visored Helm" "Volatile Wand" "Voltaic Staff" "Votive Raiment" "War Spear" "Warpick" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Withered Wand" "Wooden Buckler" "Wooden Club" "Woven Focus" "Wrapped Quarterstaff" "Zealot Bow"
+	BaseType == "Brimmed Helm" "Effigial Tower Shield" "Kalguuran Cuffs" "Knight Armour" "Lamellar Mail" "Raider Plate" "Smithing Hammer" "Steeltoe Boots"
 	SetFontSize 40
 	SetTextColor 188 96 37 255
 	PlayAlertSound 3 300
@@ -5355,7 +5351,7 @@ Show # $type->fragments->generic $tier->b !fragments_b
 	MinimapIcon 1 Yellow Hexagon
 
 Show # $type->fragments->generic $tier->c !fragments_c
-	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Irradiated Tablet" "Overseer Tablet" "Temple Tablet"
+	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Temple Tablet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -5380,7 +5376,7 @@ Show # $type->fragments->generic $tier->c !fragments_c
 #	MinimapIcon 2 Grey Hexagon
 
 Hide # $type->fragments->generic $tier->exhide !utility_minimize
-	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Irradiated Tablet" "Overseer Tablet" "Ritual Tablet" "Temple Tablet"
+	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Temple Tablet"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -5822,7 +5818,7 @@ Show # $type->leveling->flasks->mana $tier->t8
 
 Show # %D4 $type->leveling->charms $tier->selected !typebased_flaskcharms
 	Rarity Normal Magic
-	BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Golden Charm" "Grounding Charm" "Stone Charm" "Thawing Charm"
+	BaseType == "Golden Charm" "Stone Charm" "Thawing Charm"
 	AreaLevel <= 64
 	SetFontSize 40
 	SetBorderColor 100 100 100
