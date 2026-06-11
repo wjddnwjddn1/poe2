@@ -393,7 +393,7 @@ Show
 
 # GERSON: Idol tier reclass - high value idols, clear but not divine-tier alarm.
 Show
-    BaseType == "Idol of Ralakesh" "Fox Idol" "Idol of Sirrius" "Rabbit Idol" "Idol of Eeshta"
+    BaseType == "Fox Idol" "Idol of Ralakesh" "Idol of Sirrius" "Rabbit Idol"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 210 80 255
@@ -404,7 +404,7 @@ Show
 
 # GERSON: Idol tier reclass - mid value idols.
 Show
-    BaseType == "Idol of Eramir" "Idol of Grold" "Idol of Egrin" "Idol of Thruldana" "Idol of Alira" "Primate Idol"
+    BaseType == "Idol of Eramir" "Idol of Eeshta" "Idol of Kraityn" "Idol of Oak" "Idol of Grold" "Idol of the Pharisee"
     SetFontSize 42
     SetTextColor 255 245 210 255
     SetBorderColor 220 170 90 255
@@ -414,15 +414,15 @@ Show
 
 # GERSON: Idol tier reclass - low value idols, visual only to avoid over-alerting.
 Show
-    BaseType == "Idol of Kraityn" "Idol of the Pharisee" "Idol of the Martyr" "Idol of Maxarius" "Idol of Oak" "Idol of Yeena" "Idol of Silk" "Snake Idol" "Idol of the Sycophant" "Bear Idol" "Idol of Greust" "Cat Idol" "Boar Idol" "Wolf Idol" "Stag Idol" "Owl Idol" "Ox Idol"
+    BaseType == "Idol of Thruldana" "Idol of the Martyr" "Idol of the Sycophant" "Idol of Egrin" "Idol of Yeena" "Idol of Alira" "Idol of Maxarius" "Primate Idol" "Idol of Greust" "Boar Idol" "Idol of Silk" "Wolf Idol" "Snake Idol" "Cat Idol" "Bear Idol" "Ox Idol" "Stag Idol" "Owl Idol"
     SetFontSize 38
     SetTextColor 230 220 180 255
     SetBorderColor 150 125 70 255
     SetBackgroundColor 28 23 12 205
     MinimapIcon 2 White Diamond
-# GERSON PRICE OVERRIDE - current divine-plus economy items, long expensive sound. Checked 2026-06-06.
+# GERSON PRICE OVERRIDE - current divine-plus economy items, long expensive sound. Checked 2026-06-11.
 Show
-    BaseType == "Ailith's Chimes" "Aldur's Legacy" "Aldur's Saga" "Altered Collarbone" "Amanamu's Gaze" "Ancient Collarbone" "Ancient Jawbone" "Ancient Potent Liquid Melancholy" "Ancient Rib" "Arbiter's Ignition" "Astrid's Creativity" "Azmeri Reliquary Key" "Breachlord Sac" "Breachlord's Amalgam" "Breachlord's Rift" "Brutus' Brain" "Cadigan's Epiphany" "Carved Cunning" "Carved Majesty" "Catha's Brilliance" "Celestial Alloy" "Citaqualotl's Thesis" "Concentrated Liquid Fear" "Concentrated Liquid Isolation" "Concentrated Liquid Suffering" "Dialla's Desire" "Divine Orb" "Emergent Possibility" "Emergent Vigour" "Esh's Radiance" "Expedition Logbook" "Fracturing Orb" "Garukhan's Resolve" "Greater Rune of Leadership" "Guatelitzi's Thesis" "Head of the King" "Her Declaration" "Hinekora's Lock" "Idol of Ralakesh" "Jiquani's Thesis" "Kurgal's Gaze" "Mirror of Kalandra" "Olroth's Conviction" "Olroth's Crest of the Sun" "Olroth's Reliquary Key" "Omen of Abyssal Echoes" "Omen of Chance" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Light" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling" "Orb of Extraction" "Perfect Adept Rune" "Perfect Body Rune" "Perfect Chaos Orb" "Perfect Charging Rune" "Perfect Desert Rune" "Perfect Exalted Orb" "Perfect Flux" "Perfect Glacial Rune" "Perfect Iron Rune" "Perfect Resolve Rune" "Perfect Robust Rune" "Perfect Storm Rune" "Perfect Vision Rune" "Quipolatl's Thesis" "Rakiata's Flow" "Raven-Touched Shard" "Rigwald's Ferocity" "Ritualistic Reliquary Key" "Seraph's Heart" "Serle's Triumph" "Simulacrum" "Soul Core of Azcapa" "Soul Core of Quipolatl" "Tangmazu's Reliquary Key" "Tecrod's Gaze" "Tecrod's Revenge" "Thaumaturgic Flux (Level 20)" "The Arbiter's Reliquary Key" "The Runebinder's Alloy" "The Trialmaster's Reliquary Key" "Transcendent Alloy" "Trickster's Shard" "Tul's Stillness" "Uhtred's Augury" "Uhtred's Constellation" "Uhtred's Exodus" "Uhtred's Omen" "Ulaman's Gaze" "Uncut Skill Gem (Level 20)" "Uncut Spirit Gem (Level 20)" "Uul-Netol's Embrace" "Vaal Cultivation Orb" "Vorana's Siege" "Warding Starlit Ore" "Weathered Crisis Fragment" "Xesht's Reliquary Key" "Xopec's Soul Core of Power" "Xoph's Pyre" "Zarokh's Reliquary Key: Against the Darkness" "Zerphi's Infamy"
+    BaseType == "Mirror of Kalandra" "Aldur's Legacy" "Garukhan's Resolve" "Hinekora's Lock" "Uul-Netol's Embrace" "Atziri's Communion" "Rakiata's Flow" "Azmeri Reliquary Key" "Dialla's Desire" "Rigwald's Ferocity" "Raven-Touched Shard" "The Trialmaster's Reliquary Key" "Zarokh's Reliquary Key: Against the Darkness" "Jiquani's Thesis" "Tul's Stillness" "Carved Majesty" "Aldur's Saga" "Uhtred's Exodus" "Astrid's Creativity" "Perfect Flux" "Seraph's Heart" "Esh's Radiance" "Her Declaration" "Tangmazu's Reliquary Key" "Guatelitzi's Thesis" "Vorana's Siege" "Olroth's Conviction" "Ancient Collarbone" "Celestial Alloy" "Ancient Potent Liquid Contempt" "Xoph's Pyre" "Cadigan's Epiphany" "Uhtred's Augury" "The Runebinder's Alloy" "Emergent Possibility" "Kurgal's Gaze" "Ancient Jawbone" "Omen of Chance" "Omen of Light" "Breachlord's Amalgam" "Omen of Sinistral Erasure" "Xesht's Reliquary Key" "Omen of Sinistral Annulment" "Origin Core" "Uncut Spirit Gem (Level 20)" "Potent Liquid Contempt" "Uncut Skill Gem (Level 20)" "Concentrated Liquid Isolation" "The Arbiter's Reliquary Key" "Simulacrum" "Serle's Triumph" "Ulaman's Gaze" "Soul Core of Quipolatl" "Catha's Brilliance" "Uhtred's Omen" "Breachlord Sac" "Omen of Whittling" "Omen of Dextral Erasure" "Quipolatl's Thesis" "Ancient Rib" "Opiloti's Soul Core of Assault" "Perfect Chaos Orb" "Omen of Dextral Annulment" "Tecrod's Gaze" "Olroth's Reliquary Key" "Carved Cunning" "Perfect Exalted Orb" "Origin Cradle" "Potent Liquid Ferocity" "Amanamu's Tithe" "Faded Crisis Fragment" "Soul Core of Azcapa" "Origin Spark" "Breachlord's Rift" "Perfect Charging Rune" "Perfect Adept Rune" "Refined Reaver Catalyst" "Perfect Inspiration Rune" "Perfect Rebirth Rune" "Perfect Vision Rune" "Perfect Resolve Rune" "Concentrated Liquid Suffering" "Tecrod's Revenge" "Essence of Hysteria" "Vaal Cultivation Orb" "Transcendent Alloy" "Perfect Glacial Rune" "Perfect Robust Rune" "Perfect Storm Rune" "Perfect Ward Rune" "Brutus' Brain" "Expedition Logbook" "Perfect Desert Rune" "Head of the King" "Perfect Body Rune" "Perfect Mind Rune" "Olroth's Crest of the Sun" "Uhtred's Saga" "Xopec's Soul Core of Power" "Greater Rune of Leadership" "Arbiter's Ignition" "Deadly Fate" "Cowardly Fate" "Kolr's Hunt" "Perfect Iron Rune" "Victorious Fate" "Architect's Orb" "Thaumaturgic Flux (Level 20)" "Ritualistic Reliquary Key" "Olroth's Saga"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 0 0 255
@@ -459,7 +459,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Silk Robe" "Grand Manchettes" "Sacrificial Regalia" "Armoured Vest" "Primed Quiver" "Grand Regalia" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Ornate Gauntlets" "Enlightened Robe" "Utility Wraps" "Intricate Crest Shield" "Sacred Focus" "Knight Armour" "Heavy Belt" "Utility Belt" "Jade Amulet" "Bloodstone Amulet" "Shrine Sceptre" "Pronged Spear" "Permafrost Staff" "Trarthan Cannon" "Ashbark Talisman" "Siphoning Wand" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
+    BaseType "Silk Robe" "Grand Manchettes" "Sacrificial Regalia" "Armoured Vest" "Primed Quiver" "Grand Regalia" "Fine Bracers" "Armoured Cap" "Spiral Wraps" "Ornate Gauntlets" "Utility Wraps" "Intricate Crest Shield" "Sacred Focus" "Heavy Belt" "Utility Belt" "Jade Amulet" "Bloodstone Amulet" "Shrine Sceptre" "Pronged Spear" "Siphoning Wand" "Golden Charm" "Gargantuan Mana Flask" "Silver Charm" "Diamond" "Sapphire" "Timeless Jewel" "Time-Lost Diamond"
     SetTextColor 255 255 255 255
     SetBorderColor 255 0 0 255
     SetBackgroundColor 80 0 0 255
@@ -481,7 +481,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType "Fine Belt" "Stellar Amulet" "Stocky Mitts" "Lattice Sandals" "Viper Cap" "Array Buckler" "Garment" "Tribal Mask" "Smuggler Coat" "Ironclad Vestments" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Morning Star" "Winged Spear"
+    BaseType "Fine Belt" "Stellar Amulet" "Stocky Mitts" "Array Buckler" "Garment" "Tribal Mask" "Thawing Charm" "Ultimate Life Flask" "Stone Charm" "Morning Star" "Winged Spear"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -515,7 +515,7 @@ Show
 
 Show
     Rarity Unique
-    BaseType  "Heavy Belt"  "Bloodstone Amulet" "Jade Amulet" "Utility Belt"  "Sacred Focus" "Viper Cap"
+    BaseType  "Heavy Belt"  "Bloodstone Amulet" "Jade Amulet" "Utility Belt"  "Sacred Focus"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 104 53 35
@@ -5099,7 +5099,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Ashbark Talisman" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Primed Quiver" "Pronged Spear" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask"
+	BaseType == "Abyss Tablet" "Armoured Cap" "Armoured Vest" "Emerald" "Golden Charm" "Incense Relic" "Ornate Gauntlets" "Primed Quiver" "Pronged Spear" "Ruby" "Sapphire" "Time-Lost Diamond" "Timeless Jewel" "Ultimate Life Flask"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -5111,7 +5111,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # %H8 $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Chain Tiara" "Decorated Helm" "Diamond" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Intricate Crest Shield" "Ironclad Vestments" "Lattice Sandals" "Permafrost Staff" "Sacred Focus" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Smuggler Coat" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Trarthan Cannon" "Tribal Mask" "Ultimate Mana Flask" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
+	BaseType == "Chain Tiara" "Decorated Helm" "Diamond" "Felt Cap" "Fine Bracers" "Gargantuan Mana Flask" "Garment" "Intricate Crest Shield" "Sacred Focus" "Shrine Sceptre" "Silver Charm" "Siphoning Wand" "Spiral Wraps" "Stone Charm" "Thawing Charm" "Tribal Mask" "Utility Belt" "Utility Wraps" "Vase Relic" "Winged Spear"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -5210,7 +5210,7 @@ Show # $type->uniques $tier->multispecial !uniques_x
 
 Show # $type->uniques $tier->multispecial !uniques_x
 	Rarity Unique
-	BaseType == "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Solar Amulet" "Temple Tablet"
+	BaseType == "Array Buckler" "Bloodstone Amulet" "Breach Tablet" "Delirium Tablet" "Overseer Tablet" "Ritual Tablet" "Temple Tablet"
 	SetFontSize 42
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -5237,7 +5237,7 @@ Show # %H6 $type->uniques $tier->earlyleague !uniques_b
 
 Show # %H6 $type->uniques $tier->earlyleague !uniques_b
 	Rarity Unique
-	BaseType == "Enlightened Robe" "Fine Belt" "Vermeil Circlet" "Viper Cap"
+	BaseType == "Fine Belt"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5304,7 +5304,7 @@ Show # %H5 $type->uniques $tier->t3boss !uniques_xbossdrop
 
 Show # %H5 $type->uniques $tier->t3 !uniques_b
 	Rarity Unique
-	BaseType == "Coffer Relic" "Heavy Crown" "Pelage Targe" "Plated Mace" "Stone Tower Shield"
+	BaseType == "Coffer Relic" "Heavy Crown" "Pelage Targe"
 	SetFontSize 42
 	SetTextColor 188 96 37 255
 	SetBorderColor 188 96 37 255
@@ -5319,7 +5319,7 @@ Show # %H5 $type->uniques $tier->t3 !uniques_b
 
 Show # %H4 $type->uniques $tier->hideable !uniques_c
 	Rarity Unique
-	BaseType == "Brimmed Helm" "Effigial Tower Shield" "Kalguuran Cuffs" "Knight Armour" "Lamellar Mail" "Raider Plate" "Smithing Hammer" "Steeltoe Boots"
+	BaseType == "Brimmed Helm" "Effigial Tower Shield" "Kalguuran Cuffs" "Lamellar Mail" "Raider Plate" "Smithing Hammer" "Steeltoe Boots"
 	SetFontSize 40
 	SetTextColor 188 96 37 255
 	PlayAlertSound 3 300
@@ -6508,6 +6508,17 @@ Show # %D5 $type->leveling->firstlevelsnormal $tier->any !gear_unstyled
 #	SetBorderColor 0 0 0 0
 #	SetBackgroundColor 20 20 0 180
 #	DisableDropSound True
+
+
+# GERSON: Newbie fallback show all remaining uniques, cheap uniques included - 2026-06-11.
+Show
+    Rarity Unique
+    SetFontSize 38
+    SetTextColor 188 96 37 255
+    SetBorderColor 120 82 46 220
+    SetBackgroundColor 35 23 12 190
+    DisableDropSound True
+    MinimapIcon 2 Brown Diamond
 
 Hide # $type->hidelayer $tier->final
 	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Bucklers" "Charms" "Crossbows" "Foci" "Gloves" "Helmets" "Jewels" "Life Flasks" "Mana Flasks" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Spears" "Staves" "Talismans" "Two Hand Maces" "Wands"
