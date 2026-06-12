@@ -3617,7 +3617,7 @@ Show # $type->relics->generic $tier->any !exotics_dtier
 
 Show # $type->gems->lineage $tier->s !apex_stier
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Ailith's Chimes" "Amanamu's Tithe" "Arjun's Medal" "Atalui's Bloodletting" "Dialla's Desire" "Esh's Radiance" "Garukhan's Resolve" "Hayoxi's Fulmination" "Ixchel's Torment" "Kalisa's Crescendo" "Kurgal's Leash" "Rakiata's Flow" "Ratha's Assault" "Rigwald's Ferocity" "Tecrod's Revenge" "Tul's Stillness" "Uhtred's Augury" "Uhtred's Exodus" "Uhtred's Omen" "Uul-Netol's Embrace" "Xoph's Pyre" "Zarokh's Revolt" "Zerphi's Infamy"
+	BaseType == "Ailith's Chimes" "Amanamu's Tithe" "Atalui's Bloodletting" "Dialla's Desire" "Esh's Radiance" "Garukhan's Resolve" "Hayoxi's Fulmination" "Ixchel's Torment" "Kalisa's Crescendo" "Kurgal's Leash" "Rakiata's Flow" "Ratha's Assault" "Rigwald's Ferocity" "Tecrod's Revenge" "Tul's Stillness" "Uhtred's Augury" "Uhtred's Exodus" "Uhtred's Omen" "Uul-Netol's Embrace" "Xoph's Pyre" "Zarokh's Revolt" "Zerphi's Infamy"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
