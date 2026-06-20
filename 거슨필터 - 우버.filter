@@ -103,83 +103,137 @@ Show
 
 
 
-# GERSON UBER: Hide price-table items whose stacked value is at or below 0.5 exalted, based on /poe2/price data 2026-06-11.
-# Created for 거슨필터 - 우버 on 2026-06-20. Original 거슨필터.filter is unchanged.
-# Hidden price rows: 50. StackSize limits keep larger stacks visible when their total value exceeds 0.5ex.
+# GERSON UBER: Hide price-table items whose stacked value is below 1 exalted, based on /poe2/price data 2026-06-11.
+# Updated for 거슨필터 - 우버 on 2026-06-20. Original 거슨필터.filter is unchanged.
+# Hidden price rows: 93. StackSize limits keep stacks visible once their total value reaches 1ex.
 Hide
     StackSize <= 1
-    BaseType == "Ancient Diluted Liquid Greed" "Ancient Liquid Disgust" "Ancient Rune of Control" "Artificer's Shard" "Greater Desert Rune" "Greater Essence of Abrasion" "Greater Essence of Alacrity" "Greater Essence of Electricity"
+    BaseType == "Ancient Liquid Paranoia" "Ancient Rune of Control" "Ancient Rune of Prowess" "Ancient Rune of Witchcraft" "Arakaali's Lust" "Armourer's Scrap" "Bear Idol" "Blacksmith's Whetstone"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Sorcery" "Greater Essence of the Infinite" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Jeweller's Orb" "Greater Orb of Transmutation"
+    BaseType == "Cat Idol" "Diluted Liquid Greed" "Essence of Electricity" "Expansive Alloy" "Greater Adept Rune" "Greater Body Rune" "Greater Essence of Enhancement" "Greater Essence of Grounding"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Lesser Essence of Enhancement" "Lesser Essence of the Mind" "Lesser Stone Rune" "Medved's Crest of the Circle" "Orb of Alchemy" "Owl Idol" "Perfect Essence of Thawing" "Perfect Essence of the Body"
+    BaseType == "Greater Essence of Insulation" "Greater Essence of Thawing" "Greater Mind Rune" "Greater Regal Orb" "Greater Resolve Rune" "Greater Vision Rune" "Lesser Desert Rune" "Lesser Essence of Enhancement"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Rune of Vital Flame" "Venerable Starlit Ore" "Warding Rune of Protection"
+    BaseType == "Lesser Essence of Insulation" "Lesser Essence of the Mind" "Lesser Stone Rune" "Lesser Vision Rune" "Omen of Gambling" "Omen of Refreshment" "Omen of the Liege" "Owl Idol"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Ox Idol" "Perfect Essence of Electricity" "Perfect Essence of Flames" "Perfect Essence of Ice" "Perfect Essence of Insulation" "Perfect Essence of Ruin" "Perfect Essence of Seeking" "Preserved Jawbone"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Snake Idol" "Stag Idol" "Tawhoa's Tending" "Uncut Skill Gem (Level 16)" "Uncut Skill Gem (Level 17)" "Uncut Skill Gem (Level 18)" "Vorana's Crest of the Scythe" "Wolf Idol"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 2
-    BaseType == "Ancient Liquid Envy" "Artificer's Orb" "Diluted Liquid Guilt" "Greater Essence of the Body" "Greater Storm Rune" "Orb of Transmutation" "Regal Orb" "Vaal Siphoner"
+    BaseType == "Ancient Liquid Disgust" "Greater Desert Rune" "Greater Essence of Abrasion" "Greater Essence of Alacrity" "Greater Essence of Electricity" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Glacial Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 2
+    BaseType == "Greater Jeweller's Orb" "Orb of Alchemy" "Perfect Essence of Thawing" "Rune of Vital Flame" "Venerable Starlit Ore"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 3
-    BaseType == "Ancient Diluted Liquid Ire" "Breach Splinter" "Diluted Liquid Ire" "Greater Essence of Battle" "Greater Essence of the Mind" "Greater Rebirth Rune"
+    BaseType == "Ancient Diluted Liquid Greed" "Ancient Liquid Envy" "Artificer's Shard" "Greater Essence of Sorcery" "Greater Essence of the Infinite" "Greater Inspiration Rune" "Greater Orb of Transmutation" "Medved's Crest of the Circle"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 3
+    BaseType == "Perfect Essence of the Body" "Warding Rune of Protection"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 4
-    BaseType == "Transmutation Shard"
+    BaseType == "Artificer's Orb" "Diluted Liquid Guilt" "Greater Storm Rune" "Regal Orb" "Vaal Siphoner"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 5
-    BaseType == "Greater Orb of Augmentation" "Greater Stone Rune" "Regal Shard"
+    BaseType == "Greater Essence of the Body" "Orb of Transmutation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 6
+    BaseType == "Ancient Diluted Liquid Ire" "Greater Essence of Battle"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 7
+    BaseType == "Breach Splinter" "Diluted Liquid Ire" "Greater Essence of the Mind" "Greater Rebirth Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 9
+    BaseType == "Transmutation Shard"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 10
+    BaseType == "Greater Orb of Augmentation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 11
+    BaseType == "Greater Stone Rune" "Regal Shard"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 14
     BaseType == "Ancient Diluted Liquid Guilt"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 8
+    StackSize <= 16
     BaseType == "Orb of Augmentation"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 16
+    StackSize <= 32
     BaseType == "Scroll of Wisdom"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 23
+    StackSize <= 46
     BaseType == "Lesser Jeweller's Orb"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 1666
+    StackSize <= 3333
     BaseType == "Verisium"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
