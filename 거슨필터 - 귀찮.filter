@@ -103,144 +103,348 @@ Show
 
 
 
-# GERSON UBER: Hide price-table items whose stacked value is below 1 exalted, based on /poe2/price data 2026-06-20T09:13:04.330Z.
-# Updated for 거슨필터 - 우버 on 2026-06-20. Original 거슨필터.filter is unchanged.
+# GERSON 귀찮: Hide price-table items whose stacked value is below 5 exalted, based on /poe2/price data 2026-06-20T09:13:04.330Z.
+# Updated for 거슨필터 - 귀찮 on 2026-06-20. Original 거슨필터.filter is unchanged.
 # Price basis: 신성한 오브 224.4엑 · 2026-06-20T18:10:40
-# Hidden price rows: 86. StackSize limits keep stacks visible once their total value reaches 1ex.
+# Hidden price rows: 244. StackSize limits keep stacks visible once their total value reaches 5ex.
 Hide
     StackSize <= 1
-    BaseType == "Ancient Liquid Disgust" "Ancient Rune of Prowess" "Arakaali's Lust" "Armourer's Scrap" "Artificer's Orb" "Artificer's Shard" "Bear Idol" "Chance Shard"
+    BaseType == "Ancient Liquid Despair" "Ancient Rune of Detonation" "Ancient Rune of Retaliation" "Ancient Rune of Shattering" "Ancient Rune of Splinters" "Ancient Rune of the Horde" "Betrayal of Aldur" "Body Rune"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Essence of Insulation" "Glassblower's Bauble" "Gnawed Rib" "Greater Adept Rune" "Greater Body Rune" "Greater Essence of Abrasion" "Greater Essence of Command" "Greater Essence of Grounding"
+    BaseType == "Charging Rune" "Chayula's Catalyst" "Courtesan Mannan's Rune of Cruelty" "Crackling Flux" "Daresso's Passion" "Essence of Flames" "Essence of Insanity" "Essence of Sorcery"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Greater Essence of Insulation" "Greater Essence of Thawing" "Greater Resolve Rune" "Lesser Glacial Rune" "Lesser Iron Rune" "Lesser Jeweller's Orb" "Lesser Storm Rune" "Medved's Crest of the Circle"
+    BaseType == "Exceptional Verisium" "Expansive Alloy" "Farrul's Rune of the Hunt" "Gnawed Jawbone" "Greater Essence of Haste" "Greater Essence of Ruin" "Greater Essence of Seeking" "Greater Exalted Orb"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Omen of Gambling" "Omen of Putrefaction" "Orb of Alchemy" "Ox Idol" "Perfect Essence of Insulation" "Preserved Jawbone" "Regal Orb" "Rune of Vital Flame"
+    BaseType == "Greater Rune of Nobility" "Idol of Egrin" "Idol of the Martyr" "Iron Rune" "Kulemak's Dominion" "Lady Hestra's Rune of Winter" "Lesser Essence of Enhancement" "Lesser Essence of Grounding"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 1
-    BaseType == "Stone Rune" "Tacati's Ire" "Tawhoa's Tending" "Uncut Skill Gem (Level 14)" "Uncut Skill Gem (Level 16)" "Uncut Skill Gem (Level 17)" "Uncut Support Gem (Level 2)" "Warding Rune of Desperation"
+    BaseType == "Lesser Essence of Insulation" "Lesser Essence of Seeking" "Lesser Essence of Thawing" "Lesser Essence of the Body" "Lesser Essence of the Infinite" "Neural Catalyst" "Omen of Catalysing Exaltation" "Omen of Greater Exaltation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Omen of Resurgence" "Omen of Sinistral Exaltation" "Omen of the Ancients" "Perfect Essence of Grounding" "Perfect Essence of Sorcery" "Resolve Rune" "Romira's Requital" "Rune of Accumulation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Rune of Consistency" "Rune of the Hunt" "Rune of Vitality" "Runic Alloy" "Saqawal's Rune of Erosion" "Snake Idol" "Storm Rune" "Swift Alloy"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Thane Girt's Rune of Wildness" "Thaumaturgic Flux (Level 12)" "Tul's Avalanche" "Twilight Reliquary Key" "Uncut Skill Gem (Level 12)" "Uncut Skill Gem (Level 19)" "Uncut Skill Gem (Level 3)" "Uncut Skill Gem (Level 9)"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 1
+    BaseType == "Vaal Arcanist's Infuser" "Vaal Orb" "Varashta's Blessing" "Venerable Starlit Ore" "Vilenta's Propulsion" "Warding Rune of Disintegration" "Wolf Idol" "Xibaqua's Rending"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 2
-    BaseType == "Blacksmith's Whetstone" "Greater Essence of Alacrity" "Greater Glacial Rune" "Lesser Body Rune" "Liquid Envy" "Liquid Paranoia" "Owl Idol" "Perfect Essence of Ruin"
+    BaseType == "Adaptive Catalyst" "Ancient Liquid Paranoia" "Ancient Rune of Animosity" "Ancient Rune of Dueling" "Ancient Rune of Witchcraft" "Arjun's Medal" "Carapace Catalyst" "Cyclonic Alloy"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 2
-    BaseType == "Perfect Essence of the Body" "Preserved Rib" "Stag Idol"
+    BaseType == "Essence of Thawing" "Essence of the Body" "Flesh Catalyst" "Glacial Rune" "Gnawed Collarbone" "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Sorcery"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 2
+    BaseType == "Greater Iron Rune" "Greater Robust Rune" "Idol of Alira" "Idol of Greust" "Idol of Maxarius" "Lesser Essence of Sorcery" "Omen of Dextral Exaltation" "Perfect Essence of Alacrity"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 2
+    BaseType == "Perfect Essence of Electricity" "Perfect Essence of Enhancement" "Perfect Essence of Flames" "Perfect Essence of Ice" "Perfect Essence of Seeking" "Potent Liquid Melancholy" "Uncut Skill Gem (Level 10)" "Uncut Skill Gem (Level 13)"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 2
+    BaseType == "Uncut Skill Gem (Level 4)" "Uncut Support Gem (Level 5)" "Uul-Netol's Catalyst" "Ward Rune" "Warding Rune of Armature" "Warding Rune of Hollowing" "Warding Rune of Nourishment"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 3
-    BaseType == "Diluted Liquid Greed" "Greater Desert Rune" "Greater Essence of Battle" "Greater Essence of Ice" "Greater Essence of the Infinite" "Greater Inspiration Rune" "Greater Orb of Augmentation" "Mind Rune"
+    BaseType == "Arcanist's Etcher" "Boar Idol" "Desert Rune" "Essence of Command" "Gemcutter's Prism" "Greater Essence of Electricity" "Greater Regal Orb" "Greater Storm Rune"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 3
-    BaseType == "Omen of Refreshment"
+    BaseType == "Idol of Yeena" "Lesser Inspiration Rune" "Liquid Disgust" "Omen of Dextral Necromancy" "Omen of Sinistral Necromancy" "Omen of the Sovereign" "Passion of Aldur" "Perfect Essence of Abrasion"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 3
+    BaseType == "Perfect Essence of the Mind" "Primate Idol" "Simulacrum Splinter" "Tasalio's Rhythm" "Uncut Skill Gem (Level 15)"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 4
-    BaseType == "Cat Idol" "Diluted Liquid Guilt" "Greater Essence of the Body" "Greater Orb of Transmutation" "Greater Vision Rune" "Lesser Stone Rune" "Vaal Siphoner" "Vision Rune"
+    BaseType == "Adept Rune" "Ancient Rune of Discovery" "Cirel's Cultivation" "Essence of Battle" "Essence of Ice" "Exalted Orb" "Greater Jeweller's Orb" "Greater Mind Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 4
+    BaseType == "Greater Stone Rune" "Idol of Kraityn" "Idol of Silk" "Lesser Adept Rune" "Lesser Essence of Battle" "Lesser Essence of the Mind" "Lesser Resolve Rune" "Lesser Ward Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 4
+    BaseType == "Rune of Confrontation" "Uncut Skill Gem (Level 18)" "Uncut Skill Gem (Level 6)" "Uncut Support Gem (Level 1)" "Vorana's Crest of the Scythe" "Vruun's Aftermath" "Warding Rune of Courage" "Warding Rune of Protection"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 4
+    BaseType == "Warding Rune of Salvaging" "Warding Rune of Symbiosis"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 5
-    BaseType == "Ancient Liquid Envy" "Lesser Desert Rune" "Orb of Augmentation"
+    BaseType == "Artificer's Orb" "Artificer's Shard" "Bear Idol" "Glassblower's Bauble" "Greater Essence of Insulation" "Lesser Iron Rune" "Lesser Storm Rune" "Ox Idol"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 5
+    BaseType == "Perfect Essence of Insulation" "Uncut Skill Gem (Level 14)"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 6
-    BaseType == "Ancient Diluted Liquid Greed"
+    BaseType == "Ancient Liquid Disgust" "Arakaali's Lust" "Armourer's Scrap" "Greater Adept Rune" "Greater Essence of Command" "Greater Essence of Thawing" "Omen of Putrefaction" "Orb of Alchemy"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 6
+    BaseType == "Uncut Skill Gem (Level 16)" "Uncut Skill Gem (Level 17)" "Uncut Support Gem (Level 2)"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 7
-    BaseType == "Breach Splinter" "Greater Rebirth Rune"
+    BaseType == "Ancient Rune of Prowess" "Chance Shard" "Greater Body Rune" "Greater Essence of Abrasion" "Greater Essence of Grounding" "Lesser Jeweller's Orb" "Preserved Jawbone" "Regal Orb"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 7
+    BaseType == "Tawhoa's Tending"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 8
+    BaseType == "Gnawed Rib" "Omen of Gambling" "Tacati's Ire"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 9
-    BaseType == "Transmutation Shard"
+    BaseType == "Essence of Insulation" "Greater Resolve Rune" "Lesser Glacial Rune" "Medved's Crest of the Circle" "Rune of Vital Flame" "Stone Rune" "Warding Rune of Desperation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 10
+    BaseType == "Blacksmith's Whetstone" "Liquid Paranoia" "Preserved Rib"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 11
-    BaseType == "Diluted Liquid Ire"
+    BaseType == "Greater Glacial Rune"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 12
-    BaseType == "Lesser Mind Rune" "Orb of Transmutation" "Regal Shard"
+    BaseType == "Lesser Body Rune" "Liquid Envy" "Perfect Essence of Ruin"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 13
+    BaseType == "Perfect Essence of the Body" "Stag Idol"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 14
+    BaseType == "Greater Essence of Alacrity" "Owl Idol"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 15
-    BaseType == "Lesser Vision Rune"
+    BaseType == "Mind Rune" "Omen of Refreshment"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 17
-    BaseType == "Ancient Diluted Liquid Guilt"
+    BaseType == "Diluted Liquid Greed" "Greater Desert Rune" "Greater Essence of the Infinite" "Greater Inspiration Rune"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 18
-    BaseType == "Omen of the Liege"
+    StackSize <= 19
+    BaseType == "Greater Essence of Battle" "Greater Essence of Ice" "Greater Orb of Augmentation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 20
+    BaseType == "Diluted Liquid Guilt" "Greater Orb of Transmutation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 22
+    BaseType == "Cat Idol" "Greater Vision Rune" "Vaal Siphoner"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 24
+    BaseType == "Greater Essence of the Body" "Lesser Stone Rune" "Vision Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 25
+    BaseType == "Lesser Desert Rune"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
     StackSize <= 26
+    BaseType == "Ancient Liquid Envy"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 29
+    BaseType == "Orb of Augmentation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 31
+    BaseType == "Ancient Diluted Liquid Greed"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 35
+    BaseType == "Greater Rebirth Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 36
+    BaseType == "Breach Splinter"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 45
+    BaseType == "Transmutation Shard"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 59
+    BaseType == "Diluted Liquid Ire"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 60
+    BaseType == "Lesser Mind Rune" "Regal Shard"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 61
+    BaseType == "Orb of Transmutation"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 79
+    BaseType == "Lesser Vision Rune"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 85
+    BaseType == "Ancient Diluted Liquid Guilt"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 90
+    BaseType == "Omen of the Liege"
+    SetFontSize 18
+    SetBackgroundColor 20 20 0 0
+
+Hide
+    StackSize <= 132
     BaseType == "Greater Essence of the Mind"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 48
+    StackSize <= 240
     BaseType == "Ancient Diluted Liquid Ire"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 55
+    StackSize <= 276
     BaseType == "Scroll of Wisdom"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
 
 Hide
-    StackSize <= 1111
+    StackSize <= 5555
     BaseType == "Verisium"
     SetFontSize 18
     SetBackgroundColor 20 20 0 0
